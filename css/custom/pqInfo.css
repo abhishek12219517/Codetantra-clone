@@ -1,0 +1,93 @@
+
+.prevAppearanceInfoText { 
+    margin-left: 10px;
+    display: none;
+}
+
+.prevAppearanceInfoText li:hover {
+	display: inline;
+}
+
+/*.prevAppearanceInfo {
+  text-align:right;
+  position: fixed;
+  top: 20px;
+  width: 100%;
+  margin-top: 28%;
+  z-index: 1024;
+  opacity: 1;
+}*/
+
+.prevAppearanceInfo {
+  position: relative;
+  float: right;
+  z-index: 1024;
+  opacity: 1;
+}
+.prevAppearanceInfo:hover {
+  /* width: 100px; */
+}
+
+.prevAppearanceInfo ul {
+  padding: 0px;  
+  list-style-type : none;
+ /*  -webkit-transform: translate(-180px, 0);
+  -moz-transform: translate(-180px, 0);
+  -ms-transform: translate(-180px, 0);
+  -o-transform: translate(-180px, 0);
+  transform: translate(-180px, 0); */
+}
+.prevAppearanceInfo ul li {
+  background-color: rgba(255, 165, 0, 0.46);
+  padding: 5px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.prevAppearanceInfo ul li:hover {
+  /* -webkit-transform: translate(-120px, 0);
+  -moz-transform: translate(-120px, 0);
+  -ms-transform: translate(-120px, 0);
+  -o-transform: translate(-120px, 0);
+  transform: translate(-120px, 0); */
+  
+  background-color: rgba(255, 165, 0, 1);
+}
+
+.prevAppearanceInfo ul li:hover i {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.86);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  text-decoration: none;
+}
+.prevAppearanceInfo ul li i {
+  margin-left: 5px;
+  color: #000;
+  background: #fff;
+  padding: 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  
+  font-size: 15px;
+  background: #ffffff;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}

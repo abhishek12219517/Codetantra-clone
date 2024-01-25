@@ -1,0 +1,423 @@
+@CHARSET "UTF-8";
+
+.no-gutters {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.border-radius-0 {
+	border-radius: 0;
+}
+
+#memberNotesForm .nav-tabs > li > a.active {
+	color: #fff !important;
+	background-color: #337ab7 !important;
+	border: 1px solid #337ab7 !important;
+}
+
+.questionTextContainerDiv.active {
+	padding: 1px;
+}
+
+.ct-notes-floating-circle {
+	box-shadow: 0 5px 11px -2px rgba(0, 0, 0, 0.18), 0 4px 12px -7px rgba(0, 0, 0, 0.15);
+	border-radius: 50%;
+	display: inline-block;
+	width: 20px;
+	position: relative;
+	-webkit-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+	opacity: 0.5;
+	color: white !important;
+	text-align: center;
+}
+
+.ct-notes-floating-circle:active,
+.ct-notes-floating-circle:focus,
+.ct-notes-floating-circle:hover {
+	box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+	opacity: 0.8;
+}
+
+.ct-notes-floating-circle:not(:last-child) {
+	width: 20px;
+	margin: 0;
+	opacity: 0;
+	-webkit-transform: translateX(50px);
+	-ms-transform: translateX(50px);
+	transform: translateX(50px);
+}
+
+#floatingAddBtn:hover
+.ct-notes-floating-circle:not(:last-child) {
+	opacity: 1;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+	margin-right: 15px;
+}
+
+.ct-notes-floating-circle:nth-last-child(1) {
+	-webkit-transition-delay: 25ms;
+	transition-delay: 25ms;
+}
+
+.ct-notes-floating-circle:nth-last-child(1):hover {
+	opacity: 0.5;
+}
+
+.ct-notes-floating-circle:not(:last-child):nth-last-child(2) {
+	-webkit-transition-delay: 50ms;
+	transition-delay: 20ms;
+}
+
+.ct-notes-floating-circle:not(:last-child):nth-last-child(3) {
+	-webkit-transition-delay: 75ms;
+	transition-delay: 40ms;
+}
+
+/* Show tooltip content on hover */
+.ct-notes-floating-circle [tooltip]:before {
+	bottom: 25%;
+	font-family: arial;
+	font-weight: 600;
+	border-radius: 2px;
+	background: #585858;
+	color: #fff;
+	content: attr(tooltip);
+	font-size: 12px;
+	visibility: hidden;
+	opacity: 0;
+	padding: 5px 7px;
+	margin-right: 12px;
+	position: absolute;
+	right: 100%;
+	white-space: nowrap;
+}
+
+.ct-notes-floating-circle [tooltip]:hover:before,
+.ct-notes-floating-circle [tooltip]:hover:after {
+	visibility: visible;
+	opacity: 1;
+}
+
+.ct-notes-floating-circle .fa {
+	position: relative;
+	line-height: 1.4;
+}
+
+.padding00 {
+	padding: 0;
+}
+
+.view-member-notes {
+	position: absolute;
+	top: 40%;
+	right: 50px;
+}
+
+.view-member-notes .fa-pencil-square-o {
+	border: 3px solid #d27575;
+	background-color: lightblue;
+	border-radius: 50%;
+	padding: 10px;
+	opacity: 0.5;
+}
+
+.floating-faculty-notes-btn, .floating-member-notes-btn {
+	width: 40px;
+	height: 40px;
+	background-color: #26a69a;
+	color: #fff;
+	display: block;
+	margin: 0 10px 0 0;
+	overflow: hidden;
+	cursor: pointer;
+	border-radius: 50%;
+	vertical-align: middle;
+	opacity: 0.2
+}
+.floating-faculty-notes-btn:hover, .floating-member-notes-btn:hover {
+	opacity: 1;
+}
+
+.floating-pulse::before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: inherit;
+	border-radius: inherit;
+	transition: opacity .3s, transform .3s, -webkit-transform .3s;
+	z-index: -1;
+}
+
+.floating-pulse {
+	transition: opacity .3s, transform .3s, -webkit-transform .3s;
+	animation: pulse-animation 1s cubic-bezier(0.4, 0, 1, 1) infinite;
+}
+
+
+@keyframes pulse-animation {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+.raw-editor {
+	border: 1px solid gray;
+	padding: 4px;
+	height: 200px;
+	border-color: #337ab7 !important;
+	overflow: auto;
+}
+
+.margin-left-10 {
+	margin-left: 10px;
+}
+
+#uploadedImage {
+	border: 2px solid gray;
+	height: 150px;
+	overflow: auto;
+}
+
+#floatingBtnsDiv {
+	position: absolute;
+	top: 50%;
+	right: 40px;
+}
+
+#floatingAddBtn:hover {
+	opacity: 1 !important;
+}
+
+
+/* -----------Bookmarks-----------*/
+
+.display-block {
+	display: block;
+}
+
+.interviews-bookmark-color {
+	color: #f37e92;
+}
+
+.exam-bookmark-color {
+	color: red;
+}
+
+.important-bookmark-color {
+	color: green;
+}
+
+.custom-bookmark-color {
+	color: orange;
+}
+
+.bookmark-rating-color {
+	color: orange;	
+}
+
+.bookmarks-rating-div .fa-star {
+	cursor: pointer;
+}
+
+#availableBookmarks, #usersBookmarks {	
+	border-radius: 8px;
+	min-height: 85px;
+	padding: 10px;
+}
+
+#availableBookmarks {
+	background-color: #eeebeb !important;
+}
+
+#usersBookmarks {
+	border: 1px solid #cecece;	
+}
+#availableBookmarks > div {
+	z-index: 1;
+}
+
+.bookmark-ribbon {
+	position: absolute;
+	top: 0.1em;
+	z-index: 1;
+	color: #eee;
+	font-size: 1.75em;
+	cursor: pointer;
+	width: 1.5em;
+	line-height: 0.5em;
+	transition: line-height 0.5s;
+}
+
+.bookmark-ribbon:after {	
+	content: "";
+	font-size: 0.5em;
+	position: absolute;
+	height: 4.5em;
+	z-index: -1;
+	top: -0.25em;
+	right: 0;
+	transition: height 0.5s;
+}
+
+.bookmark-ribbon:hover {
+	color: white;
+}
+
+.bookmark-ribbon:hover .bookmark-rating-val {
+	font-size: 12px;
+}
+
+.exam-bookmark:after, .interview-bookmark:after,
+.custom-bookmark:after, .important-bookmark:after {
+	border-top-width: 1.5em;
+}
+
+.exam-bookmark:hover:after, .interview-bookmark:hover:after,
+.custom-bookmark:hover:after, .important-bookmark:hover:after {
+	height: 5em;
+	transition: height 0.2s;
+	color: white;
+}
+
+.exam-bookmark:after {
+	border: 1.5em solid #e75454;
+	border-bottom-color: transparent;	
+}
+
+.exam-bookmark:before {	
+	border-color: transparent transparent #e75454 transparent;
+}
+
+.exam-bookmark:hover:after {
+	border: 1.5em solid #e75454;
+	border-bottom-color: transparent;	
+}
+
+.custom-bookmark:after {
+	border: 1.5em solid #ffa500;
+	border-bottom-color: transparent;	
+}
+
+.custom-bookmark:hover:after {
+	border: 1.5em solid #ffa500;
+	border-bottom-color: transparent;	
+}
+
+.important-bookmark:after {
+	border: 1.5em solid #017801;
+	border-bottom-color: transparent;	
+}
+
+.important-bookmark:before {	
+	border-color: transparent transparent #017801 transparent;
+}
+
+.important-bookmark:hover:after {
+	border: 1.5em solid #017801;
+	border-bottom-color: transparent;	
+}
+
+.interview-bookmark:after {
+	border: 1.5em solid #f37e92;
+	border-bottom-color: transparent;	
+}
+
+.interview-bookmark:before {	
+	border-color: transparent transparent #f37e92 transparent;
+}
+
+.interview-bookmark:hover:after {
+	border: 1.5em solid #f37e92;
+	border-bottom-color: transparent;	
+}
+
+.bookmark-rating-val {
+	position: absolute;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 50%;
+	top: 10px;
+	left: 41%;
+	color: green;
+}
+
+#usersBookmarks.ui-state-highlight,
+#availableBookmarks.ui-state-highlight {
+	background: lightgreen;
+	border: none;
+	z-index: auto;
+}
+
+
+#bookmarksModal [contentEditable=false]:empty:not(:focus):before {
+	content:attr(data-text);
+	font-size: 20px;
+	line-height: 3;
+	z-index: 10;
+	color: #cecece;
+}
+
+
+@media (max-width: 767px) {
+    .text-left-xs {
+      text-align: left;
+    }
+    .text-right-xs {
+      text-align: right;
+    }
+    .text-center-xs {
+      text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-left-sm {
+      text-align: left;
+    }
+    .text-right-sm {
+      text-align: right;
+    }
+    .text-center-sm {
+      text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .text-left-md {
+      text-align: left;
+    }
+    .text-right-md {
+      text-align: right;
+    }
+    .text-center-md {
+      text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text-left-lg {
+      text-align: left;
+    }
+    .text-right-lg {
+      text-align: right;
+    }
+    .text-center-lg {
+      text-align: center;
+    }
+}

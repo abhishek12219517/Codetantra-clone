@@ -1,0 +1,2525 @@
+<html lang="en" style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths gudhggfzr idc0_350"><head><style id="ace-cobalt">.ace-cobalt .ace_gutter {background: #011e3a;color: rgb(128,145,160)}.ace-cobalt .ace_print-margin {width: 1px;background: #555555}.ace-cobalt {background-color: #002240;color: #FFFFFF}.ace-cobalt .ace_cursor {color: #FFFFFF}.ace-cobalt .ace_marker-layer .ace_selection {background: rgba(179, 101, 57, 0.75)}.ace-cobalt.ace_multiselect .ace_selection.ace_start {box-shadow: 0 0 3px 0px #002240;}.ace-cobalt .ace_marker-layer .ace_step {background: rgb(127, 111, 19)}.ace-cobalt .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid rgba(255, 255, 255, 0.15)}.ace-cobalt .ace_marker-layer .ace_active-line {background: rgba(0, 0, 0, 0.35)}.ace-cobalt .ace_gutter-active-line {background-color: rgba(0, 0, 0, 0.35)}.ace-cobalt .ace_marker-layer .ace_selected-word {border: 1px solid rgba(179, 101, 57, 0.75)}.ace-cobalt .ace_invisible {color: rgba(255, 255, 255, 0.15)}.ace-cobalt .ace_keyword,.ace-cobalt .ace_meta {color: #FF9D00}.ace-cobalt .ace_constant,.ace-cobalt .ace_constant.ace_character,.ace-cobalt .ace_constant.ace_character.ace_escape,.ace-cobalt .ace_constant.ace_other {color: #FF628C}.ace-cobalt .ace_invalid {color: #F8F8F8;background-color: #800F00}.ace-cobalt .ace_support {color: #80FFBB}.ace-cobalt .ace_support.ace_constant {color: #EB939A}.ace-cobalt .ace_fold {background-color: #FF9D00;border-color: #FFFFFF}.ace-cobalt .ace_support.ace_function {color: #FFB054}.ace-cobalt .ace_storage {color: #FFEE80}.ace-cobalt .ace_entity {color: #FFDD00}.ace-cobalt .ace_string {color: #3AD900}.ace-cobalt .ace_string.ace_regexp {color: #80FFC2}.ace-cobalt .ace_comment {font-style: italic;color: #0088FF}.ace-cobalt .ace_heading,.ace-cobalt .ace_markup.ace_heading {color: #C8E4FD;background-color: #001221}.ace-cobalt .ace_list,.ace-cobalt .ace_markup.ace_list {background-color: #130D26}.ace-cobalt .ace_variable {color: #CCCCCC}.ace-cobalt .ace_variable.ace_language {col\or: #FF80E1}.ace-cobalt .ace_meta.ace_tag {color: #9EFFFF}.ace-cobalt .ace_indent-guide {background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNgYGBgYHCLSvkPAAP3AgSDTRd4AAAAAElFTkSuQmCC) right repeat-y}
+/*# sourceURL=ace/css/ace-cobalt */</style>
+
+
+    
+    
+    <meta charset="utf-8">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="Content-Language" content="en">
+    <title>CodeTantra Edu
+    </title>
+    
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style123456.css" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link href="css/bootstrap-latest.css" rel="stylesheet">
+<link href="css/label-style.css" rel="stylesheet">
+<link href="css/custom-styles.css" rel="stylesheet">
+<link href="css/bs-docs-side-nav.css" rel="stylesheet">
+<link href="css/latest_header_styles.css" rel="stylesheet">
+<link href="css/tablesorter/theme.bootstrap.css" rel="stylesheet">
+<link href="css/jquery-ui.css" rel="stylesheet">
+<link href="css/tablesorter/theme.jui.css" rel="stylesheet">
+<link href="css/bootstrap-datepicker.css" rel="stylesheet">
+<link href="css/bootstrap-slider.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/alertify-latest.css">
+<link type="text/css" rel="stylesheet" href="css/select2-latest.css">
+<link type="text/css" rel="stylesheet" href="css/dataTables.bootstrap4.css">
+<link type="text/css" rel="stylesheet" href="css/dataTables.fixedColumns.bootstrap4.css">
+<link type="text/css" rel="stylesheet" href="css/bootstrap-switch-latest.css">
+<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="css/offline-theme-chrome-indicator.css">
+<link rel="stylesheet" href="css/mathquill.min.css">
+<link type="text/css" rel="stylesheet" href="css/bootstrap4-toggle.min.css">
+
+<script src="js/jquery-latest.js"></script>
+<script src="js/jquery.validate-latest.js"></script>
+<script src="js/modernizr-2.6.2.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap-notify.js"></script>
+<script src="js/jquery-ui-all.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/d3.js"></script>
+<script src="js/function-plot.js"></script>
+
+<script src="js/custom-min/nommoc.min.js"></script>
+
+<script src="js/common-on-ready-js-methods.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="/js/search-table-row-popup.js"></script>
+<script src="/js/bootstrap-slider-latest.js"></script>
+<script src="/js/jquery.numeric.js"></script>
+<script src="/js/underscore-latest.js"></script>
+<script src="/js/hr.js"></script>
+<script src="/js/alertify-latest.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/select2-latest.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap.touchspin.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.dataTables.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/dataTables.tableTools.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/dataTables.bootstrap4.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap-switch-latest.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/form2object.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/gs/TweenMax.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/gs/circular-preloader.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/ace/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/bootstrap4-toggle.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    ace.require("ace/ext/language_tools");
+</script>
+</style>
+
+    <link type="text/css" rel="stylesheet" href="css/bs-panel-colors.css">
+    <link rel="stylesheet" href="css/font-awesome-animation.min.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/custom/hints.css">
+    <link rel="stylesheet" href="css/custom/exec-loader.css">
+    <link rel="stylesheet" href="css/introjs.css">
+    <link rel="stylesheet" href="css/custom/help-introjs-ct.css">
+    <link rel="stylesheet" href="css/member-notes.css">
+    <link rel="stylesheet" href="css/xterm.5.1.0.css">
+    <link rel="stylesheet" href="css/simple-keyboard.min.css">
+    <script src="js/moment.js"></script>
+
+
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/bhofnjdebaipfkmlnngediiglinbkiec">
+
+    <script src="js/ace/diff.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/ace/wikEd-diff-tool.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/jquery.scrollTo.min.js"></script>
+    <script src="/js/n/socket.io-4.5.3.js"></script>
+    <script src="/js/n/xterm.5.1.0.js"></script>
+    <script src="/js/n/xterm-addon-fit.0.6.0.js"></script>
+    <script type="text/javascript" src="js/intro.js"></script>
+    <script type="text/javascript" src="js/html2canvas.min.js"></script>
+    <script type="text/javascript" src="js/charts/loader.js"></script>
+    <script src="js/jquery.datetimepicker.js"></script>
+    <script src="js/custom-min/lexers.min.js"></script>
+    <script src="js/pdfjs/pdf.min.js"></script>
+    <script src="js/simple-keyboard.min.js"></script>
+    
+
+    
+    <script type="text/javascript" src="/js/custom-min/w.min.js"></script>
+    <script src="js/custom-min/noitucexe-tuptuo.min.js"></script>
+    <script src="js/custom-min/noitalipmoc.min.js?v=1.1"></script>
+    <script src="js/custom-min/solemert.min.js?v=3.3"></script>
+    <script src="js/custom-min/dbg.min.js"></script>
+    <script src="js/custom-min/mfs.min.js"></script>
+    <script type="text/javascript" src="js/custom-min/td1.min.js?v=1.8"></script>
+    <script type="text/javascript" src="js/custom-min/intro-td.min.js"></script>
+    <script type="text/javascript" src="js/custom-min/st.min.js"></script>
+    <script type="text/javascript" src="js/custom-min/su.min.js"></script>
+    <script type="text/javascript" src="js/custom-min/stu.min.js"></script>
+    <script type="text/javascript" src="js/custom-min/ts.min.js"></script>
+    <script src="js/custom-min/nommoc.min.js"></script>
+    <script src="js/custom-min/fu.min.js"></script>
+    <script src="js/custom-min/seautils.min.js"></script>
+    <script src="/js/custom-min/ctcsbk.min.js"></script>
+    
+
+    <link href="css/quill.snow.css" rel="stylesheet">
+    <link href="css/quill.bubble.css" rel="stylesheet">
+    <link href="css/quill.core.css" rel="stylesheet">
+    <link href="css/katex.min.css" rel="stylesheet">
+
+    <script src="/js/quill.core.js"></script>
+    <script src="/js/quill.js"></script>
+    <script src="/js/katex.min.js"></script>
+    <script src="/js/image-resize.min.js"></script>
+    <script src="/js/image-drop.min.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script><style>.swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;overflow-y:hidden;background:#a80b0b;box-shadow:0 0 .625em #d9d9d9}.swal2-popup.swal2-toast .swal2-header{flex-direction:row;padding:0}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:static;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;padding:0;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:700}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{font-size:.25em}}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{flex-basis:auto!important;width:auto;height:auto;margin:0 .3125em;padding:0}.swal2-popup.swal2-toast .swal2-styled{margin:.125em .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(100,150,200,.5)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.8em;left:-.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-toast-animate-success-line-tip .75s;animation:swal2-toast-animate-success-line-tip .75s}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-toast-animate-success-line-long .75s;animation:swal2-toast-animate-success-line-long .75s}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:swal2-toast-show .5s;animation:swal2-toast-show .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:swal2-toast-hide .1s forwards;animation:swal2-toast-hide .1s forwards}.swal2-container{display:flex;position:fixed;z-index:1060;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:.625em;overflow-x:hidden;transition:background-color .1s;-webkit-overflow-scrolling:touch}.swal2-container.swal2-backdrop-show,.swal2-container.swal2-noanimation{background:rgba(0,0,0,.4)}.swal2-container.swal2-backdrop-hide{background:0 0!important}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-bottom-end>:first-child,.swal2-container.swal2-bottom-left>:first-child,.swal2-container.swal2-bottom-right>:first-child,.swal2-container.swal2-bottom-start>:first-child,.swal2-container.swal2-bottom>:first-child{margin-top:auto}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-no-transition{transition:none!important}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-popup{display:none;position:relative;box-sizing:border-box;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border:none;border-radius:5px;background:#fff;font-family:inherit;font-size:1rem}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-header{display:flex;flex-direction:column;align-items:center;padding:0 1.8em}.swal2-title{position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-actions{display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:center;width:100%;margin:1.25em auto 0;padding:0 1.6em}.swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-loader{display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 transparent #2778c4 transparent}.swal2-styled{margin:.3125em;padding:.625em 1.1em;box-shadow:none;font-weight:500}.swal2-styled:not([disabled]){cursor:pointer}.swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#2778c4;color:#fff;font-size:1.0625em}.swal2-styled.swal2-deny{border:0;border-radius:.25em;background:initial;background-color:#d14529;color:#fff;font-size:1.0625em}.swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#757575;color:#fff;font-size:1.0625em}.swal2-styled:focus{outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-styled::-moz-focus-inner{border:0}.swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;height:.25em;overflow:hidden;border-bottom-right-radius:5px;border-bottom-left-radius:5px}.swal2-timer-progress-bar{width:100%;height:.25em;background:rgba(0,0,0,.2)}.swal2-image{max-width:100%;margin:1.25em auto}.swal2-close{position:absolute;z-index:2;top:0;right:0;align-items:center;justify-content:center;width:1.2em;height:1.2em;padding:0;overflow:hidden;transition:color .1s ease-out;border:none;border-radius:5px;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer}.swal2-close:hover{transform:none;background:0 0;color:#f27474}.swal2-close:focus{outline:0;box-shadow:inset 0 0 0 3px rgba(100,150,200,.5)}.swal2-close::-moz-focus-inner{border:0}.swal2-content{z-index:1;justify-content:center;margin:0;padding:0 1.6em;color:#545454;font-size:1.125em;font-weight:400;line-height:normal;text-align:center;word-wrap:break-word}.swal2-checkbox,.swal2-file,.swal2-input,.swal2-radio,.swal2-select,.swal2-textarea{margin:1em auto}.swal2-file,.swal2-input,.swal2-textarea{box-sizing:border-box;width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;background:inherit;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);color:inherit;font-size:1.125em}.swal2-file.swal2-inputerror,.swal2-input.swal2-inputerror,.swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-file:focus,.swal2-input:focus,.swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 0 3px rgba(100,150,200,.5)}.swal2-file::-moz-placeholder,.swal2-input::-moz-placeholder,.swal2-textarea::-moz-placeholder{color:#ccc}.swal2-file:-ms-input-placeholder,.swal2-input:-ms-input-placeholder,.swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-file::placeholder,.swal2-input::placeholder,.swal2-textarea::placeholder{color:#ccc}.swal2-range{margin:1em auto;background:#fff}.swal2-range input{width:80%}.swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}.swal2-range input,.swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}.swal2-input{height:2.625em;padding:0 .75em}.swal2-input[type=number]{max-width:10em}.swal2-file{background:inherit;font-size:1.125em}.swal2-textarea{height:6.75em;padding:.75em}.swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:inherit;color:inherit;font-size:1.125em}.swal2-checkbox,.swal2-radio{align-items:center;justify-content:center;background:#fff;color:inherit}.swal2-checkbox label,.swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-checkbox input,.swal2-radio input{margin:0 .4em}.swal2-input-label{display:flex;justify-content:center;margin:1em auto}.swal2-validation-message{display:none;align-items:center;justify-content:center;margin:0 -2.7em;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}.swal2-validation-message::before{content:"!";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}.swal2-icon{position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;font-family:inherit;line-height:5em;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474;color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}.swal2-icon.swal2-error.swal2-icon-show{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-icon.swal2-error.swal2-icon-show .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86;color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-.25em;left:-.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-icon.swal2-success.swal2-icon-show .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:0 0 1.25em;padding:0;background:inherit;font-weight:600}.swal2-progress-steps li{display:inline-block;position:relative}.swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}.swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-webkit-keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@keyframes swal2-toast-show{0%{transform:translateY(-.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0)}}@-webkit-keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@-webkit-keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@keyframes swal2-show{0%{transform:scale(.7)}45%{transform:scale(1.05)}80%{transform:scale(.95)}100%{transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(.4);opacity:0}50%{margin-top:1.625em;transform:scale(.4);opacity:0}80%{margin-top:-.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0);opacity:1}}@-webkit-keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-container{top:auto;right:auto;bottom:auto;left:auto;max-width:calc(100% - .625em * 2);background-color:transparent!important}body.swal2-no-backdrop .swal2-container>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-container.swal2-top{top:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-top-left,body.swal2-no-backdrop .swal2-container.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-top-end,body.swal2-no-backdrop .swal2-container.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-container.swal2-center{top:50%;left:50%;transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-left,body.swal2-no-backdrop .swal2-container.swal2-center-start{top:50%;left:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-center-end,body.swal2-no-backdrop .swal2-container.swal2-center-right{top:50%;right:0;transform:translateY(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom{bottom:0;left:50%;transform:translateX(-50%)}body.swal2-no-backdrop .swal2-container.swal2-bottom-left,body.swal2-no-backdrop .swal2-container.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-container.swal2-bottom-end,body.swal2-no-backdrop .swal2-container.swal2-bottom-right{right:0;bottom:0}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:static!important}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}</style>
+
+    <script type="text/javascript" src="/js/jquery.animateNumber.min.js"></script>
+    <script type="text/javascript" src="/js/lodash.min.js"></script>
+    <script type="text/javascript" src="/js/bs-custom-file-input.min.js"></script>
+
+    
+    <link rel="stylesheet" href="css/custom/ql.css">
+    
+    <link rel="stylesheet" href="css/custom/dbg.css">
+
+    <style>
+        .toggle-label {
+            position: relative;
+            display: inline-block;
+            width: 30px;
+            height: 15px;
+            background-color: grey;
+            border-radius: 30px;
+            margin-left: 3px;
+            margin-top: 0;
+            margin-bottom: 1px
+        }
+
+        .toggle-label:after {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: 1px solid rgb(255, 255, 255);
+            background-color: rgb(255, 255, 255);
+            top: 0px;
+            left: 0px;
+            transition: all 0.3s;
+        }
+
+        .failedCasesToggleSwitch:checked + .toggle-label::after {
+            left: 15px;
+        }
+
+        .failedCasesToggleSwitch:checked + .toggle-label {
+            background-color: green;
+        }
+
+        .failedCasesToggleSwitch {
+            display: none;
+        }
+
+        .fIBSuccess {
+            border: 2px solid green !important;
+        }
+
+        .fIBFail {
+            border: 2px solid #ce2d2d !important;
+        }
+
+        #try-now:hover {
+            text-decoration: underline !important;
+        }
+
+        input.blank {
+            border: groove;
+            outline: none;
+            min-width: 50px !important;
+            max-width: 300px !important;
+        }
+
+
+
+        input.fillInTheBlank {
+            border: groove;
+            outline: none;
+            min-width: 50px !important;
+            max-width: 300px !important;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 3em;
+        }
+
+        /* Hide default HTML checkbox */
+        .switch input {
+            height: 0;
+        }
+
+        /* The slider */
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .5s;
+            transition: .5s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 1em;
+            width: 1em;
+            left: 5px;
+            bottom: 3px;
+            background-color: white;
+            -webkit-transition: .2s;
+            transition: .2s;
+        }
+
+        input:checked + .slider {
+            background-color: #000000;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #000000;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(1.3em);
+            -ms-transform: translateX(1.3em);
+            transform: translateX(1.3em);
+        }
+
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 20px;
+        }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
+
+        .ace_text-input {
+            position: absolute !important
+        }
+
+        .generalFontSize, .editorFontSize, .terminalFontSize {
+            margin-left: 4px;
+        }
+
+        .uiSettingsDialogHeader {
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            padding-top: 5px !important;
+            padding-right: 10px !important;
+            padding-bottom: 7px !important;
+            padding-left: 15px !important;
+            cursor: move !important;
+        }
+
+        .showHalfSymbol {
+            -webkit-clip-path: polygon(100% 0, 25% 0, 70% 100%, 100% 100%);
+            clip-path: polygon(100% 0, 25% 0, 70% 100%, 100% 100%);
+        }
+
+        fieldset.outputOnSTDErr-border {
+            border: 1px solid #ccc !important;
+            padding: 1em 1.4em 0.2em 1.4em !important;
+            margin: 0 0 1.5em 0 !important;
+            -webkit-box-shadow: 0 0 0 0 #000;
+            box-shadow: 0 0 0 0 #000;
+            background-color: #f2dede;
+            border-radius: 4px;
+            margin-bottom: 35px !important;
+        }
+
+        legend.outputOnSTDErr-border {
+            font-size: 1.05em !important;
+            font-weight: bold !important;
+            text-align: left !important;
+            width: auto;
+            padding: 0 6px;
+            margin-bottom: 0;
+            border-bottom: none;
+            background-color: #f2dede;
+            border-radius: 4px;
+            border-top: 1px solid #ccc;
+            color: #a94442;
+        }
+
+        .pythonExceptionClassName {
+            text-decoration: none;
+            border-bottom: 1px dotted;
+            cursor: pointer;
+            color: #a94442;
+            font-weight: bold;
+        }
+
+        .pythonExceptionClassName:hover {
+            border-bottom: 1px solid;
+            color: #a94442;
+        }
+
+        .pythonErrorPre {
+            padding: 0 0 6px 0;
+            margin: 0;
+            border: 0 solid #ccc;
+            background-color: #f2dede;
+        }
+
+
+        .ctCharMismatch {
+            border: 1px solid red;
+        }
+
+        .speechIconInfo {
+            opacity: 0.6;
+            margin-right: 10px;
+        }
+
+        .speechIconInfo:hover {
+            opacity: 0.9;
+        }
+
+        .extLink:hover, .extLink:focus {
+            color: #5c30ff !important;
+            text-decoration: underline !important;
+        }
+
+        .extLink {
+            color: #5c30ff !important;
+            text-decoration: underline dotted !important;
+        }
+
+        ct-tab, ct-space, ct-newline {
+            color: #6ca7f3;
+        }
+
+        .cOutputTable td {
+            padding: 0 0 0 4px !important;
+        }
+
+        .cOutputTable td .fa-stack {
+            font-size: 85% !important;
+        }
+
+        .outputPre {
+            padding: 1px !important;
+            margin: 0 !important;
+            font-family: monospace !important;
+            border: 0 !important;
+            background-color: transparent !important;
+            white-space: normal;
+        }
+
+        .li-a-fileName {
+            background-color: rgba(0, 34, 64, 0.25) !important;
+            padding: 0.25rem !important;
+        }
+
+        .li-a-fileName > input {
+            pointer-events: none;
+            font-size: 15px;
+            background-color: #002240 !important;
+            color: white;
+            border: 0;
+        }
+
+        .multipleFilesLi > .active {
+            background-color: #002240 !important;
+            border: 1px solid #002240 !important;
+            cursor: pointer !important;
+        }
+
+        .point {
+            background-image: url("/img/point.png");
+            background-repeat: no-repeat;
+            background-size: 80px 80px;
+            float: right;
+            font-weight: bold;
+            height: 80px;
+            left: 50%;
+            padding-top: 35px;
+            position: absolute;
+            text-align: center;
+            text-shadow: 0 0 8px rgba(61, 105, 210, 1);
+            top: 50%;
+            width: 80px;
+            z-index: 10050;
+        }
+
+        .ui-widget-header {
+            background: transparent linear-gradient(0deg, #266600 30%, #5FDD61 70%) repeat scroll 0 0 !important;
+        }
+
+        .ui-dialog .ui-dialog-title {
+            color: #FFF !important;
+        }
+
+        .ui-dialog .ui-dialog-titlebar {
+            padding: .3em 1em !important;
+        }
+
+        .ui-widget-content {
+            background: white none repeat scroll 0 0 !important;
+        }
+
+        .ui-dialog .ui-dialog-content {
+            padding: 10px 0 10px 10px !important;
+        }
+
+        .exceptionPopover {
+            z-index: 99999 !important;
+            max-width: 100% !important;
+        }
+
+        .exceptionPopoverText {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+            color: #333 !important;
+        }
+
+        .horizontal-scroll {
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+
+        .steLines {
+            display: block;
+            opacity: 0.6;
+            padding: 2px 4px;
+            font-size: 90%;
+            color: #c7254e;
+            background-color: #f9f2f4;
+            border-radius: 4px;
+            white-space: nowrap;
+            font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+        }
+
+        .steLines.theLine {
+            opacity: 1;
+        }
+
+        .exceptionName {
+            color: red;
+        }
+
+        span.isRunning, span.isCorrect, span.inCorrect {
+            display: none;
+        }
+
+        td.isRunning > span.isRunning {
+            display: block;
+        }
+
+        td.isCorrect > span.isCorrect {
+            display: block;
+        }
+
+        td.inCorrect > span.inCorrect {
+            display: block;
+        }
+
+        .blockMsgSwal li {
+            list-style: none;
+        }
+
+        .exceptionMoreInfoLink {
+            color: blue;
+            opacity: 0.6;
+            text-decoration: none;
+            margin: 10px 5px 10px 5px !important;
+        }
+
+        .exceptionMoreInfoLink:hover, .exceptionMoreInfoLink:focus {
+            opacity: 1;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .exceptionMoreInfoLink:focus {
+            outline: thin dotted;
+            outline-offset: -2px;
+        }
+
+        .exceptionMessage {
+            color: red;
+            font-weight: bolder;
+        }
+
+        .steLines.exceptionNameLine {
+            opacity: 1;
+        }
+
+        .noUnderLine, steLines > a {
+            text-decoration: none;
+            color: #FF0000;
+        }
+
+        .noUnderLine:hover, steLines > a:hover {
+            text-decoration: none;
+            color: #FF0000;
+        }
+
+        .noUnderLine.fa {
+            color: blue;
+            text-decoration: none;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .compilationErrorsDiv ol {
+            padding-left: 10px !important;
+        }
+
+        .compilationErrorsDiv ol a {
+            font-family: monospace;
+            color: red;
+        }
+
+        .questionPanelHeadingBG {
+            background: rgb(30, 50, 230);
+            background: -moz-linear-gradient(270deg, rgb(30, 50, 230) 30%, rgb(90, 140, 250) 70%);
+            background: -webkit-linear-gradient(270deg, rgb(30, 50, 230) 30%, rgb(90, 140, 250) 70%);
+            background: -o-linear-gradient(270deg, rgb(30, 50, 230) 30%, rgb(90, 140, 250) 70%);
+            background: -ms-linear-gradient(270deg, rgb(30, 50, 230) 30%, rgb(90, 140, 250) 70%);
+            background: linear-gradient(0deg, rgb(30, 50, 230) 30%, rgb(90, 140, 250) 70%);
+        }
+
+        .questionDialogHeader {
+            background-color: #2c3a50;
+        }
+
+        .buttonContainerDiv {
+            text-align: center;
+        }
+
+        .buttonContainerDiv > button {
+            margin: 20px;
+        }
+
+        .btn.disabled {
+            cursor: pointer;
+            opacity: 0.3;
+            pointer-events: auto;
+        }
+
+        .codingEditorClass {
+            border: 2px solid #002240;
+            border-radius: 0 0 4px 4px;
+        }
+
+        .btn-play {
+            background-color: hsl(120, 100%, 31%) !important;
+            background-repeat: repeat-x;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00f900", endColorstr="#009e00");
+            background-image: -moz-linear-gradient(top, #00f900, #009e00);
+            background-image: -ms-linear-gradient(top, #00f900, #009e00);
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00f900), color-stop(100%, #009e00));
+            background-image: -webkit-linear-gradient(top, #00f900, #009e00);
+            background-image: -o-linear-gradient(top, #00f900, #009e00);
+            background-image: linear-gradient(#00f900, #009e00);
+            border-color: #009e00 #009e00 hsl(120, 100%, 26.5%);
+            color: #fff !important;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.29);
+            -webkit-font-smoothing: antialiased;
+        }
+
+
+        .btn-revise {
+            background-color: hsl(285, 100%, 30%) !important;
+            background-repeat: repeat-x;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bf00ff", endColorstr="#720099");
+            background-image: -moz-linear-gradient(top, #bf00ff, #720099);
+            background-image: -ms-linear-gradient(top, #bf00ff, #720099);
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bf00ff), color-stop(100%, #720099));
+            background-image: -webkit-linear-gradient(top, #bf00ff, #720099);
+            background-image: -o-linear-gradient(top, #bf00ff, #720099);
+            background-image: linear-gradient(#bf00ff, #720099);
+            border-color: #720099 #720099 hsl(285, 100%, 25%);
+            color: #fff !important;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .btn-test {
+            background-color: hsl(34, 100%, 40%) !important;
+            background-repeat: repeat-x;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffa632", endColorstr="#cc7300");
+            background-image: -moz-linear-gradient(top, #ffa632, #cc7300);
+            background-image: -ms-linear-gradient(top, #ffa632, #cc7300);
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffa632), color-stop(100%, #cc7300));
+            background-image: -webkit-linear-gradient(top, #ffa632, #cc7300);
+            background-image: -o-linear-gradient(top, #ffa632, #cc7300);
+            background-image: linear-gradient(#ffa632, #cc7300);
+            border-color: #cc7300 #cc7300 hsl(34, 100%, 35%);
+            color: #fff !important;
+            text-shadow: 0 1px 1px rgba(255, 255, 255, 0.33);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .sections {
+            opacity: 1;
+            color: black;
+            border-top-width: 5px;
+            margin-left: 4px;
+            margin-right: 4px;
+            margin-bottom: 10px;
+            padding: 0 !important;
+            padding-top: 6px !important;
+            white-space: normal;
+        }
+
+        .questionsArea {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .sectionHeading {
+            margin-top: 10px !important;
+            margin-right: 10px !important;
+            margin-left: 10px !important;
+            text-align: center;
+            border-bottom-color: rgb(218, 173, 0);
+            border-bottom-width: 1px;
+        }
+
+        .sections.started {
+            background-color: rgb(255, 244, 200);
+            border-color: rgb(218, 173, 0);
+        }
+
+        .sections.completed {
+            background-color: white;
+            border-color: green;
+            opacity: 1;
+        }
+
+        .sections.not-started {
+            opacity: 0.4;
+            background-color: rgb(231, 254, 255);
+            border-color: rgb(40, 185, 190);
+        }
+
+        .sections:hover {
+            opacity: 1;
+        }
+
+        .sectionsDiv > ul {
+            -webkit-padding-start: 0;
+        }
+
+        .ace-cobalt .ace_invisible {
+            color: rgba(255, 255, 0, 0.45) !important;
+        }
+
+        .tabSymbol, .spaceSymbol, .newlineSymbol {
+            font-weight: bold;
+            color: #888;
+        }
+
+        .partiallyAnswered {
+            color: #7b5a1d !important;
+            background-image: -webkit-gradient(
+                    linear,
+                    left top,
+                    left bottom,
+                    color-stop(0.51, #F5E193),
+                    color-stop(0.92, #FA8F03),
+                    color-stop(1, #F27609)
+            );
+            background-image: -o-linear-gradient(bottom, #F5E193 51%, #FA8F03 92%, #F27609 100%);
+            background-image: -moz-linear-gradient(bottom, #F5E193 51%, #FA8F03 92%, #F27609 100%);
+            background-image: -webkit-linear-gradient(bottom, #F5E193 51%, #FA8F03 92%, #F27609 100%);
+            background-image: -ms-linear-gradient(bottom, #F5E193 51%, #FA8F03 92%, #F27609 100%);
+            background-image: linear-gradient(to bottom, #F5E193 51%, #FA8F03 92%, #F27609 100%);
+        }
+
+        .notAnswered {
+            color: #565252 !important;
+            background-image: -webkit-gradient(
+                    linear,
+                    left top,
+                    left bottom,
+                    color-stop(0.51, #EDEDED),
+                    color-stop(0.92, #B3B3B3)
+            );
+            background-image: -o-linear-gradient(bottom, #EDEDED 51%, #B3B3B3 92%);
+            background-image: -moz-linear-gradient(bottom, #EDEDED 51%, #B3B3B3 92%);
+            background-image: -webkit-linear-gradient(bottom, #EDEDED 51%, #B3B3B3 92%);
+            background-image: -ms-linear-gradient(bottom, #EDEDED 51%, #B3B3B3 92%);
+            background-image: linear-gradient(to bottom, #EDEDED 51%, #B3B3B3 92%);
+        }
+
+
+        .simpleBtn {
+            color: white;
+            display: inline-block;
+            padding: 8px 16px;
+            margin-top: 4px;
+            margin-bottom: 0;
+            margin-left: 6px;
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 1.428571429;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            border: .5px solid transparent;
+            border-radius: 4px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .simpleBtn:HOVER {
+            font-weight: bold;
+        }
+
+        .answered {
+            background-image: -webkit-gradient(
+                    linear,
+                    left top,
+                    left bottom,
+                    color-stop(0.51, #00F53D),
+                    color-stop(1, #2CA610)
+            );
+            background-image: -o-linear-gradient(bottom, #00F53D 51%, #2CA610 100%);
+            background-image: -moz-linear-gradient(bottom, #00F53D 51%, #2CA610 100%);
+            background-image: -webkit-linear-gradient(bottom, #00F53D 51%, #2CA610 100%);
+            background-image: -ms-linear-gradient(bottom, #00F53D 51%, #2CA610 100%);
+            background-image: linear-gradient(to bottom, #00F53D 51%, #2CA610 100%);
+            color: #0B660B;
+        }
+
+        .questionText {
+            min-height: 40px;
+        }
+
+        .questionText table, #questionIntroDiv table {
+            table-layout: fixed;
+            width: 100%;
+            border-collapse: collapse;
+            max-width: 100%;
+            overflow: auto;
+        }
+
+        .questionText table td, #questionIntroDiv table td {
+            border: 1px solid black;
+            padding: 5px;
+            height: 25px;
+        }
+
+        .answered-bot {
+            background-image: -webkit-gradient(
+                    linear,
+                    left top,
+                    left bottom,
+                    color-stop(0.51, #70a0f1),
+                    color-stop(1, #70a0f1)
+            );
+            background-image: -o-linear-gradient(bottom, #70a0f1 51%, #70a0f1 100%);
+            background-image: -moz-linear-gradient(bottom, #70a0f1 51%, #70a0f1 100%);
+            background-image: -webkit-linear-gradient(bottom, #70a0f1 51%, #70a0f1 100%);
+            background-image: -ms-linear-gradient(bottom, #70a0f1 51%, #70a0f1 100%);
+            background-image: linear-gradient(to bottom, #70a0f1 51%, #70a0f1 100%);
+            color: #000406;
+        }
+
+        .waitingForReview {
+            background-image: -webkit-gradient(
+                    linear,
+                    left top,
+                    left bottom,
+                    color-stop(0.51, #a66fcc),
+                    color-stop(1, #6300a9)
+            );
+            background-image: -o-linear-gradient(bottom, #a66fcc 51%, #6300a9 100%);
+            background-image: -moz-linear-gradient(bottom, #a66fcc 51%, #6300a9 100%);
+            background-image: -webkit-linear-gradient(bottom, #a66fcc 51%, #6300a9 100%);
+            background-image: -ms-linear-gradient(bottom, #a66fcc 51%, #6300a9 100%);
+            background-image: linear-gradient(to bottom, #a66fcc 51%, #6300a9 100%);
+            color: #ffffff;
+        }
+
+        .questionText pre {
+            display: table;
+        }
+
+        .creamPreTab4 {
+            padding: 9.5px !important;
+            margin: 0 0 10px !important;
+            font-size: 13px !important;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .questionText.ql-editor, .mcOptionLi.ql-editor {
+            white-space: inherit;
+            height: auto;
+        }
+
+        .displayLabel {
+            border-radius: 4px;
+            border: 1px solid #cccccc;
+            padding: 10px;
+        }
+
+        .mcOptionReasonLi {
+            color: red;
+            padding: 10px !important;
+            margin-top: 2px !important;
+            margin-bottom: 4px !important;
+            vertical-align: middle !important;
+        }
+
+        .mcOptionReasonLi > span.correct {
+            color: green !important;
+        }
+
+        .mcOptionReasonLi > span {
+            font-weight: normal !important;
+            vertical-align: top !important;
+        }
+
+        .mcOptionLi {
+            padding: 10px !important;
+            margin-top: 4px !important;
+            border-radius: 10px !important;
+            border-style: solid !important;
+            border-color: white !important;
+            border-width: 1px !important;
+        }
+
+        .mcOptionLi:before {
+            display: block;
+            float: left;
+            width: 1.2em;
+            color: #ff0000;
+            border: 1px solid white;
+        }
+
+        .mcOptionLi.inCorrect:before {
+            content: "\f00d";
+            display: block;
+            float: left;
+            width: 1.2em;
+            color: #ff0000;
+            font-family: FontAwesome;
+            border: none;
+        }
+
+        .mcOptionLi.correct:before {
+            content: "\f00c";
+            display: block;
+            float: left;
+            width: 1.2em;
+            color: green;
+            font-family: FontAwesome;
+            border: none;
+        }
+
+        .mcOptionLi:HOVER {
+            border-color: lightgray !important;
+        }
+
+        .mcUserAnswer {
+            margin: 0 !important;
+            vertical-align: middle !important;
+        }
+
+
+        .mcOptionLi > span {
+            font-weight: normal !important;
+            margin: 0 0 0 5px !important;
+            vertical-align: top !important;
+        }
+
+        .mcOptionLi > span > p {
+            display: inline-block;
+        }
+
+        #methodTabs li.active {
+            background-color: lightyellow !important;
+        }
+
+        #methodTabs li > a {
+            background-color: transparent !important;
+        }
+
+        .testCasesTabContainer {
+            background-color: lightyellow;
+        }
+
+        #methodTabs {
+            background-color: white;
+        }
+
+        .td-center {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .testCasesTabContainer td,
+        .testCasesTabContainer th {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .panel-warning > .panel-heading {
+            color: #FFFFFF !important;
+            background-color: #ffa500 !important;
+        }
+
+        .panel-warning {
+            border-color: #ffa500;
+        }
+
+        .breadcrumb > .active {
+            color: #FFFFFF !important;
+            font-weight: bold !important;
+            font-size: 16px;
+        }
+
+        .breadcrumb {
+            padding: 0 !important;
+            margin-bottom: 0 !important;
+            list-style: none;
+            border-radius: 0 !important;
+        }
+
+        .breadcrumb {
+            background-color: inherit;
+        }
+
+        .breadcrumb.warning {
+            background-color: #ffa500 !important;
+        }
+
+        .breadcrumb a {
+            color: white;
+            text-decoration: underline;
+            font-size: 16px;
+        }
+
+        .breadcrumb > li + li:before {
+            padding: 0 4px;
+            color: #ffffff;
+            content: "/";
+        }
+
+        .charDiffSpan {
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: monospace;
+            padding: 4px 10px;
+            background: #3b7bfe;
+        }
+
+        .consoleIcon {
+            color: black;
+            background-color: white;
+        }
+
+        .consoleIcon:hover {
+            color: white;
+            background-color: black;
+        }
+
+        .panel-new-jobs {
+            border-color: #B125E7;
+        }
+
+        .panel-new-jobs > .panel-heading {
+            color: #601D7A;
+            background-color: #DCA3F1;
+            border-color: #D288EE;
+        }
+
+        .panel-completed-jobs {
+            border-color: #209196;
+        }
+
+        .panel-completed-jobs > .panel-heading {
+            color: #1B7377;
+            background-color: #86E2E6;
+            border-color: #86E2E6;
+        }
+
+        .panel-payment-due {
+            border-color: #108A37;
+        }
+
+        .panel-payment-due > .panel-heading {
+            color: #84690C;
+            background-color: #87F0A8;
+            border-color: #68D38A;
+        }
+
+        .consoleFeedback {
+
+        }
+
+        .consoleQTextFeedback {
+            padding: 6px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            display: none;
+        }
+
+        .consoleFeedback.success .consoleQTextFeedback {
+            color: #3c763d;
+            background-color: #dff0d8;
+            border-color: #d6e9c6;
+            display: block;
+        }
+
+        .consoleFeedback.error .consoleQTextFeedback {
+            color: #a94442;
+            background-color: #f2dede;
+            border-color: #ebccd1;
+            display: block;
+        }
+
+        .consoleSuccessFeedbackIcon, .consoleErrorFeedbackIcon {
+            display: none;
+        }
+
+        .consoleFeedback.success .consoleSuccessFeedbackIcon {
+            display: block;
+        }
+
+        .consoleFeedback.success .consoleErrorFeedbackIcon {
+            display: none;
+        }
+
+        .consoleFeedback.error .consoleSuccessFeedbackIcon {
+            display: none;
+        }
+
+        .consoleFeedback.error .consoleErrorFeedbackIcon {
+            display: block;
+        }
+
+        .consoleCmdError {
+            border-radius: 4px;
+            color: yellow;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: monospace;
+            padding: 4px 10px;
+            background: black;
+        }
+
+        .outputSuccess {
+            color: green;
+            padding: 2px;
+        }
+
+        .outputSuccess > td {
+            padding: 2px;
+        }
+
+        .outputSuccess:before {
+            content: "\f00c";
+            display: block;
+            float: left;
+            width: 1.2em;
+            color: green;
+            font-family: FontAwesome;
+            border: none;
+        }
+
+        .outputError:before {
+            content: "\f00d";
+            display: block;
+            float: left;
+            width: 1.2em;
+            color: red;
+            font-family: FontAwesome;
+            border: none;
+        }
+
+        .outputError {
+            color: red;
+            padding: 2px;
+        }
+
+        .cmd {
+            font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+            background-color: rgba(204, 252, 243, 0.41);
+            border: 1px solid lightblue;
+            border-radius: 4px;
+            color: #3f50ff;
+            padding: 2px 4px;
+        }
+
+        #lateSubmissionReason, #reOpeningRequestReason {
+            width: 100%;
+            padding: 5px;
+            line-height: 14px !important;
+        }
+
+        .introjs-fixParent {
+            position: relative !important;
+        }
+
+        .section-heading {
+            padding: 0;
+            border: 0;
+        }
+
+        .section-title > a, .section-title > a:active {
+            display: block;
+            padding: 3px;
+            color: inherit;
+            font-size: inherit;
+            text-decoration: none;
+        }
+
+        .section-heading a:before {
+            font-family: FontAwesome;
+            content: "\f077";
+            float: right;
+            transition: 0.5s;
+        }
+
+        .section-heading.active a:before {
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+
+        .testCaseDivArrow a:before {
+            font-family: FontAwesome;
+            content: "\f077";
+            float: right;
+            transition: 0.5s;
+        }
+
+        .testCaseDivArrow.active a:before {
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+
+        @media print {
+            body {
+                display: none;
+            }
+        }
+
+        .count {
+            font-size: 20px;
+            line-height: 50px;
+            font-weight: 600;
+        }
+
+        .title_stats_count:first-child:before {
+            display: none;
+        }
+
+        .title_stats_count:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            height: 65px;
+            border-left: 2px solid #ADB2B5;
+            margin-top: 10px;
+        }
+
+        .not-started {
+            color: #FF0000;
+        }
+
+        .in-progress {
+            color: #e7711c;
+        }
+
+        .completed {
+            color: #008000;
+        }
+
+        .highlight-background {
+            padding: 2px;
+            background-color: orange;
+        }
+
+        .readonly-highlight {
+            background-color: red;
+            opacity: 0.5;
+            position: absolute;
+        }
+
+
+        .collapse-border-css {
+            border: 1px solid;
+            padding: 3px;
+            border-radius: 3px;
+            background-color: lightyellow;
+            margin: 0 16px 6px 16px;
+        }
+
+        @keyframes console-popover-blinking {
+            0% {
+                color: white;
+            }
+            100% {
+                color: black;
+            }
+        }
+
+        #popOverPositionerDiv .popover-body {
+            font-size: .675rem;
+        }
+
+        #codingDiv div.popover.top .arrow:after {
+            border-top-color: #ffffe0;
+        }
+
+        #codingDiv .popover {
+            z-index: 10000000;
+            background: #ffffe0;
+            top: -41px !important;
+        }
+
+        #codingDiv div.popover-body {
+            color: black;
+            padding: 2px 4px;
+        }
+
+        #popOverPositionerDiv .popover {
+            top: 0 !important;
+        }
+
+        .ctCharMismatchForPopover {
+            cursor: pointer;
+        }
+
+        .ctCharLineBreakMismatch {
+            border: 1px solid red;
+        }
+
+        .char-info-css {
+            background-color: black;
+            color: white;
+            border-radius: 3px;
+            padding: 1px 3px;
+        }
+
+        .btn {
+            cursor: pointer;
+        }
+
+        .ctCharMismatchForPopover.show-title:after {
+            content: attr(title);
+            padding: 5px;
+            border: 1px solid #ccc;
+            margin-top: -3%;
+            background: black;
+            color: white;
+            position: absolute;
+        }
+
+        @media only screen and (max-width: 960px) {
+            #questionTitleOL {
+                width: 100%;
+            }
+        }
+
+        #sideArrow {
+            position: fixed;
+            right: 0;
+            width: 64px;
+            background: black;
+            border-radius: 8px 0 0 8px;
+            text-align: center;
+            top: 150px;
+            transition: .5s;
+            z-index: 1064;
+        }
+
+        .sidenav {
+            background-color: #111;
+            height: 510px;
+            position: fixed;
+            right: 0;
+            top: 100px;
+            transition: .5s;
+            width: 0;
+            z-index: 1064;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closeBtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        #iotProgressbar {
+            text-align: center;
+            overflow: hidden;
+            color: lightgrey
+        }
+
+        #iotProgressbar .active {
+            color: #673AB7
+        }
+
+        #iotProgressbar li {
+            list-style-type: none;
+            font-size: 15px;
+            width: 33%;
+            float: left;
+            position: relative;
+        }
+
+        #iotProgressbar li:before {
+            width: 50px;
+            height: 50px;
+            line-height: 45px;
+            display: block;
+            font-size: 18px;
+            color: #ffffff;
+            background: lightgray;
+            border-radius: 50%;
+            margin: 0 auto 10px auto;
+            padding: 2px;
+            font-family: FontAwesome;
+            content: "\f00c"
+        }
+
+        #iotProgressbar li:after {
+            content: '';
+            width: 100%;
+            height: 2px;
+            background: lightgray;
+            position: absolute;
+            left: 0;
+            top: 30px;
+
+        }
+
+        #iotProgressbar li.active:before,
+        #iotProgressbar li.active:after {
+            background: #673AB7
+        }
+
+        .select2-container--open {
+            z-index: 999999;
+        }
+
+        #sampleInputOutputDiv {
+            word-break: break-all;
+        }
+
+        .swal2-content {
+            padding: 0 !important;
+        }
+
+        #questionInfoDropDown:hover, #questionInfoDropDown:active, #questionInfoDropDown:focus, #questionInfoDropDown:focus-visible {
+            border: none;
+            background: inherit;
+            outline: none;
+            transition: none;
+        }
+
+        @media (max-width: 768px) {
+            .hide_on_mobile {
+                display: none !important;
+            }
+
+            #questionDisplayText {
+                width: 14ch;
+            }
+
+            .ct-border-left-0 {
+                border-left: 0 !important;
+            }
+
+            #modalBody {
+                height: calc(100vh - 3rem);
+                overflow-y: auto;
+            }
+
+        }
+
+        @media (max-width: 912px) {
+            #modalTopicNameHeading, #modalSubUnitNameHeading, #modalSubUnitNameHeading {
+                max-width: 8ch;
+            }
+
+            #modalDisplayTextHeading {
+                max-width: 10ch;
+            }
+        }
+
+        @media (max-width: 767px) {
+            #questionRightSidePanelDiv {
+                height: 100% !important;
+                overflow-y: auto;
+            }
+        }
+
+        @media (min-width: 768px) {
+            #questionInfoDiv, #questionRightSidePanelDiv {
+                height: calc(100vh - 5.5rem);
+                overflow-y: auto;
+            }
+
+            #fileUploadHelp {
+                width: 75% !important;
+            }
+        }
+
+        #quickQAccessTrapezoidOuterSlider {
+            height: 0;
+            width: 111px;
+            display: inline-block;
+            position: absolute;
+            border-top: 25px solid #f18601;
+            border-left: 17px solid transparent;
+            border-right: 17px solid transparent;
+            top: 0;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        #quickQAccessTrapezoidSlider {
+            height: 0;
+            width: 110px;
+            display: inline-block;
+            position: relative;
+            border-top: 26px solid white;
+            border-left: 18px solid transparent;
+            border-right: 18px solid transparent;
+            top: -2px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        #myModal {
+            overflow-y: hidden;
+        }
+
+        #questionStatisticsModal {
+            height: 95% !important;
+        }
+
+        .default-background-color {
+            background-color: #2c3a50 !important;
+        }
+
+        .resultsTabsAndDivsClass {
+            position: absolute;
+            bottom: 0;
+            z-index: 1050;
+            width: calc(100% - 8px) !important;
+        }
+
+        #compilationErrorsDiv > ul {
+            max-height: 40vh;
+            overflow-y: auto;
+        }
+
+        .ct-table-layout-fixed {
+            table-layout: fixed;
+        }
+
+        .whitespace-nowrap {
+            white-space: nowrap;
+        }
+    </style>
+
+    
+
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://lovelyprofessionaluniversity.codetantra.com/js/mjax/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+</style></head>
+
+
+
+
+
+<script src="/js/gs/TweenMax.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+<script src="/js/custom-min/lg.min.js"></script>
+
+<script>
+    var supportEmail = 'support.myclasses@lpu.co.in';
+    var supportPhone = '[ "01824-517-450"]';
+    supportPhone = JSON.parse(supportPhone);
+    var _ct_cookieId = '63159455db103b06ba4ae71d';
+    var _ct_lid = '12219545.st@lpu.in';
+    var _ct_uname = "K" ;
+    var _ct_groups = [ { "6322e400b023ba07351347f2" : "KOC23INT108"} , { "6322e400b023ba07351347f3" : "KOC23INT108-G1"} , { "63d2d128d50c5e4938045d38" : "KOC Mock Group 3"} , { "63d2d128d50c5e4938045d64" : "KOC23INT108-G1-Odd"} , { "64c4909301fbd206938a5577" : "KS009CSE202"} , { "64c4909301fbd206938a5578" : "KS009CSE202-G1"} , { "64c4909301fbd206938a5579" : "KS009CSE205"} , { "64c4909301fbd206938a557a" : "KS009CSE205-G1"} , { "64fedc36c85b5906ce724608" : "KS009CSE20223241"} , { "64fedc36c85b5906ce724609" : "KS009CSE20223241-G1"} , { "64fedc36c85b5906ce72460a" : "KS009CSE20523241"} , { "64fedc36c85b5906ce72460b" : "KS009CSE20523241-G1"} , { "65321905d02b2c42c240fde1" : "ETP_24th Oct 2023_24810_23781_14:00-17:00 PM"}];
+    var forceLocation = false;
+    var isCurrentRoleMember = true;
+    var _ct_chid = '1392';
+    var _zl_config = { }
+</script>
+
+
+<!-- Fixed navbar -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark d-block d-print-none p-1 p-md-2" id="cssmenu">
+    <button class="navbar-toggler py-0 border-0 pl-0" type="button" data-toggle="offcanvas" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <span class="navbar-brand d-lg-none d-print-none"><img src="https://s3.ap-south-1.amazonaws.com/ct-client-logos/logos/lovelyprofessionaluniversity" alt="CodeTantra" style="max-width: 100%; height: 30px;"></span>
+    <span class="d-none text-right bg-transparent"><img src="/img/logo-new.png" alt="CodeTantra" style="max-width: 100%;"></span>
+    <div class="navbar-collapse offcanvas-collapse" id="navbarSupportedContent">
+            
+                
+<ul class="navbar-nav mr-auto">
+    <li class="d-none d-lg-block">
+        <span class="p-1 d-block">
+             <img src="https://s3.ap-south-1.amazonaws.com/ct-client-logos/logos/lovelyprofessionaluniversity" style="height: 30px;" alt="Home">
+        </span>
+    </li>
+    <li class="nav-item"><a class="nav-link" href="/secure/home.jsp" style="white-space: nowrap"><i class="fa fa-home"></i><span> Home</span> </a></li>
+    
+    
+    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="menu" aria-haspopup="true" title="Learn anywhere" aria-label="Learn anywhere menu"><span>Learn Anywhere</span></a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/secure/tla/m.jsp" role="menuitem" title="View meetings" aria-label="Click to view meetings">View Meetings</a></li>
+        </ul>
+    </li>
+    
+    
+</ul>
+
+            
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> 12219545.st@lpu.in </a>
+                    <ul class="dropdown-menu" style="padding-left: 0.75rem">
+                        <li><a class="dropdown-item" href="/secure/member-profile.jsp"><span>Update Profile</span> </a></li>
+                        
+                    </ul>
+                </li>
+                
+                <li class="nav-item"><a class="nav-link ct-phone-pulse" id="contactHelp" href="#" onclick="openSupportDialog()" role="contentinfo"><span>Support</span> </a></li>
+                <li class="nav-item"><a class="btn btn-sm btn-danger" id="logoutBtn" style="color: white; font-weight: bold; margin-top: 0.25rem; white-space: nowrap " role="button" aria-label="Logout" title="Click to logout"> Logout <i class="fa fa-sign-out" aria-hidden="true"></i> </a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+</nav>
+
+<div id="quickQAcessSliderCover" class="debugHide" style="display: none;"></div>
+<div class="p-0 col-2 offset-5" id="quickQAccessSliderPanelDiv" style="position: fixed; top: 0; z-index: 1055;">
+    <div style="z-index: 1;">
+        <div id="quickQAccessSliderPanel" class="card debugHide" style="position: inherit; display: none;">
+            <div class="card-body p-1">
+                <div class="">
+                    <div class="row m-0">
+                        <div class="col-lg-12 p-0">
+                            <div id="media" class="carousel slide media-carousel" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div id="quickQAccessSliderSectionsDiv" class="text-center">		<ul id="sortableSections_0" class="sortableSections">		<li class="btn btn-sm completed  sections " subunitid="63049a8373c69806ec5ea7a1" section="Do Not Know" title="Questions"><span class="sectionHeading">Questions</span>		<div class="questionsArea">		<span title="Suspicious activity detected. Click to open the question and submit." qcount="1" subunitid="63049a8373c69806ec5ea7a1" subunitname="Variables and Assignment" sectionid="" sectionname="undefined" qid="5b3a196318b23e5a6e1f336e" pid="5b3a196318b23e5a6e1f336e" bd="AY3RFZHVEQg==" class="questions answered-bot simpleBtn actionBtn fade show" style="">1<i class="fa fa-info" aria-hidden="true" style="position: absolute;margin-top: -7px;margin-left:7px;font-size: smaller;" title="This question has Notes."></i><i class="fa fa-terminal" aria-hidden="true" style="position: absolute;margin-top: -8px;margin-left: -22px;font-size: smaller; font-weight: bold" title="This question involves coding."></i></span>		<span title="Click to open the question" qcount="2" subunitid="63049a8373c69806ec5ea7a1" subunitname="Variables and Assignment" sectionid="" sectionname="undefined" qid="5b3a198918b23e5a6e1f3371" pid="5b3a198918b23e5a6e1f3371" bd="AY3RFZHVEQg==" class="questions answered simpleBtn actionBtn fade show" style=""><i class="fa fa-eye" aria-hidden="true" style="position: absolute;margin-top: 16px;margin-left: 9px;font-size: smaller; font-weight: bold" title="This question has a Demo."></i>2<i class="fa fa-info" aria-hidden="true" style="position: absolute;margin-top: -7px;margin-left:7px;font-size: smaller;" title="This question has Notes."></i><i class="fa fa-terminal" aria-hidden="true" style="position: absolute;margin-top: -8px;margin-left: -22px;font-size: smaller; font-weight: bold" title="This question involves coding."></i></span>		<span title="Suspicious activity detected. Click to open the question and submit." qcount="3" subunitid="63049a8373c69806ec5ea7a1" subunitname="Variables and Assignment" sectionid="" sectionname="undefined" qid="5b3a19a918b23e5a6e1f3373" pid="5b3a19a918b23e5a6e1f3373" bd="AY3RFZHVEQg==" class="questions answered-bot simpleBtn actionBtn fade show" style="">3<i class="fa fa-info" aria-hidden="true" style="position: absolute;margin-top: -7px;margin-left:7px;font-size: smaller;" title="This question has Notes."></i><i class="fa fa-terminal" aria-hidden="true" style="position: absolute;margin-top: -8px;margin-left: -22px;font-size: smaller; font-weight: bold" title="This question involves coding."></i></span>		<span title="Click to open the question" qcount="4" subunitid="63049a8373c69806ec5ea7a1" subunitname="Variables and Assignment" sectionid="" sectionname="undefined" qid="5b3a19c018b23e5a6e1f3375" pid="5b3a19c018b23e5a6e1f3375" bd="AY3RFZHVEQg==" class="questions answered simpleBtn actionBtn fade show" style="">4<i class="fa fa-info" aria-hidden="true" style="position: absolute;margin-top: -7px;margin-left:7px;font-size: smaller;" title="This question has Notes."></i><i class="fa fa-terminal" aria-hidden="true" style="position: absolute;margin-top: -8px;margin-left: -22px;font-size: smaller; font-weight: bold" title="This question involves coding."></i></span>		<span title="Click to open the question" qcount="5" subunitid="63049a8373c69806ec5ea7a1" subunitname="Variables and Assignment" sectionid="" sectionname="undefined" qid="5863b02a0cf2bd9bdd2b982c" pid="5863b02a0cf2bd9bdd2b982c" bd="AY3RFZHVEQg==" class="questions answered simpleBtn actionBtn fade show active-question" style="pointer-events: none;">5<i class="fa fa-terminal" aria-hidden="true" style="position: absolute;margin-top: -8px;margin-left: -22px;font-size: smaller; font-weight: bold" title="This question involves coding."></i></span>		</div> </li>		</ul></div>
+                                </div>
+                                <a href="#" class="carousel-control-prev d-none" role="button" data-slide="prev">‹</a>
+                                <a href="#" class="carousel-control-next d-none" role="button" data-slide="next">›</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="quickQAccessTrapezoidSliderDiv" class="text-center debugHide">
+            <div style="display: inline-block; position: absolute;">
+                <div id="quickQAccessTrapezoidOuterSlider"></div>
+            </div>
+
+
+            <div id="quickQAccessTrapezoidSlider">
+                <div id="quickQAccessTrapezoidSliderHeader">
+                    <span id="currentQuestionNumber" class="btn btn-sm p-0 font-weight-bold">Q1</span>&nbsp;
+                    
+                    <div id="trapezoidSliderClose" class="btn btn-sm px-0 pb-0 d-none" title="Close">Close x</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade p-0 vw-100 show" id="myModal" aria-modal="true" style="display: block; padding-left: 17px;">
+    <div class="modal-dialog modal-xl m-0" style="max-width:100%;">
+        <div class="modal-content border-0 border-radius-0">
+            <div id="modalBody" class="modal-body p-0" style="padding-bottom: 4rem !important;">
+
+<div class="card card-primary border-0 h-100" style="margin-bottom:0;">
+    <div class="card-heading px-0 px-md-2 py-1 p-1 text-light d-flex" style="background-color: #2c3a50;">
+        <span title="Total Time Spent in H:M:S" class="ml-0 showTime text-white d-none" id="showTimeInQ" style="font-size: 12px; border: 1px solid #b9b2fb;border-radius: 4px;padding: 6px 4px;"></span>
+        <span class="mr-auto ml-sm-auto mr-sm-2 pl-2 pl-md-0 p-0 debugHide my-auto">
+            <span class="btn debugHide cursor-pointer text-white p-0" id="minusBtnClick" title="Click to decrease font size." onclick="minusBtnClicked()">
+                <img src="1.png" width="10" height="15"></img>
+                    
+                </i>
+            </span>
+            <span class="debugHide p-0" id="percentageTextSize" style="color: white; font-size:12px; font-weight: bold;">220%</span>
+            <span class="btn debugHide cursor-pointer text-white p-0" id="plusBtnClick" title="Click to increase font size." onclick="plusBtnClicked()">
+                    <i><img src="2.png" width="10" height="15"></img></i>
+            </span>
+        </span>
+        <span class="debugHide hide_on_mobile position-relative ml-auto ml-sm-5" id="bookmarksModalDiv"></span>
+        <span class="mr-1 my-auto hide_on_mobile" id="handsFreeSwitchSpan" data-backdrop="static" style="display: none;">
+                <span style="color:white;font-size: 15px;font-weight: bold;">
+                <i class="fa fa-hand-paper-o" aria-hidden="true"></i> Hands-free Mode</span>
+                <input type="checkbox" data-toggle="toggle" data-off="OFF" data-on="ON" id="isHandsfree" data-size="small" data-offstyle="warning">
+        </span>
+        <span class="ml-auto ml-sm-2 debugHide">
+            
+            
+            <button class="btn btn-sm btn-danger debugHide hide_on_mobile" title="Close" onclick="closeClicked()" data-backdrop="static">
+                <i >
+                    <img src="3.png" width="10" height="15"></img>
+                </i>
+            </button>
+        </span>
+        <button class="btn btn-sm btn-danger ml-auto d-none" id="debugClose" onclick="Dbg.debugEnd()" data-backdrop="static">
+            <i class="fa fa-times" aria-hidden="true" aria-label="Close">  </i>
+        </button>
+    </div>
+    <div class="card-body p-0">
+        <form class="form-horizontal h-100" role="form" id="evalForm" name="evalForm">
+            <div class="form-group row m-0 h-100">
+                <div class="col-12 col-md-6 p-1 debugHide" id="questionInfoDiv">
+                    <div class="card col-md-12 col-12" style="padding: 1px">
+                        <div class="card-header active d-flex justify-content-between py-0 px-2 border-0" role="tab">
+                            <div class="text-nowrap d-flex align-items-center" id="questionTitleOL" onclick="copyTitle()" style="gap: 0.1rem; max-width: 75%;">
+                                <span id="modalTopicNameHeading" class="text-truncate flex-grow-0 flex-shrink-1" title="Unit 1 - Lesson 3">INT108 End Term Practical - K23FD_G2</span>
+                                <span>/</span>
+                                <span id="modalSubUnitNameHeading" class="text-truncate flex-grow-0 flex-shrink-1" title="Variables and Assignment"></span>
+                                <span>/</span>
+                                <span id="modalSectionNameHeading" class="text-truncate d-none"></span>
+                                <span id="modalDisplayTextHeading" class="text-truncate flex-grow-0 flex-shrink-1" title="Chained Assignment"></span>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <span class="btn-group btn-group-sm display-option debugHide mx-auto mx-sm-2" role="group" id="mediaControlsDiv">
+                                    <span id="playMusic" class="btn btn-sm btn-light mr-2 d-none">
+                                        
+                                    </span>
+                                    <span class="btn btn-sm btn-light video-controls disabled" id="speechStopIconInfo" onclick="stopMedia(this)" title="Click here to stop audio">
+                                        
+                                    </span>
+                                    <span class="btn btn-sm btn-light video-controls" id="playInfo" onclick="playMedia(this)" title="Click to Play">
+                                            
+                                    </span>
+                                    <span class="btn btn-sm btn-light video-controls disabled" id="pauseInfo" onclick="pauseMedia(this)" title="Click here to pause audio">
+                                            
+                                    </span>
+                                </span>
+                                <span class="btn btn-sm">
+                                    <a id="questionInfoDropDown" data-toggle="collapse" href="#questionInfo" class="py-1 px-0" aria-expanded="true" aria-controls="questionInfo" style="color:#2c3a50;"></i>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-body panel-collapse collapse show p-1" id="questionInfo" style="font-size: 25px;">
+                            <div class="questionText ql-editor debugHide p-2" id="questionText">In <b>Python</b>, assignment statements do not return a value. Chained assignment is recognised and supported as a special case of the assignment statement.<br><br>
+
+<c>a = b = c = x</c> is called a <b>chained assignment</b> in which the value of <b>x</b> is assigned to multiple variables <b>a</b>, <b>b</b>, and <b>c</b>.<br><br> 
+
+
+Let us consider a simple example:
+
+<pre class="creamPreTab4">a = b = c = d = 10
+print(a) <span class="java-comments"># will print result as <b>10</b></span>
+print(b) <span class="java-comments"># will print result as <b>10</b></span>
+print(c) <span class="java-comments"># will print result as <b>10</b></span>
+print(d) <span class="java-comments"># will print result as <b>10</b></span>
+</pre>
+
+Here, we are initializing the variables <b>a</b>, <b>b</b>, <b>c</b>, <b>d</b> with value <c>10</c>. <br><br>
+
+
+Write a program to assign a user given value to <c>a</c>, <c>b</c>, <c>c</c> variables.<br><br>
+
+
+<b>Note:</b> Let us assume that <c>input()</c> is used to read values given by the user. We will learn about <c>input()</c> in later sections.
+<p></p> Here, <pre class="creamPreTab4">a = b = c = str1</pre> 
+<b>Sample Input and Output:</b>
+<pre class="creamPreTab4">Enter a value: Hello Python
+Value of a: Hello Python
+Value of b: Hello Python
+Value of c: Hello Python
+</pre></div>
+                        </div>
+                    </div>
+                    <div id="questionSampleTestCasesDiv"><div class="card col-md-12 col-12 debugHide" id="sampleInputOutputDiv" style="margin-top: 20px; padding: 1px"><div class="card-header section-heading testCaseDivArrow active pl-2" role="tab" id="sampleInputOutputHeading" style="padding-right: 0.9rem;">  <div class="card-title section-title mb-0">    <a id="testCaseSectionTitle" role="button" data-toggle="collapse" href="#showTestCases" aria-expanded="true" aria-controls="showTestCases">  Sample Test Cases</a>  </div>  </div>  <div class="card-body  panel-collapse collapse show p-2" id="showTestCases" style="font-size: 25pxpx;"><table id="TestCase-1 " class="table table-bordered table-sm cOutputTable mb-2"><thead><tr><th> Test Case 1:</th></tr></thead><tbody><tr><th>Expected Output:</th></tr><tr><td></td></tr><tr><td style="background-color: #dff0d8;"><pre class="outputPre" style="white-space: pre-wrap">Enter<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>a<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>value:<ct-space class="showHideWhiteSpaceCharacters">·</ct-space><span class="cmd" style="padding: 1px 4px" title="User Input">100</span></pre></td></tr><tr><td style="background-color: #dff0d8;"><pre class="outputPre" style="white-space: pre-wrap">Value<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>of<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>a:<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>100</pre></td></tr><tr><td style="background-color: #dff0d8;"><pre class="outputPre" style="white-space: pre-wrap">Value<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>of<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>b:<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>100</pre></td></tr><tr><td style="background-color: #dff0d8;"><pre class="outputPre" style="white-space: pre-wrap">Value<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>of<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>c:<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>100</pre></td></tr> </tbody></table><table id="TestCase-2 " class="table table-bordered table-sm cOutputTable mb-2"><thead><tr><th> Test Case 2:</th></tr></thead><tbody><tr><th>Expected Output:</th></tr><tr><td></td></tr><tr><td style="background-color: #dff0d8;"><pre class="outputPre" style="white-space: pre-wrap">Enter<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>a<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>value:<ct-space class="showHideWhiteSpaceCharacters">·</ct-space><span class="cmd" style="padding: 1px 4px" title="User Input">Hello Python</span></pre></td></tr><tr><td style="background-color: #dff0d8;"><pre class="outputPre" style="white-space: pre-wrap">Value<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>of<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>a:<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>Hello<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>Python</pre></td></tr><tr><td style="background-color: #dff0d8;"><pre class="outputPre" style="white-space: pre-wrap">Value<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>of<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>b:<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>Hello<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>Python</pre></td></tr><tr><td style="background-color: #dff0d8;"><pre class="outputPre" style="white-space: pre-wrap">Value<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>of<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>c:<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>Hello<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>Python</pre></td></tr> </tbody></table><table id="TestCase-3 " class="table table-bordered table-sm cOutputTable mb-2"><thead><tr><th> Test Case 3:</th></tr></thead><tbody><tr><th>Expected Output:</th></tr><tr><td></td></tr><tr><td style="background-color: #dff0d8;"><pre class="outputPre" style="white-space: pre-wrap">Enter<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>a<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>value:<ct-space class="showHideWhiteSpaceCharacters">·</ct-space><span class="cmd" style="padding: 1px 4px" title="User Input">12.567</span></pre></td></tr><tr><td style="background-color: #dff0d8;"><pre class="outputPre" style="white-space: pre-wrap">Value<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>of<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>a:<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>12.567</pre></td></tr><tr><td style="background-color: #dff0d8;"><pre class="outputPre" style="white-space: pre-wrap">Value<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>of<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>b:<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>12.567</pre></td></tr><tr><td style="background-color: #dff0d8;"><pre class="outputPre" style="white-space: pre-wrap">Value<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>of<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>c:<ct-space class="showHideWhiteSpaceCharacters">·</ct-space>12.567</pre></td></tr> </tbody></table></div></div></div>
+                    <span id="loadingSpan" class="text-center d-none">
+                            <h2 class="">Loading....</h2>
+                            <span style="margin-left: 50%;" class="fa fa-spin fa-spinner fa-4x "></span>
+                    </span>
+                </div>
+                <div class="col-12 col-md-6 p-1 border-left ct-border-left-0" id="questionRightSidePanelDiv" style="position: relative;">
+                    <div class="row mx-0 h-100">
+                        <div style ="overflow-y: auto"; class="qTypeAuthorDiv col-12 px-0 h-100 compilationErrorQuestionTabPanelsParentDiv align-self-stretch" id="Compilation Errors">
+                            <div id="compilationErrorQuestionTabPanelsDiv" class="col-12 col-md-12 px-0 h-100">
+                                <div class="multiTabsContainerDiv h-100">
+                                    <!-- Nav tabs -->
+                                    <div class="pull-left">
+                                        <ul id="compilationErrorUl" class="nav nav-tabs fileNamesUl" role="tablist">
+                                            		<li id="compilationErrorLi-1702122009709" class="nav-item multipleFilesLi compilationError" index="1702122009709">	<a draggable="false" border-color:="" black;'="" href="#compilationErrorTab-1702122009709" data-toggle="tab" class="li-a-fileName nav-link active">		<input class="compilationErrorFileName" id="compilationErrorFileNameSpan-1702122009709" value="fileName-1" disabled="" readonly="">	</a></li><li id="compilationErrorAddFileBtnLi" class="nav-item"></li>
+                                        </ul>
+                                    </div>
+                                                                        </span>
+                                        <!-- Tab panes -->
+                                        <div class="editor-container">
+                                            <div id="editor">a=int(input("Enter the number "))</div>
+                                          </div>
+                                          <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.5.3/ace.js"></script>
+                                          <script src="main123456.js"></script>
+                            </div>
+                        </div>
+                        <div class="qTypeAuthorDiv d-none col-12 px-0" id="Copy Writing">
+                            <div id="copyWritingLeftPanel" class="col-12 px-0 mb-2">
+                                <div class="col-12 px-0 d-flex justify-content-between">
+                                    <span>Content to be reproduced</span>
+                                    <label class="label small m-0" for="isInvisibleChar">Show spaces
+                                        <div class="toggle btn btn-primary btn-xs" data-toggle="toggle" role="button" style="width: 0px; height: 0px;"><input type="checkbox" checked="" data-toggle="toggle" data-off="   " data-size="mini" data-on="   " id="isInvisibleChar" aria-label="Show spaces"><div class="toggle-group"><label for="isInvisibleChar" class="btn btn-primary btn-xs toggle-on">   </label><label for="isInvisibleChar" class="btn btn-light btn-xs toggle-off">   </label><span class="toggle-handle btn btn-light btn-xs"></span></div></div>
+                                    </label>
+                                </div>
+                                <div id="Copy Writing - Multiple" class="col-12 px-0">
+                                    <div class="multiTabsContainerDiv">
+                                        <!-- Nav tabs -->
+                                        <ul id="copyWritingUl" class="nav nav-tabs fileNamesUl" role="tablist">
+                                            <li id="copyWritingAddFileBtnLi">
+                                                <!-- a  onClick='addFile("copyWriting", "copyWritingAddFileBtnLi", "copyWritingTabPanesDiv")' >
+                                                    <i class="fa btn btn-xs btn-primary fa-plus"></i>
+                                                </a-->
+                                            </li>
+                                        </ul>
+                                        <!-- Tab panes -->
+                                        <div id="copyWritingTabPanesDiv" class="tab-content"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="copyWritingRightPanel" class="col-12 px-0">
+                                <span>Type here</span>
+                                <div class="multiTabsContainerDiv">
+                                    <!-- Nav tabs -->
+                                    <ul id="correctContentUl" class="nav nav-tabs fileNamesUl w-100" role="tablist">
+                                        <li id="correctContentAddFileBtnLi"></li>
+                                       
+                                    </ul>
+                                    <!-- Tab panes -->
+                                    <div id="correctContentTabPanesDiv" class="tab-content"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-1 p-0 resultsTabsAndDivsClass" id="resultsTabsAndDivs" style="display: none;">
+                            <div id="consoleContainerDiv" class="debugHide col-12 px-0 d-none">
+                                <div class="card">
+                                    <div class="card-header p-1 font-weight-bold text-center text-monospace bg-secondary text-white d-flex justify-content-between">
+                                        <span>
+                                            <span class="fa-stack fa-sm font-weight-bold small text-black-50">
+                                                <i class="fa fa-square fa-stack-2x"></i>
+                                                <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                            <span id="terminal-connected-green-circle" class="d-none">
+                                                <i class="fa fa-circle" style="color:lightgreen" aria-hidden="true"></i>
+                                                <span class="sr-only">Terminal Connected</span>
+                                            </span>
+                                            <span id="terminal-disconnected-red-circle" class="d-none">
+                                                <i class="fa fa-circle" style="color:red" aria-hidden="true"></i>
+                                                <span class="sr-only">Terminal Disconnected</span>
+                                                <small>
+                                                    <span id="connecting-in" class="m-0">Connecting...</span>
+                                                    <a id="try-now" style="color: white; font-size: smaller; cursor: pointer">Try Now</a>
+                                                </small>
+                                            </span>
+                                        </span>
+                                        <span>
+                                            <span title="Click here to change theme">
+                                                <i id="moon-icon" class="fa fa fa-moon-o mr-1 p-1" style="cursor: pointer" role="button" aria-hidden="true"></i>
+                                                <span class="sr-only">Click here to change theme</span>
+                                                <i id="sun-icon" class="fa fa fa-sun-o d-none mr-1 p-1" style="cursor: pointer" role="button" aria-hidden="true"></i>
+                                                <span class="sr-only">Click here to close terminal</span>
+                                                <i class="fa fa fa-close mr-1 p-1 closeTerminalResultsDiv d-none" style="cursor: pointer" role="button" aria-hidden="true"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div id="consoleContainerDivPanelBody" class="card-body p-0"></div>
+                                </div>
+                            </div>
+                            <div id="debugContextDiv" class="d-none col-md-9 col-12 debugShow debugContextDiv" style="top: 200px; left: 15%">
+                                <div id="contextPanelHeading">
+                                    <div class="debugHeading">Context</div>
+                                </div>
+                                <div class="debugTableContainer">
+                                    
+                                        <span style="font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace; color: white;">
+                                            <span id="fileName" class="debugFileName"></span>:
+                                            <span id="funcName" class="debugFuncName"></span>:
+                                            <span id="lineNumber" class="debugLineNumber"></span>
+                                        </span>
+                                        
+                                    
+                                    <div id="scopeDiv" style="padding-bottom: 8px;">
+                                        <a id="localContextBtn" class="btn btn-sm debugCollapseBtn debugFont" style="padding: 0 2px;" data-toggle="collapse" data-target="#localContext">Local
+                                            <span id="arrowLocal" class="contextArrow">—</span>
+                                        </a>
+                                        <div id="localContext" class="collapse in debugFont">
+                                            <table class="debugTable" style="width: 100%;">
+                                                <thead>
+                                                <tr>
+                                                    <td class="debugtdh">Variable</td>
+                                                    <td class="debugtdh">Value</td>
+                                                </tr>
+                                                </thead>
+                                                <tbody id="localContextTable">
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div style="padding-bottom: 8px;">
+                                        <a id="globalContextBtn" class="btn btn-sm debugCollapseBtn debugFont" style="padding: 0 2px;" data-toggle="collapse" data-target="#globalContext">Global
+                                            <span id="arrowGlobal" class="contextArrow">—</span>
+                                        </a>
+                                        <div id="globalContext" class="collapse in debugFont">
+                                            <table class="debugTable" style="width: 100%;">
+                                                <thead>
+                                                    <tr>
+                                                        <td class="debugtdh">Variable</td>
+                                                        <td class="debugtdh">Value</td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="globalContextTable"></tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a id="callStackBtn" class="btn btn-sm debugCollapseBtn debugFont" style="padding: 0 2px;" data-toggle="collapse" data-target="#callStack">CallStack
+                                            <span id="arrowStack" class="contextArrow">—</span>
+                                        </a>
+                                        <div id="callStack" class="collapse in debugFont">
+                                            <table class="debugTable" style="width: 100%;">
+                                                <tbody id="callStackTable">
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <p class="text-center" style="margin-top: 10px">
+                                    <button type="button" id="prevContext" style="font-size: 10px; color: white; background-color: rgba(144, 144, 0, 0.8);" class="btn btn-sm" onclick="Dbg.renderContext(-1)" title="Go to previous step of Code Walkthrough. (You can also press ← key.)">
+                                        ← Prev
+                                    </button>
+                                    <button type="button" id="nextContext" style="font-size: 10px; color: white; background-color: rgba(144, 144, 0, 0.8);" class="btn btn-sm" onclick="Dbg.renderContext(1)" title="Go to next step of Code Walkthrough. (You can also press → key.)">
+                                        Next →
+                                    </button>
+                                </p>
+                            </div>
+                            <div id="executionOutViewport" class="col-12 horizontal-scroll p-0 d-none" style="background-color: white;">
+                                <div class="card col-12 p-0">
+                                    <div class="card-header p-1 font-weight-bold text-center d-flex justify-content-between">
+                                        <span>
+                                            Execution Results
+                                        </span>
+                                        <span>
+                                            <span title="Click here to minimize">
+                                                <i class="fa fa-chevron-down mr-1 p-1 minimizeResultsDiv d-none" style="cursor: pointer" role="button" aria-hidden="true"></i>
+                                            </span>
+                                            <span title="Click here to maximize">
+                                                <i class="fa fa-chevron-up mr-1 p-1 maximizeResultsDiv d-none" style="cursor: pointer" role="button" aria-hidden="true"></i>
+                                            </span>
+                                            <span title="Click here to close">
+                                                <i class="fa fa fa-close mr-1 p-1 closeTerminalResultsDiv d-none debugHide" style="cursor: pointer" role="button" aria-hidden="true"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="card-body p-1" id="executionOutViewportCardBody">
+                                        <div id="executionProgressDiv" style="display: none;">
+                                        <span class="text-center">
+                                            <h2>Execution in progress....</h2>
+                                            <div class="cssload-container">
+                                                <div class="cssload-item cssload-ventilator"></div>
+                                            </div>
+                                        </span>
+                                        </div>
+                                        <div id="compilationProgressDiv" style="display: none;">
+                                        <span class="text-center">
+                                            <h2>Compilation in progress....</h2>
+                                            <span style="margin-left: 45%;" class="fa fa-spin fa-spinner fa-4x "></span>
+                                        </span>
+                                        </div>
+                                        <div id="compilationProgressDiv2" style="display: none;">
+                                        <span class="text-center">
+                                            <h2 class="">Compilation in progress....</h2>
+                                            <div class="cssload-container">
+                                                <div class="cssload-item cssload-ventilator"></div>
+                                            </div>
+                                        </span>
+                                        </div>
+                                        <div id="terminalConnecting" style="display: none;">
+                                            <span class="text-center">
+                                                <h2 class="">Connecting...</h2>
+                                                <div class="cssload-container">
+                                                    <div class="cssload-item cssload-ventilator"></div>
+                                                </div>
+                                            </span>
+                                        </div>
+                                        <div id="compilationErrorsDiv" class="compilationErrorsDiv" style="font-size: 25px;"></div>
+                                        <div id="copyWritingExecutionResultsDiv"></div>
+                                        <div id="classicDebugOutput" class="d-none">
+                                            <div style="height:374px; float: left;" class="col-sm-12 col-sm-12">
+                                                <div class="" style="border: 3px solid green;">
+                                                    <div class="panel-heading col-sm-12 col-sm-12">
+                                                        Output
+                                                    </div>
+                                                    <div id="testCaseDebugOutput" class="zeroPadding"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-12 px-0" id="codingDiv">
+                            <div>
+                                <div class="qTypeAuthorDiv d-none" id="Console Based Question">
+                                    <div class="col-9">
+                                        <div class="col-12" style="padding:0;">
+                                            <div id="consoleQTextDiv" style="height:100px; display:none; background-color:red" class="col-sm-12"></div>
+                                            <div class="col-12" style=" border-radius: 4px; padding:0; margin:0 0 10px 0; min-height: 32px;">
+                                                <div id="consoleFeedbackDiv" style="padding:0;" class="col-sm-11 consoleFeedback">
+                                                    <div class="col-1 text-right" style="padding:3px 10px 0 0;">
+                                                        <i id="consoleErrorFeedbackIcon" class="consoleErrorFeedbackIcon fa fa-exclamation-circle fa-2x text-danger"></i>
+                                                        <i id="consoleSuccessFeedbackIcon" class="consoleSuccessFeedbackIcon fa fa-check-circle fa-2x text-success"></i>
+                                                    </div>
+                                                    <div id="consoleQTextFeedback" class="col-11 consoleQTextFeedback"></div>
+                                                </div>
+                                                <div class="col-1 text-right" style="padding:0;">
+                                                    <a id="consoleQNextBtn" class="btn btn-sm btn-success d-none" title="Click Next" onclick="consoleQNextBtnClicked()">
+                                                        Next &gt;&gt;
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="targetConsoleDiv" class="col-12" style="padding:0; height:340px; background-color:gray "></div>
+                                    </div>
+                                    <div class="col-3">
+                                        <label for="targetConsoleWidgetDiv">Widgets:</label>
+                                        <div id="targetConsoleWidgetDiv" style="height: 340px; background-color:lightgray"></div>
+                                    </div>
+                                </div>
+                                <div class="qTypeAuthorDiv tab-pane row d-none" id="Copy Writing"></div>
+                                
+                            </div>
+                            <div class="qTypeAuthorDiv d-none" id="Multiple Choice - Multiple Answers">
+                                <div id="mcContainerDiv" style="font-size: 25px;"></div>
+                            </div>
+                            <div class="qTypeAuthorDiv d-none" id="Essay">
+                                <ul class="nav nav-tabs fileNamesUl" role="tablist" style="border-bottom: 0;">
+                                    <li class="multipleFilesLi active nav-item">
+                                        <a draggable="false" href="" data-toggle="tab" class="li-a-fileName nav-link active" aria-expanded="true">
+                                            <input style="border-radius:3px;padding:3px;" class="compilationErrorFileName" value="Answer" disabled="" readonly="">
+                                        </a>
+                                    </li>
+                                    <li id="saveBtnLi" class="nav-item">
+                                        <a onclick="saveAllClicked()" class="nav-link px-1 py-0" title="Click to Save [CTRL + S]">
+                                            <span class="btn btn-sm btn-success">
+                                                <i class="fa fa-save"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div id="essayContainerDiv">
+                                    <textarea class="input-sm" rows="10" placeholder="Type the answer here..." oncut="return false" oncopy="return false" ondrag="return false" ondrop="return false" onpaste="return false" id="essayAnswer" name="essayAnswer" style="width: 100%; background-color: black; color: white; font-size: 25px;">                                    </textarea>
+                                </div>
+                            </div>
+                            <div class="qTypeAuthorDiv d-none" id="File Upload">
+                                <div class="card">
+                                    <div class="card-body" id="fileUploadCard" style="font-size: 25px;">
+                                        <div class="mb-1">
+                                            Please choose your file to upload
+                                        </div>
+                                        <div id="fileUploadDiv" class="custom-file col-12 col-md-9">
+                                            <input type="file" class="custom-file-input" id="fileUploadInput">
+                                            <label class="custom-file-label" for="fileUploadInput">
+                                                <span class="d-inline-block text-truncate">Choose file</span>
+                                            </label>
+                                        </div>
+                                        <small id="fileUploadHelp" class="form-text text-muted text-right">
+                                            Click on submit to upload your file
+                                        </small>
+                                        <div id="downloadUploadedFileDiv" class="col-12 col-md-9 p-0 mt-3 text-center d-none">
+                                            <div class="p-0 bg-white rounded" id="uploadedFilesDiv"></div>
+                                            <small id="updateFileUploadHelp" class="form-text text-muted text-right">
+                                                Upload the new file to update
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="qTypeAuthorDiv d-none" id="settings">settings...</div>
+                        </div>
+                        <div id="IoTLearnContainerDiv" style="display:none" class="justify-content-center">
+                            <div class="row">
+                                <div class="col-12" style="text-align: center">
+                                    <div id="IotCompilationErrorDiv" style="display: none;height: 350px; background-color: lightyellow; border-radius:8px;padding: 15px;">
+                                        <pre></pre>
+                                    </div>
+                                    <div id="IoTUploadDiv" style="display: none;" class="col-12">
+                                        <div id="iotContainerDiv" class="col-12">
+                                            <ul id="iotProgressbar">
+                                                <li class="active" id="iotCompiledLi">
+                                                    <strong>Compilation Successful</strong>
+                                                </li>
+                                                <li id="iotFlashLi">
+                                                    <strong>Flash</strong>
+                                                </li>
+                                                <li id="iotConnectToPortLi">
+                                                    <strong>Connect</strong>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12" id="iotDevicesDiv">
+                                            <select id="devices" class="input-sm">
+                                                <option value="uno">Uno</option>
+                                            </select>
+                                            <button type="button" class="btn btn-sm btn-success" id="uploadToIoTDeviceBtn" onclick="">
+                                                Flash
+                                                <i class="fa fa-upload"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div id="IoTSerialDiv" style="display: none;" class="card col-12">
+                                        <div class="card-header">
+                                            <h5 class="modal-title" style="display: inline;"> Serial Monitor</h5>
+                                        </div>
+                                        <div class="card-body" id="serialMonitorPanelBody" style="text-align:-webkit-center;">
+                                            <select id="baudeRateSelect" class="input-sm">
+                                                <option value="9600">9600</option>
+                                                <option value="115200">115200</option>
+                                            </select>
+                                            <span class="btn btn-sm btn-success" id="serialMonitorConnectBtn">
+                                                <i class="fa fa-link" id="serialMonitorConnectIcon"></i><b>&nbsp;&nbsp;Connect</b></span>
+                                            <span class="btn btn-sm btn-danger" id="serialMonitorDisconnectBtn" style="display: none;">
+                                                <i class="fa fa-chain-broken" id="serialMonitorDiscConnectIcon"></i><b>&nbsp;&nbsp;Disconnect</b></span><br><br>
+                                            <div class="col-12">
+                                                <div class="col-8">
+                                                    <input class="form-control input-sm" id="writeDataText" name="writeDataText">
+                                                </div>
+                                                <div class="col-4">
+                                                    <span class="btn btn-success btn-sm" onclick="writeDataToBoard()">
+                                                        <span class="glyphicon glyphicon-envelope"></span>
+                                                        Send
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <pre class="iot-serial-outputbox"></pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="questionBottom" class="form-group debugHide m-0 justify-content-end w-100">
+                            <div class="col-12 py-2 d-none" id="lateSubmissionDiv">
+                                <label class="col-form-label pull-left">Reason : </label>
+                                <div class="col-md-10" style="padding: 0">
+                                    <textarea class="form-control" id="lateSubmissionReason" placeholder="Please provide a reason for late submission."></textarea>
+                                </div>
+                            </div>
+                            <input type="hidden" name="_id" id="_id" value="">
+                        </div>
+                    </div>
+                </div>
+            </div></form>
+        
+    </div>
+</div>
+<div id="diffDiv"></div>
+<div id="testCasesDivSuperContainer" class="col-md-10 offset-md-1">
+    <div id="testCasesDiv" class="" style="background-color: lightyellow"></div>
+</div>
+<div id="javaDocBrowserDiv"></div>
+<div id="additionalNotesDiv"></div>
+<div class="modal fade" id="requestToReOpenModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-xl" role="document" style="width: 60% !important; margin-left: 20%;">
+        <div class="modal-content">
+            <div class="modal-header btn-primary" style="padding: 10px;">
+                <span class="w-100">
+                    <button type="button" style="opacity: 1;" class="close" aria-label="Close" onclick="closeRequestToReOpenModal()">
+                        <span style="color: white" aria-hidden="true">×</span>
+                    </button>
+                    <h5 class="modal-title">Request to Reopen</h5>
+                </span>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <form class="form-horizontal offset-1 col-10" role="form" id="requestToReOpenForm" name="requestToReOpenForm">
+                        <div class="form-group">
+                            <div class="alert alert-danger" style="margin-bottom: 0;"></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Send a Request to Faculty for reopening this unit</label>
+                            <textarea class="form-control" id="reOpeningRequestReason" placeholder="Please provide a valid reason"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <span class="btn btn-sm btn-success" id="requestToReOpenBtn" onclick="sendRequestToReOpenUnit()">Send Request</span>
+                &nbsp;&nbsp;<span class="btn btn-sm btn-warning" onclick="closeRequestToReOpenModal()">Close</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="p-2 position-fixed vw-100 bg-white debugHide" id="ct-button-bar" style="height: 3rem; bottom: 0; z-index: 1051; border-top: 1px solid #c5c5c5;">
+    <div class="form-group debugHide m-0 justify-content-end w-100">
+        <div class="col-12 pull-right text-right m-0 pr-0 d-inline-block" id="buttonsDiv">
+            <span class="btn btn-outline-danger btn-sm closeBtn mx-1">Close</span>
+            <span class="btn btn-outline-info btn-sm resetBtn mx-1">Reset</span>
+            <span class="btn btn-success btn-sm submitBtn mx-1">Submit</span>
+            <span class="btn btn-info btn-sm nextBtn mx-1" style="display: none;">Next &gt;&gt;</span>
+        </div>
+    </div>
+</div>

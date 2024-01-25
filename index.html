@@ -1,0 +1,2782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        var consoleUrl = 'term.codetantra.com'; //"https://term.codetantra.com/";//"https://localhost:8080/";
+    </script>
+    <meta charset="utf-8">
+    <title>CodeTantra Edu
+    </title>
+    
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<link href="css/label-style.css" rel="stylesheet">
+<link href="css/custom-styles.css" rel="stylesheet">
+<!-- <link href="/css/panel.css" rel="stylesheet"> -->
+<link href="css/bs-docs-side-nav.css" rel="stylesheet">
+<link href="css/header_styles.css" rel="stylesheet">
+
+<link href="css/tablesorter/theme.bootstrap.css" rel="stylesheet">
+
+<link href="css/jquery-ui.css" rel="stylesheet">
+<link href="css/tablesorter/theme.jui.css" rel="stylesheet">
+<link href="css/datepicker.css" rel="stylesheet">
+<link href="css/slider.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="/css/alertify/alertify.core.css">
+<link type="text/css" rel="stylesheet" href="/css/alertify/alertify.default.css">
+
+<link type="text/css" rel="stylesheet" href="css/select2.css">
+<link type="text/css" rel="stylesheet" href="css/dataTables.bootstrap.css">
+<link type="text/css" rel="stylesheet" href="css/bootstrap-switch.css">
+
+<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+
+<link type="text/css" rel="stylesheet" href="css/offline-theme-chrome-indicator.css">
+<link rel="stylesheet" href="css/mathquill.min.css">
+
+<script src="/js/jquery-latest.js"></script>
+
+<script src="js/jquery.validate.js"></script>
+
+<script src="js/modernizr-2.6.2.min.js"></script>
+
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap-notify.js"></script>
+
+<script src="js/jquery-ui-all.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/mathquill.min.js"></script>
+<script>
+    MathJax = {
+        startup: {
+            typeset: false
+        },
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            macros: {
+                degree: '^\\circ'
+            }
+        },
+        svg: {
+            fontCache: 'global'
+        },
+        options: {
+          enableMenu: false,
+          ignoreHtmlClass: 'ignore-math'
+        },
+        "HTML-CSS": {
+            linebreaks: {
+                automatic: true,
+                width: "container"
+            }
+        }
+    };
+</script>
+<script id="MathJax-script" src="/js/mjax/tex-mml-chtml.js"></script>
+<script src="/js/d3.js"></script>
+<script src="/js/function-plot.js"></script>
+
+<script src="/js/custom-min/nommoc.min.js"></script>
+
+<script src="/js/common-on-ready-js-methods.js"></script>
+
+<script src="/js/bootstrap-datepicker.js"></script>
+
+<script src="/js/search-table-row-popup.js"></script>
+<script src="/js/bootstrap-slider.js"></script>
+
+<script src="/js/jquery.numeric.js"></script>
+
+<script src="/js/underscore.js"></script>
+
+<script src="/js/hr.js"></script>
+
+<script src="/js/alertify.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/select2.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/bootstrap.touchspin.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/jquery.dataTables.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/dataTables.tableTools.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/dataTables.bootstrap.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/bootstrap-switch.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/form2object.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/gs/TweenMax.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/gs/circular-preloader.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="/js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/ace/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
+
+<script>
+    ace.require("ace/ext/language_tools");
+</script>
+
+    <link type="text/css" rel="stylesheet" href="css/animate.css">
+    <link type="text/css" rel="stylesheet" href="css/bs-panel-colors.css">
+    <link rel="stylesheet" href="css/font-awesome-animation.min.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom/exec-loader.css">
+    <link rel="stylesheet" href="css/custom/pqInfo.css">
+    <link rel="stylesheet" href="j/selenium/selenium.css">
+    <link rel="stylesheet" href="css/xterm.css">
+    <link rel="stylesheet" href=css/simple-keyboard.min.css>
+    <script src="/js/platform.min.js"></script>
+    <script src="/js/NoSleep.min.js"></script>
+    <script src="/js/pdfjs/pdf.min.js"></script>
+    <script src="/js/ace/diff.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/ace/wikEd-diff-tool.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/jquery.scrollTo.min.js"></script>
+    <script src="/js/n/socket.io-4.5.3.js"></script>
+    <script src="/js/n/xterm.5.0.0.js"></script>
+    <script src="/js/n/xterm-addon-fit.0.6.0.js"></script>
+    <script type="text/javascript" src="/js/html2canvas.min.js"></script>
+    <script src="/js/moment.js"></script>
+    <script src="/js/luxon.js"></script>
+    <script src="/js/fingerprint2.min.js"></script>
+    <script src="/js/Sortable.min.js"></script>
+    <script type="text/javascript" src="/js/sweetalert.2.1.2.min.js"></script>
+    
+    <link rel="stylesheet" href="css/leaflet.css"/>
+    
+    <script src="/js/leaflet.js"></script>
+
+    <link rel="stylesheet" href="css/custom/ql.css">
+    <script type="text/javascript" src="/js/lodash.min.js"></script>
+    <script type="text/javascript" src="/js/screenfull.min.js"></script>
+    <script src="/js/simple-keyboard.min.js"></script>
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 5px;
+        }
+
+        .capture-file {
+            width: .1px;
+            height: .1px;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            z-index: -1
+        }
+
+        .swal-icon img {
+            width: 75px;
+            height: 75px;
+        }
+
+        .endTestRedirectModal {
+            width: auto !important;
+        }
+
+        .ctPreviewOnFinishSWAL, .ctPreviewSubmittedAnswerSWAL, .generalInstructionsSWAL, .uploadWorksheetsDivSWAL {
+            width: 70% !important;
+            margin: 0 !important;
+        }
+
+        .ctPreviewSubmittedAnswerSWAL .swal-title {
+            font-size: 16px !important;
+            padding: 0px !important;
+        }
+
+        .superprocSwal .swal-title {
+            font-size: 16px !important;
+            padding: 0px !important;
+        }
+
+        .superprocSwal .swal-text {
+            max-height: 6em;
+            overflow-y: scroll;
+        }
+
+        .ctSosSWAL {
+            margin: 0px !important;
+        }
+
+        .ctSosSWAL .swal-content {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+
+        .ctSosSWAL .swal-title {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+            margin: 3%;
+        }
+
+        .ctSosSWAL .swal-footer {
+            margin: 0;
+            padding: 4px !important;
+            margin-top: 2px !important;
+        }
+
+        .screenShareSwal .swal-text {
+            text-align: center !important;
+        }
+
+        .ctSosSWAL .swal-button {
+            padding: 5px 12px !important;
+        }
+
+        .ctPreviewOnFinishSWAL .swal-content, .ctPreviewSubmittedAnswerSWAL .swal-content, .uploadWorksheetsDivSWAL .swal-content {
+            padding: 0 !important;
+            margin-top: 0 !important;
+        }
+
+        .ctPreviewOnFinishSWAL .swal-footer, .uploadWorksheetsDivSWAL .swal-footer {
+            text-align: center !important;
+            margin: 0;
+            padding: 4px !important;
+        }
+
+        .ctPreviewOnFinishDiv h3 {
+            margin: 0 !important;
+        }
+
+        .summaryPreviewContent {
+            max-height: 75vh;
+        }
+
+        .sosSuccessMessageSWAL .swal-text, .sosSuccessMessageSWAL .swal-content {
+            text-align: center !important;
+        }
+
+        @media (max-width: 768px) {
+            .ctPreviewOnFinishSWAL, .ctPreviewSubmittedAnswerSWAL, .generalInstructionsSWAL, .uploadWorksheetsDivSWAL {
+                width: 98% !important;
+            }
+        }
+
+        .finishConfirmButton:hover {
+            outline: none;
+            background-color: #155a1a !important;
+        }
+
+        .finishCancelButton:hover {
+            outline: none;
+            background-color: #ff7956 !important;
+        }
+
+        .ace_text-input {
+            position: absolute !important
+        }
+
+        .the-canvas {
+            border: 1px solid black;
+            direction: ltr;
+        }
+
+        fieldset.outputOnSTDErr-border {
+            border: 1px solid #ccc !important;
+            padding: 1em 1.4em 0.2em 1.4em !important;
+            margin: 0 0 1.5em 0 !important;
+            -webkit-box-shadow: 0px 0px 0px 0px #000;
+            box-shadow: 0px 0px 0px 0px #000;
+            background-color: #f2dede;
+            border-radius: 4px;
+            margin-bottom: 35px !important;
+        }
+
+        legend.outputOnSTDErr-border {
+            font-size: 1.05em !important;
+            font-weight: bold !important;
+            text-align: left !important;
+            width: auto;
+            padding: 0px 6px;
+            margin-bottom: 0px;
+            border-bottom: none;
+            background-color: #f2dede;
+            border-radius: 4px;
+            border-top: 1px solid #ccc;
+            color: #a94442;
+        }
+
+        .questionPaperHr {
+            background: #ddd;
+            color: #ddd;
+            clear: both;
+            float: none;
+            width: 100%;
+            height: 2px;
+            margin: 0 0 1.45em;
+            border: none;
+        }
+
+        .question-paper-modal-dialog {
+            max-width: 80vw;
+            margin: 30px auto;
+            overflow-y: initial !important
+        }
+
+        .question-paper-modal-body {
+            max-height: calc(100vh - 210px);
+            overflow-y: auto;
+        }
+
+        .pythonExceptionClassName {
+            text-decoration: none;
+            border-bottom: 1px dotted;
+            cursor: pointer;
+            color: #a94442;
+            font-weight: bold;
+        }
+
+        .pythonExceptionClassName:hover {
+            border-bottom: 1px solid;
+            color: #a94442;
+        }
+
+        .pythonErrorPre {
+            padding: 0 0 6px 0;
+            margin: 0px;
+            border: 0px solid #ccc;
+            background-color: #f2dede;
+        }
+
+        .ctCharMismatch {
+            border: 1px solid red;
+        }
+
+        ct-tab, ct-space, ct-newline {
+            color: #6ca7f3;
+        }
+
+        .cOutputTable td {
+            padding: 0px !important;
+        }
+
+        .cOutputTable td .fa-stack {
+            font-size: 85% !important;
+        }
+
+        .outputPre {
+            padding: 0px !important;
+            margin: 0px !important;
+            font-family: monospace !important;
+            border: 0px !important;
+            background-color: transparent !important;
+        }
+
+        .alertify-inner {
+            text-align: left;
+        }
+
+        .alertify {
+            border: 3px solid rgba(0, 0, 0, 0.7);
+            border-radius: 2px;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+        }
+
+        .alertify-buttons {
+            text-align: center;
+        }
+
+        .alertify-button-ok, .alertify-button-cancel {
+            margin: 10px !important;
+            border: 0 !important;
+        }
+
+        .alertify-button-ok, .alertify-button-ok:hover {
+            margin-left: 40px;
+        }
+
+        .fade {
+            transition: opacity 0.6s linear 0s !important;
+        }
+
+        .testDialogHeadingClass {
+            color: #FFFFFF !important;
+            font-weight: bold !important;
+            font-size: 16px;
+            padding: 0px !important;
+            margin-bottom: 0px !important;
+            list-style: none;
+            border-radius: 0px !important;
+            background-color: inherit;
+        }
+
+        .testDialogHeadingClass .badge {
+            padding: 3px 10px;
+        }
+
+        .exceptionPopover {
+            z-index: 99999 !important;
+            max-width: 100% !important;
+        }
+
+        .exceptionPopoverText {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+            color: #333 !important;
+        }
+
+        .horizontal-scroll {
+            overflow-y: auto;
+            overflow-x: auto;
+        }
+
+        .steLines {
+            display: block;
+            opacity: 0.6;
+        }
+
+        .steLines.theLine {
+            opacity: 1;
+        }
+
+        .exceptionName {
+            color: red;
+        }
+
+        .waterMark {
+            color: rgb(200, 200, 200);
+            opacity: 0.3 !important;
+            background-color: transparent !important;
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+            position: fixed;
+            font-size: 45px;
+            height: 100%;
+            left: 0;
+            margin: 0;
+            top: 0;
+            width: 200%;
+            word-spacing: 10px;
+            z-index: 1051;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        span.isRunning, span.isCorrect, span.inCorrect {
+            display: none;
+        }
+
+        td.isRunning > span.isRunning {
+            display: block;
+        }
+
+        td.isCorrect > span.isCorrect {
+            display: block;
+        }
+
+        td.inCorrect > span.inCorrect {
+            display: block;
+        }
+
+        .exceptionMoreInfoLink {
+            color: blue;
+            opacity: 0.6;
+            text-decoration: none;
+            margin: 10px 5px 10px 5px !important;
+        }
+
+        .exceptionMoreInfoLink:hover, .exceptionMoreInfoLink:focus {
+            opacity: 1;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .exceptionMoreInfoLink:focus {
+            outline: thin dotted;
+            outline-offset: -2px;
+        }
+
+        .exceptionMessage {
+            color: red;
+            font-weight: bolder;
+        }
+
+        .steLines.exceptionNameLine {
+            opacity: 1;
+        }
+
+        .noUnderLine, steLines > a {
+            text-decoration: none;
+            color: #FF0000;
+        }
+
+        .noUnderLine:hover, steLines > a:hover {
+            text-decoration: none;
+            color: #FF0000;
+        }
+
+        .noUnderLine.fa {
+            color: blue;
+            text-decoration: none;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .compilationErrorsDiv ol {
+            padding-left: 10px !important;
+        }
+
+        .compilationErrorsDiv ol a {
+            font-family: monospace;
+            color: red;
+        }
+
+        .questionPanelHeadingBG {
+            /* http://css3gen.com/gradient-generator/ */
+            background: rgb(30, 50, 230);
+            background: -moz-linear-gradient(270deg, rgb(30, 50, 230) 30%, rgb(90, 140, 250) 70%);
+            background: -webkit-linear-gradient(270deg, rgb(30, 50, 230) 30%, rgb(90, 140, 250) 70%);
+            background: -o-linear-gradient(270deg, rgb(30, 50, 230) 30%, rgb(90, 140, 250) 70%);
+            background: -ms-linear-gradient(270deg, rgb(30, 50, 230) 30%, rgb(90, 140, 250) 70%);
+            background: linear-gradient(0deg, rgb(30, 50, 230) 30%, rgb(90, 140, 250) 70%);
+        }
+
+        .questionDialogHeader {
+            padding: 6px 8px;
+            border-bottom: 0 !important;
+            border-radius: 0 !important;
+        }
+
+        .buttonContainerDiv {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .buttonContainerDiv > button {
+            margin-right: 30px;
+        }
+
+        .generalInstructionsSWAL img {
+            max-width: 100% !important;
+        }
+
+        .btn.disabled {
+            cursor: pointer;
+            opacity: 0.3;
+            pointer-events: auto;
+        }
+
+        .btn-play {
+            /* Thanks to http://twitterbootstrapbuttons.w3masters.nl/ */
+            background-color: hsl(120, 100%, 31%) !important;
+            background-repeat: repeat-x;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00f900", endColorstr="#009e00");
+            background-image: -moz-linear-gradient(top, #00f900, #009e00);
+            background-image: -ms-linear-gradient(top, #00f900, #009e00);
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00f900), color-stop(100%, #009e00));
+            background-image: -webkit-linear-gradient(top, #00f900, #009e00);
+            background-image: -o-linear-gradient(top, #00f900, #009e00);
+            background-image: linear-gradient(#00f900, #009e00);
+            border-color: #009e00 #009e00 hsl(120, 100%, 26.5%);
+            color: #fff !important;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.29);
+            -webkit-font-smoothing: antialiased;
+        }
+
+
+        .btn-revise {
+            /* Thanks to http://charliepark.org/bootstrap_buttons/ */
+            background-color: hsl(285, 100%, 30%) !important;
+            background-repeat: repeat-x;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bf00ff", endColorstr="#720099");
+            background-image: -moz-linear-gradient(top, #bf00ff, #720099);
+            background-image: -ms-linear-gradient(top, #bf00ff, #720099);
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bf00ff), color-stop(100%, #720099));
+            background-image: -webkit-linear-gradient(top, #bf00ff, #720099);
+            background-image: -o-linear-gradient(top, #bf00ff, #720099);
+            background-image: linear-gradient(#bf00ff, #720099);
+            border-color: #720099 #720099 hsl(285, 100%, 25%);
+            color: #fff !important;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .btn-test {
+            /* Thanks to http://charliepark.org/bootstrap_buttons/ */
+            background-color: hsl(34, 100%, 40%) !important;
+            background-repeat: repeat-x;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffa632", endColorstr="#cc7300");
+            background-image: -moz-linear-gradient(top, #ffa632, #cc7300);
+            background-image: -ms-linear-gradient(top, #ffa632, #cc7300);
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffa632), color-stop(100%, #cc7300));
+            background-image: -webkit-linear-gradient(top, #ffa632, #cc7300);
+            background-image: -o-linear-gradient(top, #ffa632, #cc7300);
+            background-image: linear-gradient(#ffa632, #cc7300);
+            border-color: #cc7300 #cc7300 hsl(34, 100%, 35%);
+            color: #fff !important;
+            text-shadow: 0 1px 1px rgba(255, 255, 255, 0.33);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .sections {
+            opacity: 1;
+            color: black;
+            border-top-width: 5px;
+            margin-left: 4px;
+            margin-right: 4px;
+            margin-bottom: 10px;
+            /* padding-bottom: 0px !important; */
+            padding: 0px !important;
+            padding-top: 6px !important;
+            white-space: normal;
+        }
+
+        .questionsArea {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .sectionHeading {
+            margin-top: 10px !important;
+            margin-right: 10px !important;
+            margin-left: 10px !important;
+            text-align: center;
+            border-bottom-color: rgb(218, 173, 0);
+            border-bottom-width: 1px;
+        }
+
+        .sections.started {
+            /* color: #8c8b8b; */
+            /* background-color: lightblue;
+              border-color: blue; */
+            /* background-color: rgba(255, 214, 55, 0.64); */
+            background-color: rgb(255, 244, 200);
+            border-color: rgb(218, 173, 0);
+
+        }
+
+        /* below gradients were created using http://www.css3factory.com/linear-gradients/ */
+        .partiallyAnswered {
+            background-image: -webkit-gradient(
+                    linear,
+                    left top,
+                    left bottom,
+                    color-stop(0.51, #F5E193),
+                    color-stop(0.92, #FA8F03),
+                    color-stop(1, #F27609)
+            );
+            background-image: -o-linear-gradient(bottom, #F5E193 51%, #FA8F03 92%, #F27609 100%);
+            background-image: -moz-linear-gradient(bottom, #F5E193 51%, #FA8F03 92%, #F27609 100%);
+            background-image: -webkit-linear-gradient(bottom, #F5E193 51%, #FA8F03 92%, #F27609 100%);
+            background-image: -ms-linear-gradient(bottom, #F5E193 51%, #FA8F03 92%, #F27609 100%);
+            background-image: linear-gradient(to bottom, #F5E193 51%, #FA8F03 92%, #F27609 100%);
+        }
+
+        .notAnswered {
+            background-image: -webkit-gradient(
+                    linear,
+                    left top,
+                    left bottom,
+                    color-stop(0.51, #EDEDED),
+                    color-stop(0.92, #B3B3B3)
+            );
+            background-image: -o-linear-gradient(bottom, #EDEDED 51%, #B3B3B3 92%);
+            background-image: -moz-linear-gradient(bottom, #EDEDED 51%, #B3B3B3 92%);
+            background-image: -webkit-linear-gradient(bottom, #EDEDED 51%, #B3B3B3 92%);
+            background-image: -ms-linear-gradient(bottom, #EDEDED 51%, #B3B3B3 92%);
+            background-image: linear-gradient(to bottom, #EDEDED 51%, #B3B3B3 92%);
+        }
+
+
+        .simpleBtn {
+            color: black;
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            margin-left: 5px;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.428571429;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            border: .5px solid transparent;
+            border-radius: 4px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            font-family: monospace;
+        }
+
+        .answered {
+            background-image: -webkit-gradient(
+                    linear,
+                    left top,
+                    left bottom,
+                    color-stop(0.51, #00F53D),
+                    color-stop(1, #2CA610)
+            );
+            background-image: -o-linear-gradient(bottom, #00F53D 51%, #2CA610 100%);
+            background-image: -moz-linear-gradient(bottom, #00F53D 51%, #2CA610 100%);
+            background-image: -webkit-linear-gradient(bottom, #00F53D 51%, #2CA610 100%);
+            background-image: -ms-linear-gradient(bottom, #00F53D 51%, #2CA610 100%);
+            background-image: linear-gradient(to bottom, #00F53D 51%, #2CA610 100%);
+        }
+
+        .reviewed {
+            background: #7c599f;
+            color: white;
+        }
+
+        .ans-reviewed {
+            background: #118a84;
+            color: white;
+        }
+
+        .questionText {
+            border-radius: 4px;
+            padding: 4px;
+        }
+
+        .creamPreTab4 {
+            padding: 9.5px !important;
+            margin: 0 0 10px !important;
+            font-size: 13px !important;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .questionText.ql-editor, .mcOptionLi.ql-editor {
+            white-space: inherit;
+            height: auto;
+        }
+
+        @media (min-width: 768px) {
+            .questionText pre {
+                display: table;
+            }
+        }
+
+        .displayLabel {
+            border-radius: 4px;
+            border: 1px solid #cccccc;
+            padding: 10px;
+        }
+
+        .mcOptionReasonLi {
+            color: red;
+            padding: 10px !important;
+            margin-top: 2px !important;
+            margin-bottom: 4px !important;
+            vertical-align: middle !important;
+        }
+
+        .mcOptionReasonLi > span.correct {
+            color: green !important;
+        }
+
+        .mcOptionReasonLi > span {
+            /* read: http://css.maxdesign.com.au/listutorial/index.htm */
+            font-weight: normal !important;
+            margin: 0px 0px 0px 20px !important;
+            vertical-align: top !important;
+            display: inline-block;
+        }
+
+        .mcOptionLi {
+            padding: 10px 0 !important;
+            margin-top: 4px !important;
+            border-radius: 10px !important;
+            border-style: solid !important;
+            border-color: white !important;
+            border-width: 1px !important;
+        }
+
+        .mcOptionLi:before {
+            content: " ";
+            display: block;
+            float: left;
+            width: 1.2em;
+            color: #ff0000;
+            border: 1px solid white;
+        }
+
+        .mcOptionLi.inCorrect:before {
+            content: "✘";
+            display: block;
+            float: left;
+            width: 1.2em;
+            color: #ff0000;
+        }
+
+        .mcOptionLi.correct:before {
+            content: "✔";
+            display: block;
+            float: left;
+            width: 1.2em;
+            color: green;
+            font-weight: bolder;
+        }
+
+        .mcOptionLi:HOVER {
+            border-color: lightgray !important;
+        }
+
+        .mcUserAnswer {
+            margin: 0px !important;
+            vertical-align: middle !important;
+        }
+
+
+        .mcOptionLi > span {
+            /* read: http://css.maxdesign.com.au/listutorial/index.htm */
+            font-weight: normal !important;
+            margin: 0px 0px 0px 10px !important;
+            vertical-align: top !important;
+            display: inline-block;
+        }
+
+        #methodTabs li.active {
+            background-color: lightyellow !important;
+        }
+
+        #methodTabs li > a {
+            background-color: transparent !important;
+        }
+
+        .testCasesTabContainer {
+            background-color: lightyellow;
+        }
+
+        #methodTabs {
+            background-color: white;
+        }
+
+        .td-center {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .testCasesTabContainer td,
+        .testCasesTabContainer th {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .panel-warning > .panel-heading {
+            color: #FFFFFF !important;
+            background-color: #ffa500 !important;
+        }
+
+        .panel-warning {
+            border-color: #ffa500;
+        }
+
+        .breadcrumb.warning {
+            background-color: #ffa500 !important;
+        }
+
+        .breadcrumb a {
+            color: white;
+            text-decoration: underline;
+            font-size: 16px;
+        }
+
+        .breadcrumb > li + li:before {
+            padding: 0 5px;
+            color: #ffffff;
+            content: "/\00a0";
+        }
+
+        .section-heading {
+            padding: 0;
+            border: 0;
+        }
+
+        .section-title > a, .section-title > a:active {
+            padding: 2px 10px;
+            font-size: 14px;
+            display: block;
+        }
+
+        .section-heading a:before {
+            font-family: 'Glyphicons Halflings';
+            content: "\e114";
+            float: right;
+            transition: 0.5s;
+        }
+
+        .section-heading.active a:before {
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+
+        @media print {
+            body {
+                display: none;
+            }
+        }
+
+        .blinking-border-background-yellow {
+            animation: blink-border-background-yellow 1s infinite;
+            -webkit-animation: blink-border-background-yellow 1s infinite;
+            -moz-animation: blink-border-background-yellow 1s infinite;
+            -o-animation: blink-border-background-yellow 1s infinite;
+        }
+
+        @keyframes blink-border-background-yellow {
+            50% {
+                background: yellow;
+            }
+        }
+
+        .readonly-highlight {
+            background-color: red;
+            opacity: 0.5;
+            position: absolute;
+        }
+
+
+        @keyframes console-popover-blinking {
+            0% {
+                color: white;
+            }
+            100% {
+                color: black;
+            }
+        }
+
+        .popover-content {
+            font-size: 1rem;
+        }
+
+        .codingEditorClass {
+            border: 2px solid #002240;
+            border-radius: 0 0 4px 4px;
+        }
+
+        .multipleFilesLi.active > a {
+            background-color: #002240 !important;
+            border: 1px solid #002240 !important;
+            cursor: pointer !important;
+            color: white !important;
+            font-family: monospace !important;
+        }
+
+        .multipleFilesLi.active > a > input {
+            background-color: #002240 !important;
+        }
+
+        .li-a-fileName {
+            padding: 4px 1px !important;
+        }
+
+        .li-a-fileName > input {
+            pointer-events: none;
+        }
+
+        .multiTabsContainerDiv .nav-tabs {
+            border-bottom: 0 !important;
+        }
+
+        .compilationErrorFileName {
+            border: 0px;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 25px;
+            right: 50px;
+            display: none;
+            z-index: 9999 !important;
+            border: 1px solid;
+            border-radius: 6px;
+            padding: 1px 6px;
+            background: #78bfd0;
+            cursor: pointer;
+        }
+
+        .floatingNavBtn {
+            font-weight: bold;
+            color: white;
+            position: fixed;
+            padding: 5px 3px !important;
+            font-size: 3rem;
+            top: 230px;
+            z-index: 1050 !important;
+            background-color: #0c9 !important;
+            outline: none !important;
+            text-decoration: none;
+        }
+
+        .floatingNavBtn.prevBtn {
+            border-radius: 0 5px 5px 0;
+            border-left: none;
+            left: 0;
+        }
+
+        .floatingNavBtn.nextBtn {
+            border-radius: 5px 0 0 5px;
+            border-right: none;
+            right: 0;
+        }
+
+        .floatingNavBtn:disabled, .floatingNavBtn.disabled {
+            opacity: 0;
+        }
+
+        button.floatingNavBtn {
+            outline: none;
+        }
+
+        .floatingNavBtn.prevBtn:active, .floatingNavBtn.prevBtn:hover, .floatingNavBtn.prevBtn:focus {
+            border-left: none;
+        }
+
+        .floatingNavBtn.nextBtn:active, .floatingNavBtn.nextBtn:hover, .floatingNavBtn.nextBtn:focus {
+            border-right: none;
+        }
+
+        .floatingNavBtn:active, .floatingNavBtn:hover, .floatingNavBtn:focus {
+            color: white;
+            border: solid 1px white;
+        }
+
+        button.floatingNavBtn::-moz-focus-inner {
+            border: 0;
+        }
+
+        .sosButton {
+            position: fixed;
+            top: 30%;
+            right: 20px;
+            z-index: 9999 !important;
+            background-color: #2c3e50 !important;
+        }
+
+        .sosButton:hover, .sosButton:active {
+            background-color: #099 !important;
+        }
+
+        .sosButtonTopRight {
+            top: 2px;
+            background-color: #0c9 !important;
+        }
+
+        .sosButtonTopRight.imgOpen {
+            top: 100px;
+        }
+
+        @media (min-width: 768px) {
+            .alertify.resizeClass {
+                left: 15% !important;
+                width: 70% !important;
+                margin-left: auto;
+            }
+        }
+
+        .custom-file {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            height: calc(1.5em + 0.75rem + 2px);
+            margin-bottom: 0;
+        }
+
+        .custom-file-input {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            height: calc(1.5em + 0.75rem + 2px);
+            margin: 0;
+            opacity: 0;
+        }
+
+        .custom-control-label::before, .custom-file-label, .custom-select {
+            transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        .custom-file-label {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1;
+            height: calc(1.5em + 0.75rem + 2px);
+            padding: 0.375rem 0.75rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+        }
+
+        .custom-file-input:lang(en) ~ .custom-file-label::after {
+            content: "Browse";
+        }
+
+        .custom-file-label::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 3;
+            display: block;
+            height: calc(1.5em + 0.75rem);
+            padding: 0.375rem 0.75rem;
+            line-height: 1.5;
+            color: #495057;
+            content: "Browse";
+            background-color: #e9ecef;
+            border-left: inherit;
+            border-radius: 0 0.25rem 0.25rem 0;
+        }
+
+        .ctm-float {
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            left: 75px;
+            top: 0;
+            z-index: 1070;
+            background-color: #0C9;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            box-shadow: 2px 2px 3px #999;
+        }
+
+        .cti-float {
+            margin-top: 12px;
+        }
+
+        .testModalLoading:after {
+            content: ' .';
+            animation: dots 1s steps(5, end) infinite;
+            font: 300 4em/150% Impact;
+            line-height: 0;
+        }
+
+        @keyframes dots {
+            0%, 20% {
+                color: rgba(0, 0, 0, 0);
+                text-shadow: .25em 0 0 rgba(0, 0, 0, 0),
+                .5em 0 0 rgba(0, 0, 0, 0);
+            }
+            40% {
+                color: black;
+                text-shadow: .25em 0 0 rgba(0, 0, 0, 0),
+                .5em 0 0 rgba(0, 0, 0, 0);
+            }
+            60% {
+                text-shadow: .25em 0 0 black,
+                .5em 0 0 rgba(0, 0, 0, 0);
+            }
+            80%, 100% {
+                text-shadow: .25em 0 0 black,
+                .5em 0 0 black;
+            }
+        }
+
+        .grid-square {
+            width: 45%;
+            display: inline-block;
+            background-color: #fff;
+            border: solid 1px rgba(0, 0, 0, 0.2);
+            margin: 5px;
+        }
+
+        .blue-background-class {
+            background-color: #C8EBFB;
+        }
+
+        div#qrCode img {
+            width: 250px !important;
+            height: 250px !important;
+        }
+
+        .digitCount {
+            text-align: center;
+            font-size: 6rem;
+        }
+
+        @media (min-width: 992px) {
+            .pull-right-lg {
+                float: right;
+            }
+        }
+
+        .blockMsgSwal li {
+            list-style: none;
+        }
+
+        .m-0 {
+            margin: 0 !important;
+        }
+
+        .ml-0, .mx-0 {
+            margin-left: 0 !important;
+        }
+
+        .mr-0, .mx-0 {
+            margin-right: 0 !important;
+        }
+
+        .mt-3,
+        .my-3 {
+            margin-top: 1rem !important;
+        }
+
+        .mt-4,
+        .my-4 {
+            margin-top: 1.5rem !important;
+        }
+
+        .p-0 {
+            padding: 0 !important;
+        }
+
+        .p-1 {
+            padding: 0.25rem !important;
+        }
+
+        .p-2 {
+            padding: 0.5rem !important;
+        }
+
+        .pt-0 {
+            padding-top: 0px;
+        }
+        .pb-0 {
+            padding-bottom: 0px;
+        }
+        .pr-0 {
+            padding-right: 0px;
+        }
+        .pl-0 {
+            padding-left: 0px;
+        }
+
+
+        .pt-1,
+        .py-1 {
+            padding-top: 0.25rem !important;
+        }
+
+        .pr-1,
+        .px-1 {
+            padding-right: 0.25rem !important;
+        }
+
+        .pb-1,
+        .py-1 {
+            padding-bottom: 0.25rem !important;
+        }
+
+        .pl-1,
+        .px-1 {
+            padding-left: 0.25rem !important;
+        }
+
+        .h-100 {
+            height: 100% !important;
+        }
+
+        #myModal {
+            height: 100vh !important;
+            width: 100vw !important;
+            padding-left: 0 !important;
+        }
+
+        #myModal .modal-dialog {
+            margin: 0px !important;
+            width: inherit;
+            height: inherit;
+        }
+
+        #modalContent {
+            height: calc(100vh - 4rem);
+            background-color: white;
+            border-radius: 0 !important;
+            border: 0 !important;
+        }
+
+        #ct-button-bar {
+            position: fixed;
+            width: 100vw;
+            z-index: 1051;
+            height: 4rem;
+            bottom: 0;
+            background-color: white;
+        }
+
+        #showActionButtons {
+            display: flex;
+            justify-content: space-between;
+            padding: 4px !important;
+        }
+
+        @media (max-width: 768px) {
+            #showActionButtons .btn {
+                padding: 6px;
+            }
+
+            .hide_on_mobile {
+                display: none !important;
+            }
+
+            .ctm-float {
+                left: 1rem;
+            }
+
+            .sosButtonTopRight {
+                right: 1rem;
+            }
+
+            #observationComment {
+                width: 30rem !important;
+            }
+        }
+
+        .creamPreTab4 {
+            background-color: #f5f5f5 !important;
+        }
+
+        .default-background-color {
+            background-color: #2c3a50 !important;
+        }
+
+        .bg-white {
+            background-color: white;
+        }
+
+        .text-dark {
+            color: #2c3a50 !important;
+        }
+
+        .text-white {
+            color: white;
+        }
+
+        #questionDisplayText {
+            font-size: 14px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+            max-width: 80%;
+        }
+
+        #quickQAccessSliderPanel {
+            border: none;
+        }
+
+        @media (min-width: 768px) {
+            .ctm-float {
+                left: 39%
+            }
+
+            .sosButtonTopRight {
+                right: 40%;
+            }
+
+            #questionTextSideDiv, #questionAuthorSideDiv {
+                height: calc(100vh - 11rem);
+                overflow-y: auto;
+            }
+        }
+
+        @media (max-width: 767px) {
+            #questionAuthorSideDiv {
+                height: 100vh !important;
+                overflow-y: auto;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .hide_on_desktop {
+                display: none !important;
+            }
+        }
+
+        #languageSelection {
+            padding: 5px;
+            height: inherit;
+        }
+
+        #languageSelectionParentDiv {
+            margin-right: 3px;
+        }
+
+        .table-bordered {
+            border: 1px solid #dee2e6 !important;
+        }
+
+        #observationComment {
+            width: 42rem;
+        }
+
+        #uploadedFilesPreviewDiv {
+            display: block;
+            border: 1px solid #ddd;
+            background-color: #d9edf7;
+            margin-bottom: 4px;
+            padding: 4px;
+        }
+
+        #showMultiLangTestCases {
+            padding: 8px;
+        }
+
+        .btn-outline-dark:hover {
+            color: white;
+            background-color: #343a40;
+            border-color: #343a40;
+        }
+
+        .btn-outline-dark {
+            color: #343a40;
+            background-color: transparent;
+            background-image: none;
+            border-color: #343a40;
+        }
+
+        #resultsTabsAndDivs {
+            position: absolute;
+            bottom: 0;
+            z-index: 1050;
+            width: 100% !important;
+        }
+
+    </style>
+    <script>
+
+        var ctGeneralFontSize = '25px';
+        var ctEditorFontSize = '25px';
+        var ctTerminalFontSize = '25';
+        var ctEditorTheme = 'ace/theme/cobalt';
+        var showOss = true;
+
+        if (ctGeneralFontSize === "N" || ctGeneralFontSize === "L" || ctGeneralFontSize === "XL") { //earlier data was saved in N,L,XL format if generalFontSize is saved in earlier format it means nothing
+            ctGeneralFontSize = 16;                                                              //is saved in new format so we assign default values to all the saved values as earlier values wont work
+            ctEditorFontSize = 16;                                                                //for the new coded logic
+            ctTerminalFontSize = 13;
+        }
+        var cookieId = '63159455db103b06ba4ae71d';
+
+        var showCompletedTestStatus = false;
+
+        var isMobileAllowed = true;
+        var showTestResult = true;
+
+        function getBD() {
+            return "AMTM5Ml9jdF9jaA==";
+        }
+
+        var inMode = 4;
+
+        function getCTMode() {
+            return inMode;
+        }
+
+        var actionBtnClass = "";
+
+        var showMeeting = false;
+        var isPhysicalMode = false;
+        var imageBasedProctoring = false;
+        var unblockUserWhenStreamsAreAvailable = false;
+        var onlyIfProctorUnblocks = true;
+        var updatedTestStatusWhenStreamsAreAvailable = false;
+        var meetingIframeUrl = 'null';
+        var requestScreenShare = false;
+        var showPreviewToExamineeOnFinish = false;
+        var accessFromSeaOnly = false;
+    </script>
+</head>
+<body data-ofrec="false">
+<div id="containerDiv" class=" ">
+    <script type="text/javascript">
+        // should be before page-header
+        window.lgOverridden = true;
+    </script>
+    
+
+
+<!doctype html>
+<script src="/js/idb-keyval.min.js"></script>
+<script>
+    var __rd_url = "https://myclass.lpu.in/";
+    if (window.parent !== window) {
+        try {
+            // in iframe or frame
+            console.log(window.top.location.href); // triggers error in case of a malicious clickjacking attempt
+            if (window.parent.location.pathname === '/secure/tla/jnr.jsp') {
+                // parent is jnr
+                window.parent.location.href = window.location.href;
+            } else if (window.parent.location.pathname === '/secure/take-test1.jsp') {
+                if (window.location.pathname === '/secure/tla/lvmt.jsp' && typeof window.parent["cnarm"] === 'function') {
+                    window.parent.cnarm(false, true);
+                }
+            }
+        } catch (e) {
+            try {
+                window.top.location.href = window.location.href; // let's try to reset top, fails in html5
+            } catch (e1) {
+                window.addEventListener('load', function () {
+                    document.querySelector('body').innerHTML = '<p style="font-size: 3rem; line-height: 2; margin-top: 3rem; text-align: center"><mark>This website is maliciously trying to embed CodeTantra.com inside a frame.<br/><br/>This is likely a clickjacking attack. Please notify support@codetantra.com with a complete screenshot.</mark></p>';
+                });
+            }
+        }
+    }
+    try {
+        idbKeyval.update('ctcu', function (oldVal) {
+            var newVal = { "id" : "63159455db103b06ba4ae71d", "loginId" : "12309545.st@lpu.in", "name" : "", "memberId" : "12309545", "ch" : "1392", "k" : { "id" : "123", "pub" : "N1cIGMTgc4Ide8mG2jYcwSxgdzYfDExzx4WmSoZqVQE=" } };
+            return newVal;
+        });
+    } catch (ignore) {
+    }
+</script>
+
+<script src="/js/custom-min/ipc.min.js"></script>
+
+<script>
+    window.ipcN && window.ipcN.send({type: 'version'}).then(function (version) {
+        if (version !== "2.0.1") {
+            var downloadLinksAndLatestVersion = { "windows" : "https://github.com/ct-code/sea/releases/download/v2.0.1/CodeTantra.SEA.Setup.2.0.1.exe" , "linux" : "https://github.com/ct-code/sea/releases/download/v2.0.1/codetantra-sea_2.0.1_amd64.deb" , "mac" : "https://github.com/ct-code/sea/releases/download/v2.0.1/CodeTantra.SEA-2.0.1-universal.dmg" , "android" : "https://play.google.com/store/apps/details?id=com.codetantra.seam"};
+            downloadLinksAndLatestVersion.latestVersion = "2.0.1";
+            window.ipcN.send({type: "update", payload: downloadLinksAndLatestVersion});
+        }
+    }).catch(window.ipcW.handle);
+
+    window._ctReloadPage = function () {
+        window.location.href = window.location.href.replace(/#.*$/, '');
+    }
+</script>
+
+
+
+
+
+
+
+<script src="/js/gs/circular-preloader.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/gs/TweenMax.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+<script src="/js/custom-min/lg.min.js"></script>
+
+<script>
+    var supportEmail = 'support.myclasses@lpu.co.in';
+    var supportPhone = '[ "01824-517-450"]';
+    supportPhone = JSON.parse(supportPhone);
+    var _ct_cookieId = '63159455db103b06ba4ae71d';
+    var _ct_lid = '12309545.st@lpu.in';
+    var _ct_uname = "K" ;
+    var _ct_groups = [ { "6322e400b023ba07351347f2" : "KOC23INT108"} , { "6322e400b023ba07351347f3" : "KOC23INT108-G1"} , { "63d2d128d50c5e4938045d38" : "KOC Mock Group 3"} , { "63d2d128d50c5e4938045d64" : "KOC23INT108-G1-Odd"} , { "64c4909301fbd206938a5577" : "KS009CSE202"} , { "64c4909301fbd206938a5578" : "KS009CSE202-G1"} , { "64c4909301fbd206938a5579" : "KS009CSE205"} , { "64c4909301fbd206938a557a" : "KS009CSE205-G1"} , { "64fedc36c85b5906ce724608" : "KS009CSE20223241"} , { "64fedc36c85b5906ce724609" : "KS009CSE20223241-G1"} , { "64fedc36c85b5906ce72460a" : "KS009CSE20523241"} , { "64fedc36c85b5906ce72460b" : "KS009CSE20523241-G1"} , { "65321905d02b2c42c240fde1" : "ETP_24th Oct 2023_24810_23781_14:00-17:00 PM"}];
+    var forceLocation = false;
+    var isCurrentRoleMember = true;
+    var _ct_chid = '1392';
+</script>
+
+<style>
+    li > a {
+        cursor: pointer;
+    }
+
+    .border-style {
+        line-height: 30px;
+        border: 2px solid gray;
+        padding: 2px;
+        border-radius: 4px;
+    }
+
+    #cssmenu {
+        width: auto;
+        zoom: 1;
+    }
+</style>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div id='cssmenu' class="container">
+        <div class="navbar-header" style="margin: 0">
+            <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!--/.navbar-header -->
+        <div id="navbar" class="navbar-collapse collapse">
+            
+            <ul class="nav navbar-nav">
+                <li class='has-sub'><a href='/secure/home.jsp' title="Home menu" aria-label="Home menu" role="menu"
+                                       aria-haspopup="true"><span><img src="2.png" width="10" height="15"></img></span> Home</span> </a>
+                    <ul>
+                        <li><a href='/secure/home.jsp' title="Go home" aria-label="Go to the home page"
+                               role="menuitem"><span>Go to Welcome Page</span> </a></li>
+                        <hr style="margin: 0px"/>
+                        <li><a href='/secure/member-profile.jsp' title="Update profile" aria-label="Update profile"
+                               role="menuitem"><span>Update Profile</span> </a></li>
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class='has-sub'><a href='#' title="Learn Anywhere" aria-label="Learn anywhere menu" role="menu"
+                                       aria-haspopup="true"><span>Learn Anywhere</span></a>
+                    <ul>
+                        <li><a href="/secure/tla/m.jsp" title="View Meetings" aria-label="Click to view meetings"
+                               role="menuitem">View Meetings</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+						<span style=" display:block ;padding: 15px 10px;">
+				
+							<strong data-toggle="tooltip" data-placement="bottom"
+                                    title="Last login time : 09/12/2023 07:34">12309545.st@lpu.in</strong>
+						</span>
+                </li>
+                
+                <li><span class="btn btn-sm btn-warning ct-phone-pulse" id="contactHelp" onclick="openSupportDialog()"
+                          title="Contact Us"
+                          style="padding: 3px 8px; margin: 9px 5px; color: white; font-size:15px; border: 2px solid white; border-radius: 50%;"><i
+                        class="fa fa-phone"></i></span></li>
+
+                
+                
+                <li><span id="logoutBtn" class="btn btn-sm btn-danger"
+                          style="padding: 3px 10px; margin: 10px 5px; color: white; font-size:15px;  font-weight: bold; "> Logout <img src="3.png" width="10" height="20"> </span></li>
+            </ul>
+
+            
+        </div><!--/.nav-collapse -->
+    </div><!--/.container -->
+</nav>
+<script>
+    $(document).attr('cssBodyWidth', 0);
+
+    
+    $(document).ready(function () {
+        initiateSupportPanel(supportEmail, supportPhone, "<div><h5 class=\"btn btn-info\">Regular</h5><h6 class=\"text-success font-weight-bold\"><span><i class=\"fa fa-phone-square\" aria-hidden=\"true\"></i> 01824-520150 </span></h6><div><h6><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i> Visit UMS &amp; follow the path: <br>UMS Navigation &rarr; RMS &rarr; Log Request <br>(Select Category “Online Classes”)</h6></div></div><div><h5 class=\"btn btn-info\">Distance Education</h5><h6 class=\"text-success font-weight-bold\"><span><i class=\"fa fa-phone-square\" aria-hidden=\"true\"></i> 01824-521360 </span><br><span><i class=\"fa fa-phone-square\" aria-hidden=\"true\"></i> 01824-520151 </span></h6><div><h6><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i> Visit LPU e-connect &amp; follow the path: <br>RMS &rarr; Log Request <br>(Select Category “MY Class”)</h6></div></div><div><h5 class=\"btn btn-info\">Online Education</h5><h6 class=\"text-success font-weight-bold\"><span><i class=\"fa fa-phone-square\" aria-hidden=\"true\"></i> 01824-520500 </span></h6></div>");
+        if (forceLocation && !window.lgOverridden) {
+            $(".img-info").html("<b>Note</b> : You can click on the image to view a larger version.");
+            geoLocationCoordinates();
+        }
+
+        setTimeout(function () {
+            if (typeof hideTafPopup != 'undefined' && hideTafPopup) {
+                $('#tafPopupImg').addClass('hide');
+            } else {
+                $('#tafPopupImg').addClass('in');
+            }
+        }, 1000);
+        var $cssmenu = $('#cssmenu');
+        
+        $("#headerSearch").click(function () {
+            /*TODO: write code for search  */
+            alertify.log("Search Clicked", "success", 3000);
+        });
+
+        $("#logoutBtn").click(function () {
+            logoutClicked();
+        });
+
+        $(".changeRole").click(function () {
+            changeRoleClicked(this);
+        });
+
+    });
+</script>
+
+<div id="pointsModalDialog" class="modal fade" style="z-index: 1060">
+    <div class="modal-dialog">
+        <div class="modal-content hintsDialogContent1">
+            <div class="modal-header hintsDialogHeader">
+                <button type="button" class="close" onClick="closePointsDialog()" aria-hidden="true">&times;</button>
+                <h5 class="hintsDialogTitle modal-title"><i class="fa fa-cubes" aria-hidden="true"></i> Award Points
+                </h5>
+
+            </div>
+            <div class="modal-body hintsDialogBody" id="hintsDialogBody">
+
+            </div>
+
+            <div class="modal-footer hintsDialogFooter">
+                <a type="button" class="btn btn-warning btn-xs" style='text-decoration:none !important;'
+                   onClick="closePointsDialog()">Close</a>
+                <a type="button" class="btn btn-success btn-xs pull-left" style='text-decoration:none !important;'
+                   target='_blank' href='/secure/taf.jsp'><i class="fa fa-users" aria-hidden="true"></i> Invite Friends</a>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+
+</div>
+<div id="supportModalDialog" class="modal fade" style="z-index: 1060">
+    <div class="" style="width: 278px; margin: -11px -17px -11px -160px">
+        <div class="modal-content panel-primary">
+            <div class="modal-header panel-heading" style="padding-bottom: 0px;">
+                <button type="button" class="close" onClick="closeSupportDialog()" aria-hidden="true"
+                        style="color: white;">&times;
+                </button>
+                <h4 class="modal-title supportDialogTitle" id="contactLabel"><b>Contact Support</b></h4>
+            </div>
+            <div class="modal-body supportDialogBody text-center" id="supportDialogBody"
+                 style="padding: 10px; border: 10px solid #337ab7; background-color: white;">
+            </div>
+            <div class="modal-footer supportDialogFooter"
+                 style="background-color: #337ab7; padding: 0px 10px 9px; border-top: 1px solid #337ab7;">
+                <a type="button" class="btn btn-warning btn-sm" style='text-decoration:none !important;'
+                   onClick="closeSupportDialog()">Close</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="locationDenyDialog" style="margin-top: 8%">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header btn-primary" style="padding: 10px;">
+                <h4 class="modal-title">Instruction to Unblock Access to Location.</h4>
+            </div>
+            <div class="modal-body" style="background: #fcf8e3;">
+                <div>
+                    <ul>
+                        <li><h4>The portal requires permission to record the location from which it is being accessed,
+                            to minimize your account misuse.</h4></li>
+                        <li><h4>Currently the access to location in the browser is <span
+                                class="text-danger"><b>blocked</b></span>.</h4></li>
+                        <li><h4>Follow the instruction in the below <a href="../../geolocation-settings-for-C-MF-C.html"
+                                                                       target='_blank'>
+                            link</a> to unblock access to location details and click on
+                            <span style="color: darkgreen"><b>refresh</b></span> button.</h4></li>
+                        <li><h4>If you already followed the instructions to unblock and it is still showing this dialog,
+                            this may be due to occasional network connectivity problems. Please refresh the page in that
+                            case.</h4></li>
+                    </ul>
+
+                    <br/>
+                    <div class="text-center">
+                        <div>
+                            <a href="../../geolocation-settings-for-C-MF-C.html" target='_blank'><u><h4><b>Link to
+                                Unblock</b></h4></u></a>
+                        </div>
+                        <br/>
+                    </div>
+                    <br/>
+                    <div class="text-center">
+                        <a id="close" onclick="_ctReloadPage()" class="btn btn-success btn-xs" data-toggle="modal"
+                           style="padding: 0px 25px 0px 25px;">
+                            <h5>Refresh</h5>
+                        </a>
+                    </div>
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="locationPromptDialog" style="margin-top: 8%">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header btn-primary" style="padding: 10px;">
+                <h4 class="modal-title" id="locationFetchTitle">Fetching Location</h4>
+            </div>
+            <div class="modal-body" style="background: #fcf8e3;">
+                <div>
+                    <ul>
+                        <li><h4>The portal requires permission to record the location from which it is being accessed,
+                            to minimize your account misuse.</h4></li>
+                        <li id="changeAllowBtnResToBrowser">
+                            <h4>Click on <span class="remember-text"></span>
+                                <span><nobr><b class="allow-access-text border-style"></b></nobr></span>
+                                button to access the location, and click on <span
+                                        style="color: darkgreen"><b>refresh</b></span> button.
+                            </h4>
+                        </li>
+                        <div id="showImage"></div>
+                        <br/><br/>
+                        <div><h4 class="img-info"></h4></div>
+                    </ul>
+                </div>
+                <br/>
+                <div class="text-center">
+                    <a id="close" onclick="_ctReloadPage()" class="btn btn-success btn-xs" data-toggle="modal"
+                       style="padding: 0px 25px 0px 25px;">
+                        <h5>Refresh</h5>
+                    </a>
+                </div>
+                <br/>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+    <script src="/js/custom-min/crd.min.js"></script>
+    <script src="/js/custom-min/noitucexe-tuptuo.min.js"></script>
+    <script src="/js/custom-min/noitalipmoc.min.js"></script>
+    <script src="/js/custom-min/seautils.min.js"></script>
+    <script src="/js/custom-min/solemert.min.js?v=3.2"></script>
+    <script src="/js/webrtc/RecordRTC.min.js"></script>
+    <script src="/js/custom-min/sr.min.js"></script>
+    <script src="/js/custom-min/mfs.min.js"></script>
+    <script src="/js/custom-min/1tt.min.js?v=1"></script>
+    <script src="/js/custom-min/st.min.js"></script>
+    <script src="/js/custom-min/ifpm.min.js"></script>
+    <script type="text/javascript" src="/js/custom-min/dd.min.js"></script>
+    <script src="/js/custom-min/aror.min.js"></script>
+    <script src="/js/custom-min/mlt.min.js"></script>
+    <script type="text/javascript" src="/js/custom-min/w.min.js"></script>
+    <script src="/js/custom-min/questionPaper.min.js"></script>
+    <script src="/js/custom-min/d.min.js"></script>
+    
+    <script src="/js/custom-min/solemertV2.min.js"></script>
+    
+    <script src="/js/custom-min/ctcsbk.min.js"></script>
+    
+    <script src="/js/purify.min.js" type="text/javascript"></script>
+    <script src="/js/qrcode.min.js"></script>
+    <script type="text/javascript" src="/js/bs-custom-file-input.min.js"></script>
+    <script src="/js/adapter-latest.js"></script>
+    <script src="/js/jspdf.min.js"></script>
+    <link href="/css/mqmat.css" rel="stylesheet">
+    <link href="/css/quill.snow.css" rel="stylesheet">
+    <link href="/css/katex.min.css" rel="stylesheet">
+    <link href="/css/mathquill4quill.min.css" rel="stylesheet">
+    <script src="/js/mqmat.min.js"></script>
+    <script src="/js/quill.js"></script>
+    <script src="/js/quill-table.min.js"></script>
+    <script src="/js/katex.min.js"></script>
+    <script src="/js/mathquill4quill.min.js"></script>
+
+    <div class="container" style="min-width: 100%;">
+        <div id="centerContentDiv">
+            <div id="meetingFloatIcon" class="hide">
+                <a href="#" class="ctm-float" onclick="compressOrExpandFloatingDiv('meeting')">
+                    <i class="fa fa-comments fa-2x cti-float"></i>
+                </a>
+            </div>
+            
+            <div id="meetingIFrameDiv" class='col-sm-6' style="margin-top: 10px">
+                
+            </div>
+            <div id="homeCenterDiv" class='col-sm-10 col-sm-offset-1' class=''
+                 style="margin-top:10px">
+                <div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading" style='padding:2px 10px'>
+							<span class="panel-title text-center">
+
+                                <h4><strong>Test Details</strong></h4>
+							</span>
+                        </div>
+                        
+                        <div id="sectionBody" class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table  table-striped table-condensed table-bordered">
+                                    <tbody>
+                                    <tr>
+                                        <th class='text-right' style="width:20%">Test Name</th>
+                                        <td id="displayName" style="width:80%" class='fade testMetaDetails in'>INT108 End Term Practical - K23FD_G2</td>
+                                    </tr>
+                                    <tr>
+                                        <th class='text-right'>Duration</th>
+                                        <td id="totalTime" class='fade testMetaDetails in'>60 minutes</td>
+                                    </tr>
+                                    <tr>
+                                        <th class='text-right'>Total Marks</th>
+                                        <td id="totalMarks" class='fade testMetaDetails in'>70</td>
+                                    </tr>
+                                    <tr id="passMarksRow">
+                                        <th class='text-right'>Pass Marks</th>
+                                        <td id="passMarks" class='fade testMetaDetails in'>35</td>
+                                    </tr>
+                                    <tr id="negativeMarks" class="fade">
+                                        <th>&nbsp;</th>
+                                        <td><code>Negative Marking is Enabled</code></td>
+                                    </tr>
+
+                                    
+
+                                    
+
+                                    
+
+                                    <tr>
+                                        <td colspan="2">
+                                            <div class="panel panel-info" style="margin-bottom: 0">
+                                                <div class="panel-heading" style="padding: 5px;">
+                                                    <div class="col-12">
+                                                        <div class="panel-title" style="color: black">General
+                                                            Instructions
+                                                            <div class="pull-right" data-toggle="collapse"
+                                                                 href="#generalInstructionInfo"
+                                                                 id="generalInstructionInfoDiv">
+                                                            <span class="fa accordianStatus ml-2 fa-chevron-up hide"
+                                                                  id="upArrow"></span>
+                                                                <span class="fa accordianStatus ml-2 fa-chevron-down hide"
+                                                                      id="downArrow"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel-body panel-collapse collapse"
+                                                     id="generalInstructionInfo"
+                                                     style="white-space: inherit; word-break: normal; padding: 0">
+                                                    <pre class="creamPreTab4 fade testMetaDetails"
+                                                         style="max-height: 25vh">
+                                                <span id="generalInstructions" class="pull-left"></span>
+                                                    </pre>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    
+
+                                    
+                                    <tr id='currentLocationTr' class='hidden m-0 p-0'>
+                                        <td colspan="2">
+                                            <div class="panel panel-info" style="margin-bottom: 0">
+                                                <div class="panel-heading" style="padding: 5px;">
+                                                    <div class="col-12">
+                                                        <div class="panel-title" style="color: black">Your Current
+                                                            Location
+                                                            <div class="pull-right" data-toggle="collapse"
+                                                                 href="#yourCurrentLocationInfo"
+                                                                 id="yourCurrentLocationDiv">
+                                                            <span class="fa accordianStatus ml-2 fa-chevron-up hide"
+                                                                  id="upArrowMap"></span>
+                                                                <span class="fa accordianStatus ml-2 fa-chevron-down hide"
+                                                                      id="downArrowMap"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel-body panel-collapse collapse p-0 m-0"
+                                                     id="yourCurrentLocationInfo"
+                                                     style="white-space: inherit; word-break: normal; padding: 0">
+                                                    <div class="creamPreTab4 fade testMetaDetails p-0 m-0"
+                                                         id="showMap"></div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr id='enableLocationErr' class='hidden'>
+                                        <td colspan='2' id='warningMsg'>
+                                            <code class="blinking-border-background-yellow" style="font-size:12px">
+                                                The portal requires permission to record the location from which it is
+                                                being
+                                                accessed, to minimize your account misuse.<br/>
+                                                Currently the access to location in the current browser is <span
+                                                    class="text-danger"><b>blocked</b></span>.<br/>
+                                                Follow the instruction in the below <a
+                                                    href="/geolocation-settings-for-C-MF-C.html" target="_blank">
+                                                link to unblock</a> access to location details and click on
+                                                <span style="color: darkgreen"><b>refresh</b></span> button.<br/>
+                                                If you already followed the instructions to unblock and it is still
+                                                showing
+                                                this dialog,
+                                                this may be due to occasional network connectivity problems. Please
+                                                refresh
+                                                the page in that case.
+                                            </code>
+                                            <a href="/geolocation-settings-for-C-MF-C.html"
+                                               target="_blank"><u><h4>
+                                                <b>Link
+                                                    to Unblock</b></h4></u></a>
+                                        <td>
+                                    </tr>
+
+                                    <tr id='testStatusTr' class='fade  '>
+                                        <th class='text-right'>Test Status</th>
+                                        <td class=''
+                                            id="testStatus">
+                                            
+                                            
+                                            
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            
+                            <div class="text-center"  href="2nd file/main.html"  >
+                                
+                                <button class="startTestBtn btn btn-play btn-lg actionBtn fade in" href="2nd file/main.html">
+                                    Start Test
+                                    <a class="fa-stack fa-lg" href="2nd file/main.html">
+                                        <img src="1.png" width="15" height="25">
+                                    </a>
+                                </button>
+                                <span class="text-danger" id="warnMsgForSplit"></span>
+                                
+                                
+                            </div>
+                            
+                            s
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class='col-sm-8 col-sm-offset-2'>
+                    <div class="panel panel-warning">
+                        <div class="panel-heading" style='padding:2px 10px'>
+							<span class="panel-title text-center">
+
+                                <h4><strong>Previous Attempt Details</strong></h4>
+							</span>
+                        </div>
+                        
+                        <div id="sectionBody" class="panel-body">
+                            <table class="table  table-striped table-condensed table-responsive table-bordered">
+                                <tbody>
+                                <tr>
+                                    <th class='text-center'>#</th>
+                                    <th class='text-left'>Test Date</th>
+                                    <th class='text-center'>Results</th>
+                                    <th class='text-center'>Status</th>
+                                    <th class='text-center'>Details</th>
+                                </tr>
+                                
+                                <tr>
+                                    
+                                </tr>
+
+                                
+                                <tr>
+                                    
+                                        
+                                    
+                                    
+                                </tr>
+
+                                
+                                <tr>
+                                    
+                                </tr>
+
+                                
+                                
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <style>
+    html {
+        position: relative;
+        min-height: calc(100vh - 50px);
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 10px;
+        padding-top: 10px;
+        left: 0;
+    }
+</style>
+<div class="footer">
+    <div id="pageFooterDiv" class=" my-round-border4">
+        <div style="padding: 12px">
+            <div class="" id="logo" style="text-align: center;">&#169;
+                
+                <span id="ct-oss" class="d-none hide"> | Use of <a href="/secure/oss.jsp" target="_blank">Open Source Software</a></span>
+                <script>
+                    window['showOss'] && $('#ct-oss').removeClass('d-none hide');
+                    window.ipcN && window.ipcN.send({type: 'is-n'}).then(function(res) {
+                        if (res.v) {
+                            $("#logo").html('<img src="/img/logo-black-text.png" style="height: 2.25em"/>')
+                            // $('#pageFooterDiv').parent().addClass('hide d-none');
+                        }
+                    }).catch(window.ipcW.handle)
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JTX8NN8T16"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JTX8NN8T16');
+</script>
+</div>
+
+
+<link href="/js/solidplasma/rocket/style_2.0.0.css" type="text/css" rel="stylesheet"/>
+<script src="/js/solidplasma/rocket/rocket_2.0.0.umd.js"></script>
+<script>
+    try {
+        initSmert({RM: rocket.RM});
+    } catch {
+        console.dir(e);
+    }
+</script>
+
+<script>
+
+    //Once you create an instance like var preloader = new GSPreloader(), call preloader.active(true) to open it, preloader.active(false) to close it, and preloader.active() to get the current status.
+    var preloader = new GSPreloader({
+        radius: 50,
+        dotSize: 18,
+        dotCount: 12,
+        /*colors:["#2CA610","#720099","#CC7300","#FFE700"], //have as many or as few colors as you want.*/
+        colors: ["#720099", "#CC7300", "#720099", "#CC7300"], //have as many or as few colors as you want.
+        boxOpacity: 0.5,
+        animationOffset: 1.5 //jump 1.5 seconds into the animation for a more active part of the spinning initially (just looks a bit better in my opinion)
+    });
+
+    function startSpinner() {
+        //open the preloader
+        preloader.active(true);
+    }
+
+    function stopSpinner() {
+        //Close the preloader
+        preloader.active(false);
+    }
+
+    var userGroupIdsArr = [ "6322e400b023ba07351347f2" , "6322e400b023ba07351347f3" , "63d2d128d50c5e4938045d64" , "63d2d128d50c5e4938045d38" , "64c4909301fbd206938a5578" , "64c4909301fbd206938a5577" , "64c4909301fbd206938a5579" , "64c4909301fbd206938a557a" , "64fedc36c85b5906ce72460a" , "64fedc36c85b5906ce72460b" , "64fedc36c85b5906ce724609" , "64fedc36c85b5906ce724608" , "65321905d02b2c42c240fde1"];
+    var currentUserId = "63159455db103b06ba4ae71d";
+    var pip = "112.196.33.227";
+    var blip = "";
+    var latitude = "";
+    var longitude = "";
+    var locAccuracy = "";
+    var ipUnmatched = false;
+    var tid = "63049a8273c69806ec5ea768";
+    var tsi = '385305';
+    var _ct_tc = true;
+    var _ct_cid = '63049a7c73c69806ec5ea738';
+    var _ct_eucui = '63049a8273c69806ec5ea769';
+    var ctUserWinId = "", a = fp();
+
+    var jsonQuestionTypesDataArr = [ { "_id" : { "$oid" : "549b4ce80e08f22e46dbf9cd"} , "createdBy" :  null  , "createdTime" : { "$date" : "2014-12-24T23:31:52.175Z"} , "description" : "Multiple Choice - Single Answer" , "isEnabled" : true , "questionType" : "Multiple Choice - Single Answer" , "sOrder" : 0 , "updatedBy" : "ramana@codetantra.com" , "updatedTime" : { "$date" : "2020-07-06T19:37:46.924Z"}} , { "_id" : { "$oid" : "549b4cf30e08f22e46dbf9cf"} , "createdBy" :  null  , "createdTime" : { "$date" : "2014-12-24T23:32:03.781Z"} , "description" : "Multiple Choice - Multiple Answers" , "isEnabled" : true , "questionType" : "Multiple Choice - Multiple Answers" , "sOrder" : 1 , "updatedBy" : "ramana@codetantra.com" , "updatedTime" : { "$date" : "2020-07-06T19:37:46.925Z"}} , { "_id" : { "$oid" : "5ea0246d9c61520ba2d56ccb"} , "questionType" : "File Upload" , "description" : "File Upload" , "isEnabled" : true , "sOrder" : 2 , "createdTime" : { "$date" : "2020-04-22T11:03:09.731Z"} , "updatedTime" : { "$date" : "2020-07-06T19:37:46.926Z"} , "createdBy" : "raj@codetantra.com" , "updatedBy" : "ramana@codetantra.com"} , { "_id" : { "$oid" : "549b4cd50e08f22e46dbf9cb"} , "createdBy" :  null  , "createdTime" : { "$date" : "2014-12-24T23:31:33.651Z"} , "description" : "Fill in the Blanks" , "isEnabled" : true , "questionType" : "Fill in the Blanks" , "sOrder" : 3 , "updatedBy" : "ramana@codetantra.com" , "updatedTime" : { "$date" : "2020-07-06T19:37:46.926Z"}} , { "_id" : { "$oid" : "5b34869a18b23e5a6e29cc4f"} , "questionType" : "Essay" , "description" : "Essay" , "isEnabled" : true , "sOrder" : 4 , "createdTime" : { "$date" : "2018-06-28T06:56:26.004Z"} , "updatedTime" : { "$date" : "2020-07-06T19:37:46.927Z"} , "createdBy" : "ramanatsv@yahoo.com" , "updatedBy" : "ramana@codetantra.com"} , { "_id" : { "$oid" : "5e14a01a93c3ac0b91bbf98a"} , "questionType" : "Spoken Essay" , "description" : "Spoken Essay" , "isEnabled" : true , "sOrder" : 5 , "createdTime" : { "$date" : "2020-01-07T15:13:30.782Z"} , "updatedTime" : { "$date" : "2020-07-06T19:37:46.927Z"} , "createdBy" : "krishnateja@codetantra.com" , "updatedBy" : "ramana@codetantra.com"} , { "_id" : { "$oid" : "591641b50cf2510259dcf15c"} , "questionType" : "Spoken Language" , "description" : "Spoken Language" , "isEnabled" : true , "sOrder" : 6 , "createdTime" : { "$date" : "2017-05-12T23:13:57.644Z"} , "updatedTime" : { "$date" : "2020-07-06T19:37:46.927Z"} , "createdBy" : "ramanatsv@yahoo.com" , "updatedBy" : "ramana@codetantra.com"} , { "_id" : { "$oid" : "5cb5a335e952401b8f4f9a8e"} , "questionType" : "Information" , "description" : "Information" , "isEnabled" : true , "sOrder" : 7 , "createdTime" : { "$date" : "2019-04-16T09:41:09.101Z"} , "updatedTime" : { "$date" : "2020-07-06T19:37:46.931Z"} , "createdBy" : "sugunam@codetantra.in" , "updatedBy" : "ramana@codetantra.com"} , { "_id" : { "$oid" : "54883bea2036d78c5efedc3a"} , "createdBy" :  null  , "createdTime" : { "$date" : "2014-12-10T12:26:18.791Z"} , "description" : "Compilation Errors" , "isEnabled" : true , "questionType" : "Compilation Errors" , "sOrder" : 8 , "updatedBy" : "ramana@codetantra.com" , "updatedTime" : { "$date" : "2020-07-06T19:37:46.931Z"}} , { "_id" : { "$oid" : "54883bdb2036d78c5efedc38"} , "createdBy" :  null  , "createdTime" : { "$date" : "2014-12-10T12:26:03.179Z"} , "description" : "Copy Writing" , "isEnabled" : true , "questionType" : "Copy Writing" , "sOrder" : 9 , "updatedBy" : "ramana@codetantra.com" , "updatedTime" : { "$date" : "2020-07-06T19:37:46.932Z"}} , { "_id" : { "$oid" : "5e6a28e1a6969a0b98bdf4ae"} , "questionType" : "Shell" , "description" : "Shell" , "isEnabled" : true , "sOrder" : 10 , "createdTime" : { "$date" : "2020-03-12T12:19:45.537Z"} , "updatedTime" : { "$date" : "2020-07-06T19:37:46.932Z"} , "createdBy" : "sugunam@codetantra.in" , "updatedBy" : "ramana@codetantra.com"} , { "_id" : { "$oid" : "549b4ca90e08f22e46dbf9c7"} , "createdBy" :  null  , "createdTime" : { "$date" : "2014-12-24T23:30:49.800Z"} , "description" : "Code Evaluation" , "isEnabled" : true , "questionType" : "Code Evaluation" , "sOrder" : 11 , "updatedBy" : "ramana@codetantra.com" , "updatedTime" : { "$date" : "2020-07-06T19:37:46.932Z"}} , { "_id" : { "$oid" : "549b4ccb0e08f22e46dbf9c9"} , "createdBy" :  null  , "createdTime" : { "$date" : "2014-12-24T23:31:23.489Z"} , "description" : "Match the Following" , "isEnabled" : true , "questionType" : "Match the Following" , "sOrder" : 12 , "updatedBy" : "ramana@codetantra.com" , "updatedTime" : { "$date" : "2020-07-06T19:37:46.933Z"}} , { "_id" : { "$oid" : "549b4d0d0e08f22e46dbf9d1"} , "createdBy" :  null  , "createdTime" : { "$date" : "2014-12-24T23:32:29.051Z"} , "description" : "Restore Correct Order" , "isEnabled" : true , "questionType" : "Restore Correct Order" , "sOrder" : 13 , "updatedBy" : "ramana@codetantra.com" , "updatedTime" : { "$date" : "2020-07-06T19:37:46.933Z"}}];
+    var questionTypesMap = convertToMap(jsonQuestionTypesDataArr);
+    var hintsAllowed = false;
+    var hideTestTime = false;
+    var hideAwayTimer = false;
+    var fileUploadOptions = "both";
+    var allowFUFromMobileOnly = false;
+    var showPrevAppearanceInfo = true;
+    var endTimeBasedOnQuestion = false;
+
+    var test = { "_id" : { "$oid" : "63049a8273c69806ec5ea768"} , "test" : "Python Arithmetic and Comparison Operators" , "displayName" : "Python Arithmetic and Comparison Operators" , "totalTime" : 15 , "totalMarks" : 20 , "passMarks" : 7 , "reviewAllowed" : true , "skippingAllowed" : true , "randomiseQuestions" : true , "randomiseOptions" : false , "enableAutoCompletionOnCodeEditor" : false , "hintsAllowed" : false , "enablePartialMarks" : false , "showHintsOnExceptions" : false , "showTestResult" : true , "showExecutionResults" : true , "enableNegativeMarks" : false , "enableNegativeMarksForFIB" : false , "generalInstructions" : "Read the instructions provided for every question properly before attempting the answer.<br><br> <b style=\"color:blue\">Section - 1 :</b> contain(s) <b style=\"color:green\">10</b> question(s) and each question carries <b style=\"color:green\">2 </b> mark(s).<br><br>Click <b style='color:red'>Finish</b> only after completion of the Exam." , "isScheduledTest" : false , "requiresJavaApplet" : false , "endTestOnBlur" : false , "isEnabled" : true , "isMobileAllowed" : true , "isAllowedLanguages" : false , "allowedLanguages" : [ ] , "sectionsArr" : [ { "isEnabled" : true , "questionsArr" : [ { "id" : "5e4e5c06baa7e60b9aa9a84c" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e54f015453a890b9e9779e8" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e567abaa7e60b9aa9940c" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e5813baa7e60b9aa99962" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4d468894e5ec0699ac9bff" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4d3e2694e5ec0699ac91a6" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4d3f6794e5ec0699ac9392" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e961a453a890b9e914ec6" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e54ee38453a890b9e976c7d" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e9adf453a890b9e9152e1" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e98ad453a890b9e915099" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e8448453a890b9e9141b7" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e38e294e5ec0699ad96b5" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4d433f94e5ec0699ac9823" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e54eb21453a890b9e9759ff" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5d5a23b00fb2d70a9dbdc3df" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5d5a23b00fb2d70a9dbdc3dd" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e54f0fa453a890b9e97800f" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e594fbaa7e60b9aa99dce" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5d5a23b10fb2d70a9dbdc40d" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e3b6c94e5ec0699ad9a17" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4d457f94e5ec0699ac9afd" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e3edfbaa7e60b9aa9491e" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5d839561f785765277da6e35" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e364594e5ec0699ad9338" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5d5a23b10fb2d70a9dbdc408" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"}] , "id" : 1582638550653 , "marksPerQuestion" : 2 , "closeSectionOnTime" : false , "sectionEndTime" : 0 , "enableNegativeMarks" : false , "enableNegativeMarksOnSkipping" : false , "enableNegativeMarksOnWrongAnswer" : false , "negativeMarksToBeDeducted" : 50 , "enableBonusMarks" : false , "bonusMarks1" : 0 , "bonusMarks1TimeLimit" : 0 , "bonusMarks2" : 0 , "bonusMarks2TimeLimit" : 0 , "enablePartialMarks" : false , "displayQuestions" : 10 , "enableNegativeMarksForFIB" : false , "sectionName" : "Section-1"}] , "createdTime" : { "$date" : "2020-02-25T13:48:52.059Z"} , "updatedTime" : { "$date" : "2020-02-25T13:50:36.112Z"} , "createdBy" : "sarat@codetantra.in" , "updatedBy" : "sarat@codetantra.in" , "draft" : false , "virtualSectionsArr" : [ ] , "clonedTime" : { "$date" : "2022-08-23T09:14:36.627Z"} , "clonedBy" : "msathwika@codetantra.in" , "clonedFromEndUserCourseUnitId" : "5bda858264bac110545795ed" , "clonedFromTestId" : "5e5525c426ed980ba5b864cd" , "clonedFromChannelId" : "MTA"};
+    var testScheduleObj = { "name" : "Unit 1 - Lesson 9" , "test" : "63049a8273c69806ec5ea768" , "testSrc" : "AMTM5Ml9jdF9jaA==" , "userId" : "63159455db103b06ba4ae71d" , "scheduleId" : "385305" , "createdTime" : { "$date" : "2023-12-09T11:01:05.004Z"} , "updatedTime" : { "$date" : "2023-12-09T11:01:05.004Z"} , "createdBy" : "12309545.st@lpu.in" , "updatedBy" : "12305328.st@lpu.in" , "_id" : { "$oid" : "657448f1eba16e0cb3e078b3"}};
+    var isOnlineExamPhysicalProc = false;
+    var shouldLoadAcceptedTerms = false;
+    var acceptedInstructions = false;
+    var allowPastingWithinTheEditor = false;
+    var isAudioAlertEnabled = false;
+    var audioAlertBefore = -1;
+    var scheduleForGateTest = false;
+    var showProctorDetails = false;
+    var proctorDetails = null;
+    var __Scp = {};
+    Object.defineProperty(__Scp, "Let", {
+        value: allowPastingWithinTheEditor,
+        writable: false,
+        enumerable: true,
+        configurable: true
+    });
+    var testObject = { "_id" : { "$oid" : "63049a8273c69806ec5ea768"} , "test" : "Python Arithmetic and Comparison Operators" , "displayName" : "Python Arithmetic and Comparison Operators" , "totalTime" : 15 , "totalMarks" : 20 , "passMarks" : 7 , "reviewAllowed" : true , "skippingAllowed" : true , "randomiseQuestions" : true , "randomiseOptions" : false , "enableAutoCompletionOnCodeEditor" : false , "hintsAllowed" : false , "enablePartialMarks" : false , "showHintsOnExceptions" : false , "showTestResult" : true , "showExecutionResults" : true , "enableNegativeMarks" : false , "enableNegativeMarksForFIB" : false , "generalInstructions" : "Read the instructions provided for every question properly before attempting the answer.<br><br> <b style=\"color:blue\">Section - 1 :</b> contain(s) <b style=\"color:green\">10</b> question(s) and each question carries <b style=\"color:green\">2 </b> mark(s).<br><br>Click <b style='color:red'>Finish</b> only after completion of the Exam." , "isScheduledTest" : false , "requiresJavaApplet" : false , "endTestOnBlur" : false , "isEnabled" : true , "isMobileAllowed" : true , "isAllowedLanguages" : false , "allowedLanguages" : [ ] , "sectionsArr" : [ { "isEnabled" : true , "questionsArr" : [ { "id" : "5e4e5c06baa7e60b9aa9a84c" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e54f015453a890b9e9779e8" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e567abaa7e60b9aa9940c" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e5813baa7e60b9aa99962" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4d468894e5ec0699ac9bff" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4d3e2694e5ec0699ac91a6" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4d3f6794e5ec0699ac9392" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e961a453a890b9e914ec6" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e54ee38453a890b9e976c7d" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e9adf453a890b9e9152e1" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e98ad453a890b9e915099" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e8448453a890b9e9141b7" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e38e294e5ec0699ad96b5" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4d433f94e5ec0699ac9823" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e54eb21453a890b9e9759ff" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5d5a23b00fb2d70a9dbdc3df" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5d5a23b00fb2d70a9dbdc3dd" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e54f0fa453a890b9e97800f" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e594fbaa7e60b9aa99dce" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5d5a23b10fb2d70a9dbdc40d" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e3b6c94e5ec0699ad9a17" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4d457f94e5ec0699ac9afd" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e3edfbaa7e60b9aa9491e" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5d839561f785765277da6e35" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5e4e364594e5ec0699ad9338" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , { "id" : "5d5a23b10fb2d70a9dbdc408" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"}] , "id" : 1582638550653 , "marksPerQuestion" : 2 , "closeSectionOnTime" : false , "sectionEndTime" : 0 , "enableNegativeMarks" : false , "enableNegativeMarksOnSkipping" : false , "enableNegativeMarksOnWrongAnswer" : false , "negativeMarksToBeDeducted" : 50 , "enableBonusMarks" : false , "bonusMarks1" : 0 , "bonusMarks1TimeLimit" : 0 , "bonusMarks2" : 0 , "bonusMarks2TimeLimit" : 0 , "enablePartialMarks" : false , "displayQuestions" : 10 , "enableNegativeMarksForFIB" : false , "sectionName" : "Section-1"}] , "createdTime" : { "$date" : "2020-02-25T13:48:52.059Z"} , "updatedTime" : { "$date" : "2020-02-25T13:50:36.112Z"} , "createdBy" : "sarat@codetantra.in" , "updatedBy" : "sarat@codetantra.in" , "draft" : false , "virtualSectionsArr" : [ ] , "clonedTime" : { "$date" : "2022-08-23T09:14:36.627Z"} , "clonedBy" : "msathwika@codetantra.in" , "clonedFromEndUserCourseUnitId" : "5bda858264bac110545795ed" , "clonedFromTestId" : "5e5525c426ed980ba5b864cd" , "clonedFromChannelId" : "MTA"};
+    var captureFaceAtFU = false;
+    const langVsLangObj = deepFreeze({ "No Language" : { "_id" : { "$oid" : "585d54780cf2f069ef15319b"} , "language" : "No Language" , "description" : "No Language" , "isEnabled" : true , "sOrder" : 0 , "createdTime" : { "$date" : "2016-12-23T16:44:40.023Z"} , "updatedTime" : { "$date" : "2016-12-23T16:44:40.023Z"} , "createdBy" : "ramanatsv@yahoo.com" , "updatedBy" : "ramanatsv@yahoo.com"} , "C" : { "_id" : { "$oid" : "585d547b0cf2f069ef15319d"} , "language" : "C" , "description" : "C" , "isEnabled" : true , "sOrder" : 1 , "createdTime" : { "$date" : "2016-12-23T16:44:43.752Z"} , "updatedTime" : { "$date" : "2023-03-07T13:52:05.675Z"} , "createdBy" : "ramanatsv@yahoo.com" , "updatedBy" : "raj@codetantra.com" , "compile" : "cc -o __OUTPUT_FILE_NAME__.out __FILE_NAME__" , "containerType" : "cpp" , "debugCompile" : "cc __EXTRA_COMPILE_OPTIONS__ -g3 -o __OUTPUT_FILE_NAME__.out __FILE_NAME__ __LINKER_OPTIONS__" , "run" : "./__OUTPUT_FILE_NAME__.out" , "commands" : { "compile" : "return 'cc -o ' + mainFileName.substring(0, mainFileName.lastIndexOf('.')) + '.out ' + mainFileName" , "run" : "return './' + mainFileName.substring(0, mainFileName.lastIndexOf('.')) + '.out';" , "debugCompile" : "return 'cc ' + extraCompileOptions + ' -g3 -o ' + mainFileName.substring(0, mainFileName.lastIndexOf('.')) + '.out ' + mainFileName + ' ' + linkerOptions;"}} , "C++" : { "_id" : { "$oid" : "58ecc6ff0cf224e5abf80f54"} , "language" : "C++" , "description" : "C++" , "isEnabled" : true , "sOrder" : 2 , "createdTime" : { "$date" : "2017-04-11T12:07:27.828Z"} , "updatedTime" : { "$date" : "2023-03-07T13:52:41.459Z"} , "createdBy" : "ramanatsv@yahoo.com" , "updatedBy" : "raj@codetantra.com" , "compile" : "g++ -o __OUTPUT_FILE_NAME__.out __FILE_NAME__" , "containerType" : "cpp" , "debugCompile" : "g++ __EXTRA_COMPILE_OPTIONS__ -g3 -o __OUTPUT_FILE_NAME__.out __FILE_NAME__ __LINKER_OPTIONS__" , "run" : "./__OUTPUT_FILE_NAME__.out" , "commands" : { "compile" : "return 'g++ -o ' + mainFileName.substring(0, mainFileName.lastIndexOf('.')) + '.out ' + mainFileName" , "run" : "return './' + mainFileName.substring(0, mainFileName.lastIndexOf('.')) + '.out';" , "debugCompile" : "return 'g++ ' + extraCompileOptions + ' -g3 -o ' + mainFileName.substring(0, mainFileName.lastIndexOf('.')) + '.out ' + mainFileName + ' ' + linkerOptions;"}} , "Java" : { "_id" : { "$oid" : "5c445aa264bac12844c2bef7"} , "language" : "Java" , "description" : "Java" , "isEnabled" : true , "sOrder" : 3 , "createdTime" : { "$date" : "2019-01-20T11:25:22.653Z"} , "updatedTime" : { "$date" : "2023-03-07T13:53:17.106Z"} , "createdBy" : "ramanatsv@yahoo.com" , "updatedBy" : "raj@codetantra.com" , "compile" : "javac -Xlint:all __FILE_NAME__" , "containerType" : "java" , "run" : "java __OUTPUT_FILE_NAME__" , "commands" : { "compile" : "return 'javac -Xlint:all ' + filesContentArr.filter(f => f.fileName.endsWith('.java')).map(f => f.fileName).join(' ')" , "run" : "return 'java ' + mainFileName.replaceAll('/', '.').substring(0, mainFileName.indexOf('.java'));"}} , "Python" : { "_id" : { "$oid" : "5aaa7c72015de932d3211010"} , "language" : "Python" , "description" : "Python" , "isEnabled" : true , "sOrder" : 4 , "createdTime" : { "$date" : "2018-03-15T14:00:18.414Z"} , "updatedTime" : { "$date" : "2023-03-07T13:53:44.046Z"} , "createdBy" : "ramanatsv@yahoo.com" , "updatedBy" : "raj@codetantra.com" , "compile" : "python __EXTRA_COMPILE_OPTIONS__ -m py_compile __FILE_NAME__" , "containerType" : "py" , "debugCompile" : "python __EXTRA_COMPILE_OPTIONS__ -m py_compile __FILE_NAME__" , "run" : "python __OUTPUT_FILE_NAME__.py" , "commands" : { "compile" : "return 'python ' + extraCompileOptions + ' -m py_compile ' + mainFileName" , "run" : "return 'python ' + mainFileName" , "debugCompile" : "return 'python ' + extraCompileOptions + ' -m py_compile ' + mainFileName"}} , "IoT-Arduino" : { "_id" : { "$oid" : "5969e8540cf22a4235f5bfe0"} , "language" : "IoT-Arduino" , "description" : "IoT-Arduino" , "isEnabled" : true , "sOrder" : 5 , "createdTime" : { "$date" : "2017-07-15T10:03:00.007Z"} , "updatedTime" : { "$date" : "2017-07-15T11:42:05.837Z"} , "createdBy" : "ramanatsv@yahoo.com" , "updatedBy" : "ramanatsv@yahoo.com"} , "Multi Language" : { "_id" : { "$oid" : "5cf8b75c49506923461e0972"} , "language" : "Multi Language" , "description" : "Multi Language" , "isEnabled" : true , "sOrder" : 6 , "createdTime" : { "$date" : "2019-06-06T06:49:00.961Z"} , "updatedTime" : { "$date" : "2019-06-06T06:49:00.961Z"} , "createdBy" : "raj@codetantra.com" , "updatedBy" : "raj@codetantra.com"} , "R" : { "_id" : { "$oid" : "649ab4385312e4b2bdebd4c6"} , "language" : "R" , "description" : "R language" , "isEnabled" : true , "sOrder" : 7.0 , "createdTime" : { "$date" : "2023-06-27T10:04:40.276Z"} , "createdBy" : "SYSTEM"} , "Web" : { "_id" : { "$oid" : "64dbd698eae517f4425ff4c0"} , "language" : "Web" , "description" : "HTML, CSS, JS, ..." , "isEnabled" : true , "sOrder" : 8.0 , "createdTime" : { "$date" : "2023-08-15T19:48:20.959Z"} , "createdBy" : "SYSTEM"} , "Ruby" : { "_id" : { "$oid" : "652d15b78a60117cf794d6f3"} , "language" : "Ruby" , "description" : "Ruby language" , "isEnabled" : true , "sOrder" : 9.0 , "createdTime" : { "$date" : "2023-10-16T10:51:19.479Z"} , "createdBy" : "ravi@codetantra.com"} , "SQL" : { "_id" : { "$oid" : "65657f581fecaa7e1f89f464"} , "language" : "SQL" , "description" : "SQL - Relational DBMS" , "isEnabled" : true , "sOrder" : 9.0 , "createdTime" : { "$date" : "2023-11-28T05:48:58.344Z"} , "createdBy" : "SYSTEM"} , "PHP" : { "_id" : { "$oid" : "652f96018a60117cf794d6f4"} , "language" : "PHP" , "description" : "PHP language" , "isEnabled" : true , "sOrder" : 10.0 , "createdTime" : { "$date" : "2023-10-18T08:23:24.155Z"} , "createdBy" : "ravi@codetantra.com"}});
+    var preferredRuntimeMode = "client";
+    var endTestOnBlur = testScheduleObj.hasOwnProperty('testProfile') ? testScheduleObj.testProfile.endTestOnBlur : test.hasOwnProperty('endTestOnBlur') ? test.endTestOnBlur : false;
+    var blockTestOnBlur = testScheduleObj.hasOwnProperty('testProfile') ? testScheduleObj.testProfile.blockTestOnBlur || false : test.hasOwnProperty('blockTestOnBlur') ? test.blockTestOnBlur : false;
+    endTestOnBlur = blockTestOnBlur || endTestOnBlur;
+    var navigationOutCountDown = testScheduleObj.hasOwnProperty('testProfile') ? testScheduleObj.testProfile.hasOwnProperty('navigationOutCountDown') ? testScheduleObj.testProfile.navigationOutCountDown : 45 : 45;
+    var endTestOnResumeAfterPause = testScheduleObj.hasOwnProperty('testProfile') ? testScheduleObj.testProfile.endTestOnResumeAfterPause : test.hasOwnProperty('endTestOnResumeAfterPause') ? test.endTestOnResumeAfterPause : false;
+    var testProfile = testScheduleObj.hasOwnProperty('testProfile') ? testScheduleObj.testProfile : {};
+    var forceLocationInTest = testScheduleObj.hasOwnProperty('forceLocationInTest') ? testScheduleObj.forceLocationInTest : true;
+    var enforceFullScreenInTest = testScheduleObj.hasOwnProperty('enforceFullScreenInTest') ? testScheduleObj.enforceFullScreenInTest : true;
+    var splitScreenDetection = testScheduleObj.hasOwnProperty('splitScreenDetection') ? testScheduleObj.splitScreenDetection : false;
+    var noCheck = false;
+    var disablePrevious = testProfile.hasOwnProperty("disablePrevious") && testProfile.disablePrevious;
+    var disablePreviousSection = testProfile.hasOwnProperty("disablePreviousSection") && testProfile.disablePreviousSection;
+    var showDisablePreviousWarning = testProfile.hasOwnProperty("showDisablePreviousWarning") && testProfile.showDisablePreviousWarning;
+    var hideQuickAccessPanel = testProfile.hasOwnProperty("hideQuickAccessPanel") && testProfile.hideQuickAccessPanel;
+    var courseTestSummaryList = [{ "_id" : { "$oid" : "6334b9cbd042d806e839f4d0"} , "scheduleId" : "5583" , "userId" : "63159455db103b06ba4ae71d" , "testId" : "63049a8273c69806ec5ea768" , "srcDBName" : "1392_ct_ch" , "questionMarksMap" : { } , "questionIdArr" : [ ] , "completionStatus" : true , "totalTime" : 15 , "testStartTime" : { "$date" : "2022-09-28T21:16:59.906Z"} , "testEndTime" : { "$date" : "2022-09-28T21:31:59.906Z"} , "completionTime" : { "$date" : "2022-09-29T05:37:22.571Z"} , "lastAccessTime" : { "$date" : "2022-09-28T21:16:59.906Z"} , "totalMarks" : 20.0 , "passMarks" : 7.0 , "userMarks" : 0.0 , "passed" : false , "userDetails" : { "headers" : { "x-real-ip" : "49.39.54.245 :: " , "x-forwarded-for" : "49.39.54.245, 49.39.54.245 :: " , "host" : "lovelyprofessionaluniversity.codetantra.com :: " , "connection" : "close :: " , "content-length" : "287 :: " , "accept" : "application/json :: " , "accept-encoding" : "gzip, deflate, br :: " , "accept-language" : "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,hi;q=0.6 :: " , "content-type" : "application/json :: " , "cookie" : "_ct_dn=lovelyprofessionaluniversity.codetantra.com; _ga=GA1.2.1956917466.1663674618; _gid=GA1.2.2025677183.1664257932; JSESSIONID=66292BD2E5DBBECA2614EA8D473A1222; AWSELB=CF4FCF9B0C12495B6FE5C37D5E3855513C4A3727F52BAAABF8DD02CAA4DF66F8CE6D96D5242EE00D8CB343CA871BE527997D9AF3B0A418664D4BA146928039DCB0BFAEF5452C790117EA3BC67994EE6D4A72EC500D; _gat=1; _wtj=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlIjoiMTIyMTk3Mjcuc3RAbHB1LmluIiwicGlwIjoiNDkuMzkuNTQuMjQ1IiwiaXNzIjoiVEMiLCJwbHQiOiJ7IFwibG92ZWx5cHJvZmVzc2lvbmFsdW5pdmVyc2l0eS5jb2RldGFudHJhLmNvbVwiIDogeyBcIm9zc1wiIDogZmFsc2UgLCBcInBsdFwiIDogMTY2NDM5OTgxOTM1Nn19IiwiZXhwIjoxNjY0NDAzNTMzLCJibGlwIjoiIn0.Q3ri3KwH2L14qA-VTAkVfJJEUECZ9OXE89wcEb7KcpU :: " , "origin" : "https://lovelyprofessionaluniversity.codetantra.com :: " , "referer" : "https://lovelyprofessionaluniversity.codetantra.com/secure/unst.jsp?tc=1&cid=63049a7c73c69806ec5ea738&eucui=63049a8273c69806ec5ea769&tid=63049a8273c69806ec5ea768&bd=AMTM5Ml9jdF9jaA%3D%3D&ctName=Unit%201%20-%20Lesson%209 :: " , "sec-ch-ua" : "\"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\" :: " , "sec-ch-ua-mobile" : "?0 :: " , "sec-ch-ua-platform" : "\"Windows\" :: " , "sec-fetch-dest" : "empty :: " , "sec-fetch-mode" : "cors :: " , "sec-fetch-site" : "same-origin :: " , "user-agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 :: " , "x-requested-with" : "XMLHttpRequest :: " , "x-forwarded-port" : "443 :: " , "x-forwarded-proto" : "https :: "} , "params" : { "bd" : [ "AMTM5Ml9jdF9jaA=="]} , "remoteIp" : "127.0.0.1"} , "createdBy" : "12309545.st@lpu.in" , "createdTime" : { "$date" : "2022-09-28T21:16:59.906Z"} , "ctUserWinId" : "ctUserWinId-558-4399807258" , "locations" : [ { "blip" : "" , "geo" : { "lat" : 31.2508416 , "long" : 75.7006336 , "accuracy" : 1305.0590902204528} , "pip" : "49.39.54.245" , "startTime" : { "$date" : "2022-09-28T21:16:59.906Z"}}] , "questionPaper" : { "sectionIdsArr" : [ "1582638550653"] , "sectionsMap" : { "1582638550653" : { "isEnabled" : true , "id" : 1582638550653 , "marksPerQuestion" : 2 , "closeSectionOnTime" : false , "sectionEndTime" : 0 , "enableNegativeMarks" : false , "enableNegativeMarksOnSkipping" : false , "enableNegativeMarksOnWrongAnswer" : false , "negativeMarksToBeDeducted" : 50 , "enableBonusMarks" : false , "bonusMarks1" : 0 , "bonusMarks1TimeLimit" : 0 , "bonusMarks2" : 0 , "bonusMarks2TimeLimit" : 0 , "enablePartialMarks" : false , "displayQuestions" : 10 , "enableNegativeMarksForFIB" : false , "sectionName" : "Section-1" , "questionIdsArr" : [ "5e4d468894e5ec0699ac9bff" , "5e4e8448453a890b9e9141b7" , "5d5a23b10fb2d70a9dbdc408" , "5e4e5c06baa7e60b9aa9a84c" , "5e4e961a453a890b9e914ec6" , "5e4e3b6c94e5ec0699ad9a17" , "5e4e364594e5ec0699ad9338" , "5e4e3edfbaa7e60b9aa9491e" , "5d5a23b10fb2d70a9dbdc40d" , "5d5a23b00fb2d70a9dbdc3df"]}} , "questionsMap" : { "5e4d468894e5ec0699ac9bff" : { "id" : "5e4d468894e5ec0699ac9bff" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e8448453a890b9e9141b7" : { "id" : "5e4e8448453a890b9e9141b7" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5d5a23b10fb2d70a9dbdc408" : { "id" : "5d5a23b10fb2d70a9dbdc408" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e5c06baa7e60b9aa9a84c" : { "id" : "5e4e5c06baa7e60b9aa9a84c" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e961a453a890b9e914ec6" : { "id" : "5e4e961a453a890b9e914ec6" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e3b6c94e5ec0699ad9a17" : { "id" : "5e4e3b6c94e5ec0699ad9a17" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e364594e5ec0699ad9338" : { "id" : "5e4e364594e5ec0699ad9338" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e3edfbaa7e60b9aa9491e" : { "id" : "5e4e3edfbaa7e60b9aa9491e" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5d5a23b10fb2d70a9dbdc40d" : { "id" : "5d5a23b10fb2d70a9dbdc40d" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5d5a23b00fb2d70a9dbdc3df" : { "id" : "5d5a23b00fb2d70a9dbdc3df" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"}} , "currentQuestionIndexInTest" : 0 , "currentSectionIndexInTest" : 0} , "questionStartEndTimeMap" : { "5e4d468894e5ec0699ac9bff" : { "startTime" : { "$date" : "2022-09-28T21:16:59.909Z"} , "lastAccessTime" : { "$date" : "2022-09-28T21:16:59.909Z"}}} , "questionStatsMap" : { "5e4d468894e5ec0699ac9bff" : { "markForReview" : false , "answeredAndMarkForReview" : false , "visited" : true , "skipped" : true , "qType" : 5 , "timeSpentInQ" : 0}} , "responsesMap" : { } , "scoresMap" : { "5e4d468894e5ec0699ac9bff" : { "success" : false , "skipped" : true , "score" : 0.0} , "5e4e8448453a890b9e9141b7" : { "success" : false , "skipped" : true , "score" : 0.0} , "5d5a23b10fb2d70a9dbdc408" : { "success" : false , "skipped" : true , "score" : 0.0} , "5e4e5c06baa7e60b9aa9a84c" : { "success" : false , "skipped" : true , "score" : 0.0} , "5e4e961a453a890b9e914ec6" : { "success" : false , "skipped" : true , "score" : 0.0} , "5e4e3b6c94e5ec0699ad9a17" : { "success" : false , "skipped" : true , "score" : 0.0} , "5e4e364594e5ec0699ad9338" : { "success" : false , "skipped" : true , "score" : 0.0} , "5e4e3edfbaa7e60b9aa9491e" : { "success" : false , "skipped" : true , "score" : 0.0} , "5d5a23b10fb2d70a9dbdc40d" : { "success" : false , "skipped" : true , "score" : 0.0} , "5d5a23b00fb2d70a9dbdc3df" : { "success" : false , "skipped" : true , "score" : 0.0}} , "sectionStartEndTimeMap" : { "1582638550653" : { "startTime" : { "$date" : "2022-09-28T21:16:59.909Z"} , "lastAccessTime" : { "$date" : "2022-09-28T21:16:59.909Z"}}} , "updatedBy" : "12309545.st@lpu.in" , "updatedTime" : { "$date" : "2022-09-29T05:37:22.571Z"} , "completionType" : 4}, { "_id" : { "$oid" : "63352f209bcd5806f3777d94"} , "scheduleId" : "5599" , "userId" : "63159455db103b06ba4ae71d" , "testId" : "63049a8273c69806ec5ea768" , "srcDBName" : "1392_ct_ch" , "questionMarksMap" : { } , "questionIdArr" : [ ] , "completionStatus" : true , "totalTime" : 15 , "testStartTime" : { "$date" : "2022-09-29T05:37:36.227Z"} , "testEndTime" : { "$date" : "2022-09-29T05:52:36.227Z"} , "completionTime" : { "$date" : "2022-09-29T05:46:04.895Z"} , "lastAccessTime" : { "$date" : "2022-09-29T05:45:39.260Z"} , "totalMarks" : 20.0 , "passMarks" : 7.0 , "userMarks" : 12.0 , "passed" : true , "userDetails" : { "headers" : { "x-real-ip" : "132.154.139.142 :: " , "x-forwarded-for" : "132.154.139.142, 132.154.139.142 :: " , "host" : "lovelyprofessionaluniversity.codetantra.com :: " , "connection" : "close :: " , "content-length" : "285 :: " , "accept" : "application/json :: " , "accept-encoding" : "gzip, deflate, br :: " , "accept-language" : "en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,hi;q=0.6 :: " , "content-type" : "application/json :: " , "cookie" : "_ct_dn=lovelyprofessionaluniversity.codetantra.com; _ga=GA1.2.1956917466.1663674618; _gid=GA1.2.2025677183.1664257932; JSESSIONID=FB6A80C207058A46C4A5FEBE84EDE706; AWSELB=CF4FCF9B0C12495B6FE5C37D5E3855513C4A3727F5DC5A4FC80BFBE487A75454AE78E058FE7DA3DF20BAA81AF082F8B9D48EABA45C5EDD86724D099FB919D8544FB04DAE4041288A477260CF4CB9B77EF5BFA2F655; _wtj=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlIjoiMTIyMTk3Mjcuc3RAbHB1LmluIiwicGlwIjoiMTMyLjE1NC4xMzkuMTQyIiwiaXNzIjoiVEMiLCJwbHQiOiJ7IFwibG92ZWx5cHJvZmVzc2lvbmFsdW5pdmVyc2l0eS5jb2RldGFudHJhLmNvbVwiIDogeyBcIm9zc1wiIDogZmFsc2UgLCBcInBsdFwiIDogMTY2NDQyOTg1NTU1Mn19IiwiZXhwIjoxNjY0NDMzNTY1LCJibGlwIjoiIn0.qBb_7Wf1ukqJe2pRaIPf9uQKQI8P37R_v-zX_Azh7Ek :: " , "origin" : "https://lovelyprofessionaluniversity.codetantra.com :: " , "referer" : "https://lovelyprofessionaluniversity.codetantra.com/secure/unst.jsp?tc=1&cid=63049a7c73c69806ec5ea738&eucui=63049a8273c69806ec5ea769&tid=63049a8273c69806ec5ea768&bd=AMTM5Ml9jdF9jaA%3D%3D&ctName=Unit%201%20-%20Lesson%209 :: " , "sec-ch-ua" : "\"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\" :: " , "sec-ch-ua-mobile" : "?0 :: " , "sec-ch-ua-platform" : "\"Windows\" :: " , "sec-fetch-dest" : "empty :: " , "sec-fetch-mode" : "cors :: " , "sec-fetch-site" : "same-origin :: " , "user-agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 :: " , "x-requested-with" : "XMLHttpRequest :: " , "x-forwarded-port" : "443 :: " , "x-forwarded-proto" : "https :: "} , "params" : { "bd" : [ "AMTM5Ml9jdF9jaA=="]} , "remoteIp" : "127.0.0.1"} , "createdBy" : "12305328" , "createdTime" : { "$date" : "2022-09-29T05:37:36.227Z"} , "ctUserWinId" : "ctUserWinId-269-4429838359" , "locations" : [ { "blip" : "" , "geo" : { "lat" : 30.900965 , "long" : 75.8572758 , "accuracy" : 5812.401797566426} , "pip" : "132.154.139.142" , "startTime" : { "$date" : "2022-09-29T05:37:36.227Z"}}] , "questionPaper" : { "sectionIdsArr" : [ "1582638550653"] , "sectionsMap" : { "1582638550653" : { "isEnabled" : true , "id" : 1582638550653 , "marksPerQuestion" : 2 , "closeSectionOnTime" : false , "sectionEndTime" : 0 , "enableNegativeMarks" : false , "enableNegativeMarksOnSkipping" : false , "enableNegativeMarksOnWrongAnswer" : false , "negativeMarksToBeDeducted" : 50 , "enableBonusMarks" : false , "bonusMarks1" : 0 , "bonusMarks1TimeLimit" : 0 , "bonusMarks2" : 0 , "bonusMarks2TimeLimit" : 0 , "enablePartialMarks" : false , "displayQuestions" : 10 , "enableNegativeMarksForFIB" : false , "sectionName" : "Section-1" , "questionIdsArr" : [ "5e4e9adf453a890b9e9152e1" , "5e4d433f94e5ec0699ac9823" , "5e4d468894e5ec0699ac9bff" , "5d839561f785765277da6e35" , "5e4d3e2694e5ec0699ac91a6" , "5e4e38e294e5ec0699ad96b5" , "5e4e3edfbaa7e60b9aa9491e" , "5e4e98ad453a890b9e915099" , "5e54eb21453a890b9e9759ff" , "5e4e594fbaa7e60b9aa99dce"]}} , "questionsMap" : { "5e4e9adf453a890b9e9152e1" : { "id" : "5e4e9adf453a890b9e9152e1" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4d433f94e5ec0699ac9823" : { "id" : "5e4d433f94e5ec0699ac9823" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4d468894e5ec0699ac9bff" : { "id" : "5e4d468894e5ec0699ac9bff" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5d839561f785765277da6e35" : { "id" : "5d839561f785765277da6e35" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4d3e2694e5ec0699ac91a6" : { "id" : "5e4d3e2694e5ec0699ac91a6" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e38e294e5ec0699ad96b5" : { "id" : "5e4e38e294e5ec0699ad96b5" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e3edfbaa7e60b9aa9491e" : { "id" : "5e4e3edfbaa7e60b9aa9491e" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e98ad453a890b9e915099" : { "id" : "5e4e98ad453a890b9e915099" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e54eb21453a890b9e9759ff" : { "id" : "5e54eb21453a890b9e9759ff" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e594fbaa7e60b9aa99dce" : { "id" : "5e4e594fbaa7e60b9aa99dce" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"}} , "currentQuestionIndexInTest" : 2 , "currentSectionIndexInTest" : 0} , "questionStartEndTimeMap" : { "5e4e9adf453a890b9e9152e1" : { "startTime" : { "$date" : "2022-09-29T05:37:36.229Z"} , "lastAccessTime" : { "$date" : "2022-09-29T05:39:15.715Z"}} , "5e4d433f94e5ec0699ac9823" : { "startTime" : { "$date" : "2022-09-29T05:39:16.015Z"} , "lastAccessTime" : { "$date" : "2022-09-29T05:41:30.915Z"}} , "5e4d468894e5ec0699ac9bff" : { "startTime" : { "$date" : "2022-09-29T05:41:32.016Z"} , "lastAccessTime" : { "$date" : "2022-09-29T05:46:01.455Z"}} , "5d839561f785765277da6e35" : { "startTime" : { "$date" : "2022-09-29T05:41:47.296Z"} , "lastAccessTime" : { "$date" : "2022-09-29T05:41:59.711Z"}} , "5e4d3e2694e5ec0699ac91a6" : { "startTime" : { "$date" : "2022-09-29T05:42:01.097Z"} , "lastAccessTime" : { "$date" : "2022-09-29T05:42:15.777Z"}} , "5e4e38e294e5ec0699ad96b5" : { "startTime" : { "$date" : "2022-09-29T05:42:15.955Z"} , "lastAccessTime" : { "$date" : "2022-09-29T05:43:51.995Z"}} , "5e4e3edfbaa7e60b9aa9491e" : { "startTime" : { "$date" : "2022-09-29T05:43:52.215Z"} , "lastAccessTime" : { "$date" : "2022-09-29T05:44:18.351Z"}} , "5e4e98ad453a890b9e915099" : { "startTime" : { "$date" : "2022-09-29T05:44:18.858Z"} , "lastAccessTime" : { "$date" : "2022-09-29T05:44:38.735Z"}} , "5e54eb21453a890b9e9759ff" : { "startTime" : { "$date" : "2022-09-29T05:44:38.955Z"} , "lastAccessTime" : { "$date" : "2022-09-29T05:44:52.576Z"}} , "5e4e594fbaa7e60b9aa99dce" : { "startTime" : { "$date" : "2022-09-29T05:44:52.806Z"} , "lastAccessTime" : { "$date" : "2022-09-29T05:45:55.355Z"}}} , "questionStatsMap" : { "5e4e9adf453a890b9e9152e1" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 99 , "qSubmittedTime" : { "$date" : "2022-09-29T05:39:15.715Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 98 , "attempted" : true , "skipped" : false} , "5e4d433f94e5ec0699ac9823" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 134 , "qSubmittedTime" : { "$date" : "2022-09-29T05:41:30.915Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 133 , "attempted" : true , "skipped" : false} , "5e4d468894e5ec0699ac9bff" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 19 , "qSubmittedTime" : { "$date" : "2022-09-29T05:46:01.455Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 19 , "attempted" : true , "skipped" : false} , "5d839561f785765277da6e35" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 11 , "qSubmittedTime" : { "$date" : "2022-09-29T05:41:59.711Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 12 , "attempted" : true , "skipped" : false} , "5e4d3e2694e5ec0699ac91a6" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 10 , "qSubmittedTime" : { "$date" : "2022-09-29T05:42:15.777Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 14 , "attempted" : true , "skipped" : false} , "5e4e38e294e5ec0699ad96b5" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 95 , "qSubmittedTime" : { "$date" : "2022-09-29T05:43:51.995Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 95 , "attempted" : true , "skipped" : false} , "5e4e3edfbaa7e60b9aa9491e" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 25 , "qSubmittedTime" : { "$date" : "2022-09-29T05:44:18.351Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 26 , "attempted" : true , "skipped" : false} , "5e4e98ad453a890b9e915099" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 18 , "qSubmittedTime" : { "$date" : "2022-09-29T05:44:38.735Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 19 , "attempted" : true , "skipped" : false} , "5e54eb21453a890b9e9759ff" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 13 , "qSubmittedTime" : { "$date" : "2022-09-29T05:44:52.576Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 13 , "attempted" : true , "skipped" : false} , "5e4e594fbaa7e60b9aa99dce" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 62 , "qSubmittedTime" : { "$date" : "2022-09-29T05:45:55.355Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 62 , "attempted" : true , "skipped" : false}} , "responsesMap" : { "5e4e9adf453a890b9e9152e1" : { "userOptionsMap" : { "0" : true , "1" : false , "2" : false , "3" : false}} , "5e4d433f94e5ec0699ac9823" : { "userOptionsMap" : { "0" : true , "1" : false , "2" : false , "3" : false}} , "5e4d468894e5ec0699ac9bff" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : true}} , "5d839561f785765277da6e35" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : true}} , "5e4d3e2694e5ec0699ac91a6" : { "userOptionsMap" : { "0" : false , "1" : true , "2" : false , "3" : false}} , "5e4e38e294e5ec0699ad96b5" : { "userOptionsMap" : { "0" : true , "1" : false , "2" : false , "3" : false}} , "5e4e3edfbaa7e60b9aa9491e" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : true , "3" : false}} , "5e4e98ad453a890b9e915099" : { "userOptionsMap" : { "0" : true , "1" : false , "2" : false , "3" : false}} , "5e54eb21453a890b9e9759ff" : { "userOptionsMap" : { "0" : false , "1" : true , "2" : false , "3" : false}} , "5e4e594fbaa7e60b9aa99dce" : { "userOptionsMap" : { "0" : true , "1" : false , "2" : false , "3" : false}}} , "scoresMap" : { "5e4e9adf453a890b9e9152e1" : { "successCount" : 4 , "failureCount" : 0 , "success" : true , "skipped" : false , "score" : 2.0} , "5e4d433f94e5ec0699ac9823" : { "successCount" : 2 , "failureCount" : 2 , "success" : false , "skipped" : false , "score" : 0.0} , "5e4d468894e5ec0699ac9bff" : { "successCount" : 4 , "failureCount" : 0 , "success" : true , "skipped" : false , "score" : 2.0} , "5d839561f785765277da6e35" : { "successCount" : 2 , "failureCount" : 2 , "success" : false , "skipped" : false , "score" : 0.0} , "5e4d3e2694e5ec0699ac91a6" : { "successCount" : 4 , "failureCount" : 0 , "success" : true , "skipped" : false , "score" : 2.0} , "5e4e38e294e5ec0699ad96b5" : { "successCount" : 2 , "failureCount" : 2 , "success" : false , "skipped" : false , "score" : 0.0} , "5e4e3edfbaa7e60b9aa9491e" : { "successCount" : 2 , "failureCount" : 2 , "success" : false , "skipped" : false , "score" : 0.0} , "5e4e98ad453a890b9e915099" : { "successCount" : 4 , "failureCount" : 0 , "success" : true , "skipped" : false , "score" : 2.0} , "5e54eb21453a890b9e9759ff" : { "successCount" : 4 , "failureCount" : 0 , "success" : true , "skipped" : false , "score" : 2.0} , "5e4e594fbaa7e60b9aa99dce" : { "successCount" : 4 , "failureCount" : 0 , "success" : true , "skipped" : false , "score" : 2.0}} , "sectionStartEndTimeMap" : { "1582638550653" : { "startTime" : { "$date" : "2022-09-29T05:37:36.229Z"} , "lastAccessTime" : { "$date" : "2022-09-29T05:45:55.474Z"}}} , "updatedBy" : "12219545.st@lpu.in" , "updatedTime" : { "$date" : "2022-09-29T05:46:04.895Z"} , "submissionsMap" : { "5e4e9adf453a890b9e9152e1" : { "userOptionsMap" : { "0" : true , "1" : false , "2" : false , "3" : false}} , "5e4d433f94e5ec0699ac9823" : { "userOptionsMap" : { "0" : true , "1" : false , "2" : false , "3" : false}} , "5e4d468894e5ec0699ac9bff" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : true}} , "5d839561f785765277da6e35" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : true}} , "5e4d3e2694e5ec0699ac91a6" : { "userOptionsMap" : { "0" : false , "1" : true , "2" : false , "3" : false}} , "5e4e38e294e5ec0699ad96b5" : { "userOptionsMap" : { "0" : true , "1" : false , "2" : false , "3" : false}} , "5e4e3edfbaa7e60b9aa9491e" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : true , "3" : false}} , "5e4e98ad453a890b9e915099" : { "userOptionsMap" : { "0" : true , "1" : false , "2" : false , "3" : false}} , "5e54eb21453a890b9e9759ff" : { "userOptionsMap" : { "0" : false , "1" : true , "2" : false , "3" : false}} , "5e4e594fbaa7e60b9aa99dce" : { "userOptionsMap" : { "0" : true , "1" : false , "2" : false , "3" : false}}} , "completionType" : 1}, { "_id" : { "$oid" : "656ad796560e2e4470de66df"} , "scheduleId" : "230513" , "userId" : "63159455db103b06ba4ae71d" , "testId" : "63049a8273c69806ec5ea768" , "srcDBName" : "1392_ct_ch" , "questionMarksMap" : { } , "questionIdArr" : [ ] , "completionStatus" : true , "totalTime" : 15 , "testStartTime" : { "$date" : "2023-12-02T07:07:02.935Z"} , "testEndTime" : { "$date" : "2023-12-02T07:22:02.935Z"} , "completionTime" : { "$date" : "2023-12-02T07:38:00.027Z"} , "lastAccessTime" : { "$date" : "2023-12-02T07:15:54.666Z"} , "totalMarks" : 20.0 , "passMarks" : 7.0 , "userMarks" : 0.0 , "passed" : false , "userDetails" : { "headers" : { "x-real-ip" : "210.89.61.6 :: " , "x-forwarded-for" : "210.89.61.6, 210.89.61.6 :: " , "host" : "lovelyprofessionaluniversity.codetantra.com :: " , "connection" : "close :: " , "content-length" : "270 :: " , "accept" : "application/json :: " , "accept-encoding" : "gzip, deflate, br :: " , "accept-language" : "en-US :: " , "content-type" : "application/json :: " , "cookie" : "_ga=GA1.1.32810595.1693152517; _ct_dn=lovelyprofessionaluniversity.codetantra.com; JSESSIONID=55FDE34493524986FA23A98FE4A76434; AWSELB=CF4FCF9B0C12495B6FE5C37D5E3855513C4A3727F5359BF6E0E6380C6B869175493F4E481D62C400AD534617CA6E7674503FEFA6D05EDD86724D099FB919D8544FB04DAE408358619E4DF78EEBBDEB974429136834; _ga_JTX8NN8T16=GS1.1.1701500799.85.1.1701500809.0.0.0; _wtj=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlIjoiMTIyMTk3Mjcuc3RAbHB1LmluIiwicGlwIjoiMjEwLjg5LjYxLjYiLCJpc3MiOiJUQyIsInBsdCI6InsgXCJsb3ZlbHlwcm9mZXNzaW9uYWx1bml2ZXJzaXR5LmNvZGV0YW50cmEuY29tXCIgOiB7IFwib3NzXCIgOiBmYWxzZSAsIFwicGx0XCIgOiAxNzAxNTAwODIyMjk5fX0iLCJleHAiOjE3MDE1MDQ1MzgsImJsaXAiOiIifQ.BKl8iAU4iMxQuh9sA80Vx3MMkINCzgYAYV1h4xSTE6g :: " , "origin" : "https://lovelyprofessionaluniversity.codetantra.com :: " , "referer" : "https://lovelyprofessionaluniversity.codetantra.com/secure/unst.jsp?tc=1&cid=63049a7c73c69806ec5ea738&eucui=63049a8273c69806ec5ea769&tid=63049a8273c69806ec5ea768&bd=AMTM5Ml9jdF9jaA%3D%3D&ctName=Unit%201%20-%20Lesson%209 :: " , "sec-ch-ua" : "\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\" :: " , "sec-ch-ua-mobile" : "?0 :: " , "sec-ch-ua-platform" : "\"Windows\" :: " , "sec-fetch-dest" : "empty :: " , "sec-fetch-mode" : "cors :: " , "sec-fetch-site" : "same-origin :: " , "user-agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) CodeTantraSEA/2.0.1 Chrome/114.0.5735.248 Electron/25.3.2 Safari/537.36 :: " , "x-requested-with" : "XMLHttpRequest :: " , "x-forwarded-port" : "443 :: " , "x-forwarded-proto" : "https :: "} , "params" : { "bd" : [ "AMTM5Ml9jdF9jaA=="]} , "remoteIp" : "127.0.0.1"} , "createdBy" : "12219545.st@lpu.in" , "createdTime" : { "$date" : "2023-12-02T07:07:02.935Z"} , "ctUserWinId" : "ctUserWinId-215-1500809526" , "locations" : [ { "blip" : "10.35.137.143" , "geo" : { "lat" : "" , "long" : "" , "accuracy" : ""} , "pip" : "210.89.61.6" , "startTime" : { "$date" : "2023-12-02T07:07:02.935Z"}}] , "endUserCourse" : "63049a7c73c69806ec5ea738" , "questionPaper" : { "sectionIdsArr" : [ "1582638550653"] , "sectionsMap" : { "1582638550653" : { "isEnabled" : true , "id" : 1582638550653 , "marksPerQuestion" : 2 , "closeSectionOnTime" : false , "sectionEndTime" : 0 , "enableNegativeMarks" : false , "enableNegativeMarksOnSkipping" : false , "enableNegativeMarksOnWrongAnswer" : false , "negativeMarksToBeDeducted" : 50 , "enableBonusMarks" : false , "bonusMarks1" : 0 , "bonusMarks1TimeLimit" : 0 , "bonusMarks2" : 0 , "bonusMarks2TimeLimit" : 0 , "enablePartialMarks" : false , "displayQuestions" : 10 , "enableNegativeMarksForFIB" : false , "sectionName" : "Section-1" , "questionIdsArr" : [ "5e4e9adf453a890b9e9152e1" , "5e4e5c06baa7e60b9aa9a84c" , "5e4e5813baa7e60b9aa99962" , "5d839561f785765277da6e35" , "5d5a23b00fb2d70a9dbdc3dd" , "5e54ee38453a890b9e976c7d" , "5e54eb21453a890b9e9759ff" , "5e4d457f94e5ec0699ac9afd" , "5e4e961a453a890b9e914ec6" , "5e4e8448453a890b9e9141b7"]}} , "questionsMap" : { "5e4e9adf453a890b9e9152e1" : { "id" : "5e4e9adf453a890b9e9152e1" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e5c06baa7e60b9aa9a84c" : { "id" : "5e4e5c06baa7e60b9aa9a84c" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e5813baa7e60b9aa99962" : { "id" : "5e4e5813baa7e60b9aa99962" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5d839561f785765277da6e35" : { "id" : "5d839561f785765277da6e35" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5d5a23b00fb2d70a9dbdc3dd" : { "id" : "5d5a23b00fb2d70a9dbdc3dd" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e54ee38453a890b9e976c7d" : { "id" : "5e54ee38453a890b9e976c7d" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e54eb21453a890b9e9759ff" : { "id" : "5e54eb21453a890b9e9759ff" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4d457f94e5ec0699ac9afd" : { "id" : "5e4d457f94e5ec0699ac9afd" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e961a453a890b9e914ec6" : { "id" : "5e4e961a453a890b9e914ec6" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"} , "5e4e8448453a890b9e9141b7" : { "id" : "5e4e8448453a890b9e9141b7" , "src" : "ctEduDB" , "isEnabled" : true , "highlightResultInExaminarsReportCard" : false , "extraFeedbackToExaminee" : "" , "questionType" : "549b4ce80e08f22e46dbf9cd"}} , "currentQuestionIndexInTest" : 6 , "currentSectionIndexInTest" : 0} , "questionStartEndTimeMap" : { "5e4e9adf453a890b9e9152e1" : { "startTime" : { "$date" : "2023-12-02T07:07:02.939Z"} , "minimumTime" : { "$date" : "2023-12-02T07:07:12.939Z"} , "lastAccessTime" : { "$date" : "2023-12-02T07:07:36.114Z"}} , "5e4e5c06baa7e60b9aa9a84c" : { "startTime" : { "$date" : "2023-12-02T07:07:36.241Z"} , "minimumTime" : { "$date" : "2023-12-02T07:07:46.241Z"} , "lastAccessTime" : { "$date" : "2023-12-02T07:08:00.255Z"}} , "5e4e961a453a890b9e914ec6" : { "startTime" : { "$date" : "2023-12-02T07:08:00.367Z"} , "minimumTime" : { "$date" : "2023-12-02T07:08:10.367Z"} , "lastAccessTime" : { "$date" : "2023-12-02T07:09:34.883Z"}} , "5e4d457f94e5ec0699ac9afd" : { "startTime" : { "$date" : "2023-12-02T07:09:34.995Z"} , "minimumTime" : { "$date" : "2023-12-02T07:09:44.995Z"} , "lastAccessTime" : { "$date" : "2023-12-02T07:11:01.258Z"}} , "5e54ee38453a890b9e976c7d" : { "startTime" : { "$date" : "2023-12-02T07:11:01.377Z"} , "minimumTime" : { "$date" : "2023-12-02T07:11:11.377Z"} , "lastAccessTime" : { "$date" : "2023-12-02T07:14:19.181Z"}} , "5e54eb21453a890b9e9759ff" : { "startTime" : { "$date" : "2023-12-02T07:14:19.296Z"} , "minimumTime" : { "$date" : "2023-12-02T07:14:29.296Z"} , "lastAccessTime" : { "$date" : "2023-12-02T07:15:54.666Z"}}} , "questionStatsMap" : { "5e4e9adf453a890b9e9152e1" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 32 , "qSubmittedTime" : { "$date" : "2023-12-02T07:07:36.114Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 33 , "attempted" : false , "skipped" : true} , "5e4e5c06baa7e60b9aa9a84c" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 23 , "qSubmittedTime" : { "$date" : "2023-12-02T07:08:00.255Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 24 , "attempted" : false , "skipped" : true} , "5e4e961a453a890b9e914ec6" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 94 , "qSubmittedTime" : { "$date" : "2023-12-02T07:09:34.883Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 94 , "attempted" : false , "skipped" : true} , "5e4d457f94e5ec0699ac9afd" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 86 , "qSubmittedTime" : { "$date" : "2023-12-02T07:11:01.258Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 85 , "attempted" : false , "skipped" : true} , "5e54ee38453a890b9e976c7d" : { "visited" : true , "qType" : 5 , "timeSpentInQ" : 197 , "qSubmittedTime" : { "$date" : "2023-12-02T07:14:19.181Z"} , "answeredAndMarkForReview" : false , "markForReview" : false , "timeSpentInSec" : 195 , "attempted" : false , "skipped" : true} , "5e54eb21453a890b9e9759ff" : { "markForReview" : false , "answeredAndMarkForReview" : false , "visited" : true , "skipped" : true , "qType" : 5 , "timeSpentInQ" : 95 , "attempted" : false , "qSubmittedTime" : { "$date" : "2023-12-02T07:15:54.666Z"} , "timeSpentInSec" : 94}} , "responsesMap" : { "5e4e9adf453a890b9e9152e1" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : false}} , "5e4e5c06baa7e60b9aa9a84c" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : false}} , "5e4e961a453a890b9e914ec6" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : false}} , "5e4d457f94e5ec0699ac9afd" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : false}} , "5e54ee38453a890b9e976c7d" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : false}} , "5e54eb21453a890b9e9759ff" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : false}}} , "scoresMap" : { "5e4e9adf453a890b9e9152e1" : { "successCount" : 3 , "failureCount" : 1 , "success" : false , "skipped" : true , "score" : 0.0} , "5e4e5c06baa7e60b9aa9a84c" : { "successCount" : 3 , "failureCount" : 1 , "success" : false , "skipped" : true , "score" : 0.0} , "5e4e5813baa7e60b9aa99962" : { "success" : false , "skipped" : true , "score" : 0.0} , "5d839561f785765277da6e35" : { "success" : false , "skipped" : true , "score" : 0.0} , "5d5a23b00fb2d70a9dbdc3dd" : { "success" : false , "skipped" : true , "score" : 0.0} , "5e54ee38453a890b9e976c7d" : { "successCount" : 3 , "failureCount" : 1 , "success" : false , "skipped" : true , "score" : 0.0} , "5e54eb21453a890b9e9759ff" : { "successCount" : 3 , "failureCount" : 1 , "success" : false , "skipped" : true , "score" : 0.0} , "5e4d457f94e5ec0699ac9afd" : { "successCount" : 3 , "failureCount" : 1 , "success" : false , "skipped" : true , "score" : 0.0} , "5e4e961a453a890b9e914ec6" : { "successCount" : 3 , "failureCount" : 1 , "success" : false , "skipped" : true , "score" : 0.0} , "5e4e8448453a890b9e9141b7" : { "success" : false , "skipped" : true , "score" : 0.0}} , "sectionStartEndTimeMap" : { "1582638550653" : { "startTime" : { "$date" : "2023-12-02T07:07:02.939Z"} , "lastAccessTime" : { "$date" : "2023-12-02T07:07:02.939Z"}}} , "updatedBy" : "SYSTEM" , "updatedTime" : { "$date" : "2023-12-02T07:38:00.027Z"} , "submissionsMap" : { "5e4e9adf453a890b9e9152e1" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : false}} , "5e4e5c06baa7e60b9aa9a84c" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : false}} , "5e4e961a453a890b9e914ec6" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : false}} , "5e4d457f94e5ec0699ac9afd" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : false}} , "5e54ee38453a890b9e976c7d" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : false}} , "5e54eb21453a890b9e9759ff" : { "userOptionsMap" : { "0" : false , "1" : false , "2" : false , "3" : false}}} , "completionType" : 10}];
+    var time = new Date();
+    var scheduledTestCompletedStatus = false;
+    var courseTestResume = false;
+    var loginId = "12309545x.st@lpu.in";
+    var _ctCloseTimeout = navigationOutCountDown;//in seconds
+    var isSecondDeviceUploadAllowed = testProfile.hasOwnProperty("allowFileUploadFromSecondaryDevice") && testProfile.allowFileUploadFromSecondaryDevice;
+    var useQRCodeWFUFSD = testProfile.hasOwnProperty("useQRCodeWFUFSD") && testProfile.useQRCodeWFUFSD;
+    var noSleep = new NoSleep();
+    var inactiveTime = 0;
+    var isNativeApp = false;
+    var blockBluetoothSett = testScheduleObj.blockBluetooth || false;
+    var blockBlacklistedAppsSett = testScheduleObj.blockBlacklistedApps || false;
+    var blockMultipleDisplaysSett = testScheduleObj.blockMultipleDisplays || false;
+    var blockVmSett = testScheduleObj.blockVm || false;
+    var blockVpnSett = testScheduleObj.blockVPN || false;
+    var blockNoDNDSett = testScheduleObj.blockNoDND || false;
+    var autoBlockOnSplitScreen = testScheduleObj.autoBlockOnSplitScreen || false;
+    var autoBlockOnDevToolsOpen = testScheduleObj.autoBlockOnDevToolsOpen || false;
+    var allowScreenCapture = testScheduleObj.allowScreenCapture || false;
+    var allowAccessToOtherApps = testScheduleObj.allowAccessToOtherApps || false;
+    var isAllowedFromBrowser = false;
+    var platformRestrictions = {};
+    const isSelfTest = false;
+    var cTProgLanguagesArr = [ "C" , "C++" , "Java" , "Python"];
+    var progQuestionDataTypesArr = { "int16" : { "c" : "short" , "c++" : "short" , "java" : "short" , "python" : "int"} , "int32" : { "c" : "int" , "c++" : "int" , "java" : "int" , "python" : "int"} , "int64" : { "c" : "long" , "c++" : "long" , "java" : "long" , "python" : "int"} , "float32" : { "c" : "float" , "c++" : "float" , "java" : "float" , "python" : "float"} , "float64" : { "c" : "double" , "c++" : "double" , "java" : "double" , "python" : "float"} , "boolean" : { "c" : "int" , "c++" : "bool" , "java" : "boolean" , "python" : "bool"} , "string" : { "c" : "char *" , "c++" : "string" , "java" : "String" , "python" : "str"} , "array" : { "c" : "array" , "c++" : "array" , "java" : "array" , "python" : "array"} , "2dArray" : { "c" : "2dArray" , "c++" : "2dArray" , "java" : "2dArray" , "python" : "2dArray"}};
+    var customSupportText = "<div><h5 class=\"btn btn-info\">Regular</h5><h6 class=\"text-success font-weight-bold\"><span><i class=\"fa fa-phone-square\" aria-hidden=\"true\"></i> 01824-520150 </span></h6><div><h6><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i> Visit UMS &amp; follow the path: <br>UMS Navigation &rarr; RMS &rarr; Log Request <br>(Select Category “Online Classes”)</h6></div></div><div><h5 class=\"btn btn-info\">Distance Education</h5><h6 class=\"text-success font-weight-bold\"><span><i class=\"fa fa-phone-square\" aria-hidden=\"true\"></i> 01824-521360 </span><br><span><i class=\"fa fa-phone-square\" aria-hidden=\"true\"></i> 01824-520151 </span></h6><div><h6><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i> Visit LPU e-connect &amp; follow the path: <br>RMS &rarr; Log Request <br>(Select Category “MY Class”)</h6></div></div><div><h5 class=\"btn btn-info\">Online Education</h5><h6 class=\"text-success font-weight-bold\"><span><i class=\"fa fa-phone-square\" aria-hidden=\"true\"></i> 01824-520500 </span></h6></div>";
+    var destroyWtjOnNewSession = false;
+    if (testObject.hasOwnProperty("allowedLanguages") && testObject.allowedLanguages.length > 0) {
+        var allowedProgramingLanguages = testObject.allowedLanguages;
+    }
+    var allowedProgramingLanguagesMap = {};
+    var i;
+    if (typeof allowedProgramingLanguages !== "undefined") {
+        for (i in allowedProgramingLanguages) {
+            allowedProgramingLanguagesMap[allowedProgramingLanguages[i]] = allowedProgramingLanguages[i];
+        }
+    } else {
+        for (i in cTProgLanguagesArr) {
+            allowedProgramingLanguagesMap[cTProgLanguagesArr[i]] = cTProgLanguagesArr[i];
+        }
+    }
+
+    $(document).ready(function () {
+       setTimeout(function () {
+            applyDynamics('#generalInstructions');
+        }, 0);
+        $("body").data("nozm", false);
+        if (isMobileOrTablet()) {
+            window.__ctcki = initAndBindCTCodingKeyboardWithAce();
+        }
+        oneTTReady();
+        if (courseTestResume) {
+            $("#upArrow, #downArrowMap").removeClass("hide");
+            setTimeout(function () {
+                $("#yourCurrentLocationInfo").removeClass("in");
+            }, 500);
+        } else {
+            $("#generalInstructionInfo").addClass("in");
+            $("#downArrowMap, #downArrow").removeClass("hide");
+        }
+        $("#generalInstructionInfoDiv").click(function () {
+            if ($("#generalInstructionInfo").hasClass("in")) {
+                $("#downArrow").addClass("hide");
+                $("#upArrow").removeClass("hide");
+            } else {
+                $("#upArrow").addClass("hide");
+                $("#downArrow").removeClass("hide");
+            }
+        });
+        $("#yourCurrentLocationDiv").click(function () {
+            if ($("#yourCurrentLocationInfo").hasClass("in")) {
+                $("#downArrowMap").addClass("hide");
+                $("#upArrowMap").removeClass("hide");
+            } else {
+                $("#upArrowMap").addClass("hide");
+                $("#downArrowMap").removeClass("hide");
+            }
+        });
+    });
+
+    function isMobileOrTablet() {
+        var check = false;
+        (function (a) {
+            if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+        })(navigator.userAgent || navigator.vendor || window.opera);
+        return check;
+    }
+
+    function isMobile() {
+        var check = false;
+        (function (a) {
+            if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+        })(navigator.userAgent || navigator.vendor || window.opera);
+        return check;
+    }
+
+    var preparationCountDownTime = 0;
+    var showPreparationTime = false;
+    var isThirdEyeEnabled = false;
+    var isThirdEyeMandatory = false;
+    var dn = "lovelyprofessionaluniversity.codetantra.com";
+    var memberId = "12309545";
+    var showWatermarkInQuestion = false;
+    var allowZoom = true;
+    var day_millis = 86400000;
+    var hour_millis = 3600000;
+    var min_millis = 60000;
+    var sec_millis = 1000;
+    var cq = {};
+
+    if (!courseTestResume && showPreparationTime) {
+        sTime(function (serverTime) {
+            if (serverTime && !isNaN(serverTime)) {
+                var serverDateTimeFAC = new Date(+serverTime);
+                var serverDateTimeFSCM = new Date(1702119665031);
+                var serverTimeDiff = serverDateTimeFAC - serverDateTimeFSCM;
+                if (serverTimeDiff < 2 * 60000) {
+                    var timeDiff = (preparationCountDownTime - serverDateTimeFAC.getTime()) + Math.floor(Math.random() * 31000) + 5000;
+                    var preparationTimeSetInterval = setInterval(function () {
+                        var days = Math.floor(timeDiff / day_millis);
+                        var hours = Math.floor((timeDiff % day_millis) / hour_millis);
+                        var minutes = Math.floor((timeDiff % hour_millis) / min_millis);
+                        var seconds = Math.floor((timeDiff % min_millis) / sec_millis);
+                        var timeString = '';
+                        if (days > 0) timeString += days + 'd ';
+                        if (hours > 0) timeString += (hours < 10 ? '0' : '') + hours + 'h ';
+                        if (minutes > 0) timeString += (minutes < 10 ? '0' : '') + minutes + 'm ';
+                        if (seconds > 0) timeString += (seconds < 10 ? '0' : '') + seconds + 's';
+                        $("#preparationCountDownSpan").html(timeString);
+                        if (timeDiff < 0) {
+                            clearInterval(preparationTimeSetInterval);
+                            showPreparationTime = false;
+                            $("#preparationCountDownDiv").addClass('hide');
+                            if (testBlocked) {
+                                $(".startTestBtn").addClass("hide");
+                                var blockedMsg = "You have been temporarily blocked from taking this test. Please request your proctor to unblock to proceed further";
+                                if (unblockUserWhenStreamsAreAvailable) {
+                                    blockedMsg = "Please join audio and share webcam to unblock your exam. Make sure that you have given the necessary browser permissions to allow the application to access microphone and webcam.";
+                                }
+                                $(".showMeetingExtraInfo").removeClass("hide").html("<p class='lead'>" + blockedMsg + "</p>");
+                            } else {
+                                $(".startTestBtn").removeClass("hide");
+                                $(".showMeetingExtraInfo").addClass("hide");
+                            }
+                        }
+                        timeDiff = timeDiff - 1000;
+                    }, sec_millis);
+                } else {
+                    _ctReloadPage();
+                }
+            } else {
+                alertify.log("Unable to load the page completely. Please reload the page.", "error", 8000);
+            }
+        });
+
+    }
+</script>
+<div id="quickQAcessSliderCover"></div>
+<div class="col-xs-12 col-md-offset-3 col-md-6 " style="position: fixed; top: 0; z-index: 1055;">
+    <div style="z-index: 1;">
+        <div id="quickQAccessSliderPanel" class="panel panel-primary">
+            <div class="panel-body">
+                <div class='row'>
+                    <div class='col-md-12'>
+                        <div class="carousel slide media-carousel" id="media">
+                            <div id="quickQAccessSliderSectionsDiv">
+
+                            </div>
+                            <a href="#" class="left carousel-control">‹</a>
+                            <a href="#" class="right carousel-control">›</a>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div class='row'>
+                    <div class="form-group col-md-12 padding00 text-center" style='letter-spacing: 0.5px;'>
+                        <span><b class="questions notAnswered simpleBtn actionBtn" id="notVisitedQuestions"
+                                 style="margin-left:10px;" title="Not visited questions"></b> - Not Visited </span>
+                        <span><b class="questions partiallyAnswered simpleBtn actionBtn" id="visitedQuestions"
+                                 style="margin-left:10px;" title="Visited questions"></b> - Visited </span>
+                        <span><b class="questions answered simpleBtn actionBtn" id="attemptedQuestions"
+                                 style="margin-left:10px;" title="Attempted questions"></b> - Attempted </span>
+                        <span class="hide"><b class="questions reviewed simpleBtn actionBtn"
+                                              id="markedForReviewQuestions" style="margin-left:10px;"
+                                              title="Marked for review"></b> - Marked for Review </span>
+                        <span class="hide"><b class="questions ans-reviewed simpleBtn actionBtn"
+                                              id="ansMarkedForReviewQuestions" style="margin-left:10px;"
+                                              title="Answered & Marked for review (will be consider for evaluation)"></b> - Answered & Marked for Review </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="quickQAccessTrapezoidSliderDiv" class="text-center hide">
+            <div id="quickQAccessTrapezoidSlider">
+                <div id="quickQAccessTrapezoidSliderHeader">
+						<span id="currentQuestionNumber" class="btn btn-primary btn-xs"
+                              title='Click to view the number of sections and questions'
+                              style="font-family: monospace;">&nbsp;Jump to&nbsp;</span>&nbsp;
+                    <div id="trapezoidSliderClose" class="hide btn btn-xs" title='Close'>Close x</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content" id="modalContent">
+            <div class="modal-header questionDialogHeader default-background-color">
+                <span id="modalQNoHeading" class='testDialogHeadingClass'>
+                    <span class="hide_on_desktop"><br/></span>
+                    <span id="sectionInfo" class='badge text-dark bg-white'></span>
+                    <span id="questionInfo" class='badge text-dark bg-white'></span>
+                    <span id="marksInfo" class='badge text-dark bg-white'></span>
+                    <span id="maxAnsQuestions" class='badge text-dark bg-white'></span>
+                    <span id="negativeMarksInfo" class='badge btn-danger text-dark bg-white'></span>
+                    
+                </span>
+                <span class="pull-right-lg">
+                        <span class="btn btn-sm badge debugHide bg-white text-dark hide" id="generalInstructionsBtn"
+                              title='Click to view general instructions'>
+                            <i class="fa fa-info-circle"></i> General Instructions</span>
+                        <span class="btn btn-sm badge debugHide bg-white text-dark hide" id="questionPaperBtn"
+                              title='Click to view Question Paper'>
+                            <i class="fa fa-info-circle"></i> Question Paper</span>
+                        <span class="text-white" title="Messages from super proctor"
+                              onclick="displayMessagesList()" style="padding-right: 5px; cursor: pointer;">
+                        <i class="fa fa-comments fa-lg"></i>
+                        </span>
+                        <span id="minusBtnClick"
+                              title='Click to decrease font size.' style="cursor: pointer; color: white;">
+                          <i class="fa fa-minus-circle fa-lg"></i>
+                        </span>
+                        <span id="percentageTextSize"
+                              style="color: white; font-size:12px; font-weight: bold;">100%</span>
+                        <span id="plusBtnClick"
+                              title='Click to increase font size.' style="cursor: pointer; color: white;">
+                            <i class="fa fa-plus-circle fa-lg"></i>
+                        </span>
+                        
+                        <span class="pull-right hide_on_mobile" onclick="closeClicked()" data-backdrop="static">
+                            <span class="btn btn-xs btn-danger"
+                                  style="font-size: 20px; line-height: 1; font-family: monospace; font-weight: bold; margin-left: 10px"
+                                  aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                        </span>
+                        
+                    </span>
+            </div>
+            <div id="modalBody" class="modal-body" style="padding: 0 0 4rem 0 !important;">
+                <div class="text-center m-0" style="height: 100%; width: 100%; padding: 25vh 0;">
+                    <span class="text-white text-bold text-center m-0 p-0" style="font-size: x-large;">
+                        <span class="testModalLoading">Loading</span>
+                    </span>
+                    <br/>
+                    <br/>
+                    <button type="button" id="reloadBtn" class="btn btn-danger btn-lg hide"
+                            onclick="_ctReloadPage()">Reload
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="form-group m-0 hide darkShadow" id="ct-button-bar">
+    <div class="col-xs-12 " id="showActionButtons">
+        <div>
+            <button class="btn btn-danger finishBtn">Finish</button>
+            <button class="btn btn-warning clearResponseBtn hide" onclick="clearResponseForQuestion()">Clear</button>
+            <button class="btn btn-default markForReviewBtn hide" style="background: #784fa0; color: white;">Mark for Review</button>
+        </div>
+        <div id="rightActionsDiv">
+            <button class="btn btn-success fade executeBtn">Submit</button>
+            <button class="btn btn-primary prevBtn fade disabled">Prev</button>
+            <button id="nextBtn" class="btn btn-primary nextBtn fade disabled">Next</button>
+        </div>
+    </div>
+    <input type="hidden" name="_id" id="_id" value="">
+</div>
+<div id="showDisablePreviousWarning" class="hide">
+    <div>
+        You did not answer the question. If you confirm and proceed, you will not be able to come back to this question.
+        <br><br>
+        <label for="dspw">Do not show again</label>&nbsp;
+        <input type="checkbox" id="dspw">
+    </div>
+</div>
+<div class="modal fade" id="QuestionPaperModal"
+     style="padding: 10px;padding-left: 50px !important;padding-right: 50px !important;">
+    <div class="question-paper-modal-dialog">
+        <div class="modal-content ">
+            <div class="modal-header bg-primary" style="padding: 7px !important;">
+                <button type="button" class="pull-right closeQuestionPaperBtn btn-danger"
+                        style="background: none;border: none;"> Close &times;
+                </button>
+                <h4 class="modal-title ">Question Paper</h4>
+            </div>
+            <div id="questionPaperContent" class="modal-body question-paper-modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn closeQuestionPaperBtn btn-default btn-danger">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Loading Modal -->
+<div class="modal fade" id="loadingModal" style="display: none;">
+</div>
+<!-- Modal -->
+
+<script>
+    $("#quickQAccessTrapezoidSlider").click(function () {
+        $("#quickQAccessSliderPanel").slideToggle(function () {
+            scrollToCurrentQuestion();
+            $("#trapezoidSliderClose").toggleClass("hide");
+            $("#currentQuestionNumber").toggleClass("hide");
+        });
+        $("#quickQAcessSliderCover").fadeToggle();
+
+        if (hasScrollbar()) {
+            $("#quickQAccessSliderPanel .left.carousel-control").removeClass("hide");
+            $("#quickQAccessSliderPanel .right.carousel-control").removeClass("hide");
+            $("#quickQAccessSliderSectionsDiv").removeClass("text-center");
+        } else {
+            $("#quickQAccessSliderPanel .left.carousel-control").addClass("hide");
+            $("#quickQAccessSliderPanel .right.carousel-control").addClass("hide");
+            $("#quickQAccessSliderSectionsDiv").addClass("text-center");
+        }
+
+    });
+
+    $("#quickQAccessSliderPanel .left.carousel-control").on("click", function () {
+        var $quickQAccessSliderSectionsDiv = $("#quickQAccessSliderSectionsDiv");
+        var left = parseInt($quickQAccessSliderSectionsDiv.scrollLeft());
+        $quickQAccessSliderSectionsDiv.animate({
+            scrollLeft: left - 100
+        }, 500);
+    });
+
+    $("#quickQAccessSliderPanel .right.carousel-control").on("click", function () {
+        var $quickQAccessSliderSectionsDiv = $("#quickQAccessSliderSectionsDiv");
+        var left = parseInt($quickQAccessSliderSectionsDiv.scrollLeft());
+        $quickQAccessSliderSectionsDiv.animate({
+            scrollLeft: left + 100
+        }, 500);
+    });
+</script>
+
+<!-- ip unmatched -->
+<div class="modal fade" id="showIpUnmatchedDialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header btn-primary" style="padding: 10px;">
+                <h4 class="modal-title">IP Restriction.</h4>
+            </div>
+            <div class="modal-body" style="background: #fcf8e3;" id="ipHinttext">
+                <div>
+                    <ul>
+                        <li><h4>Your current IP address is : <span style="color:brown"><b
+                                class="ipshow">0.0.0.0</b></span></h4></li>
+                        <li><h4>The current test is restricted to certain IP addresses, and your IP is not one of
+                            those.</h4></li>
+                        <li>
+                            <h4>If you still think you should be given access, please contact your <b>
+                                
+                                <nobr>Test Administrator</nobr>
+                            </b>.
+                            </h4>
+                        </li>
+                    </ul>
+                    <br/>
+                    <div class="text-center">
+                        <div>
+                            <a id="close" onclick="_ctReloadPage()" class="btn btn-success btn-xs" data-toggle="modal"
+                               style="padding: 0 25px 0 25px;">
+                                <h5>Ok</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="testBlockedModal" data-backdrop="static"
+     style="z-index:1068;background: rgba(0, 0, 0, 0.3);">
+    <div class="modal-dialog" style="top:30% !important;">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="">
+                    <p class='lead text-danger text-center'>You have been temporarily blocked from taking this test.</p>
+                    <p class='lead text-center' id="testBlockedOtherDetails"></p>
+                    <p class='lead text-center' id="testBlockedReason"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade right" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModal"
+     aria-hidden="true">
+    <div class="modal-dialog model modal-fluid" role="document" style="width:100%;">
+        <div class="modal-content ">
+            <div class=" modal-header text-center">
+                <span class="p-1 d-block">
+
+                    <img src="/img/250X250-circle.png" width="30" height="30" alt="Home">
+                </span>
+                <h5 class="modal-title" id="previewLabel">Preview</h5>
+                <button type="button" class="close " onclick="closePreviewModal()" aria-label="Close"
+                        style="margin-top: -34px">
+                    <span style="font-size: 2em;" aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div><img src="" alt="Click to zoom" class="imagepreview" id="modalImagePreview" style="width: 100%">
+                </div>
+                <div class="m-1">
+                    <button class='btn btn-danger btn-xl col-xs-3 ' id="deleteButton" style=""
+                            onclick='deleteImgData("Img")'><i class="fa fa-trash"></i>
+                    </button>
+                    <button class="btn btn-danger btn-sm col-xs-3 " id="closeButton" style=""
+                            onclick="closePreviewModal()">Close
+                    </button>
+                </div>
+                <div class="justify-content-center">
+                    <button class="btn btn-primary " id="leftArrow"
+                            style="">
+                        <i class="fa fa-arrow-left"> Prev </i>
+                    </button>
+                    <button class="btn btn-primary " id="rightArrow"
+                            style="">
+                        <i class="fa fa-arrow-right"> Next </i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="imageReorderModal" tabindex="-1" role="dialog" aria-labelledby="imageReorderModal">
+    <div class="modal-dialog" role="document" style="width:100%">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <span class="p-1 d-block">
+
+                    <img src="/img/250X250-circle.png" width="30" height="30" alt="Home">
+                </span>
+                <h5 class="modal-title" id="reorderLabel">Reorder<br><small>(You can drag and drop to change the
+                    order)</small></h5>
+                <button type="button" class="close"
+                        onclick="closeReorderModal('#imageReorderModal')" aria-label="Close" style="margin-top: -34px">
+                    <span aria-hidden="true" style="font-size: 2em;">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style>
+                <div id="imagesReorderDiv" class="col-xs-12" style="padding: 5px"></div>
+            </div>
+            <div class="modal-footer" style="padding: 10px">
+                <button type="button" class="btn btn-default"
+                        onclick="closeReorderModal('#imageReorderModal')">Close
+                </button>
+                <button type="button" class="btn btn-primary" id="saveReorder"
+                        onclick="closeReorderModal('#imageReorderModal')">Save
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="countdownModal" style="z-index: 99999;background: rgba(0, 0, 0, 0.3);">
+    <div class="modal-dialog  modal-sm" style="top:30% !important;">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <div class="">
+                    <div style="font-size: 1.2em">This Exam will terminate in:</div>
+                    <div id="timer"></div>
+                    <div class="text-center">
+                        <button class="btn btn-revise btn-sm fade in" id="continueTestBtn"
+                                onclick="cancelCountDownInTest()"> Continue Exam
+                            <a class="fa-stack fa-lg" href="#">
+                                <i class="fa fa-play fa-stack-1x  fa-inverse "></i>
+                            </a>
+                        </button>
+                    </div>
+                    <br>
+                    <div id="warnMsg" class="text-danger" style="font-size: 1.2em"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="countUpModal" style="z-index:1072;background: rgba(0, 0, 0, 0.3);">
+    <div class="modal-dialog  modal-sm" style="top:30% !important;">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="">
+                    <div style="font-size: 1.2em"></div>
+                    <div id="counter" class="text-center">
+                        <div style="font-size: 1.2em">Away for:</div>
+                        <div id="time"><span class="digitCount">0</span><span style="font-size: 1.2em !important;">&nbsp;sec&nbsp;</span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <button class="btn btn-revise btn-sm fade in" id="continueBtn"
+                                onclick="cancelCounterInTest()"> Continue Exam
+                            <a class="fa-stack fa-lg" href="#">
+                                <i class="fa fa-play fa-stack-1x  fa-inverse "></i>
+                            </a>
+                        </button>
+                        <br>
+                        <div id="warnMsgToContinue" class="text-danger" style="font-size: 1.2em"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<p class="waterMark"></p>
+</body>
+</html>

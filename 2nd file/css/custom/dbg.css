@@ -1,0 +1,500 @@
+.debugHighlight {
+    background-color: rgba(144, 144, 0, 0.25);
+    position: absolute;
+}
+
+.debugDisplayOut {
+    margin: 0;
+    tab-size: 3;
+    white-space: pre-wrap;
+    background-color: black;
+    word-break: break-word;
+    color: white;
+    border: 0;
+    overflow: hidden;
+    border-radius: 0 4px 4px 4px;
+}
+
+.debugSwitch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+}
+
+.debugSwitch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.debugSlider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.debugSlider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .debugSlider {
+    background-color: #2196F3;
+}
+
+input:focus + .debugSlider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .debugSlider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+
+.debugSlider.debugRound {
+    border-radius: 34px;
+}
+
+.debugSlider.debugRound:before {
+    border-radius: 50%;
+}
+
+.ace_gutter-cell.ace_breakpoint {
+    border-radius: 20px 0 0 20px;
+    box-shadow: 0 0 1px 1px rgba(144, 144, 0, 0.25) inset;
+    background-color: rgba(144, 144, 0, 0.25);
+}
+
+.debugFuncName {
+    color: white;
+    /*color: purple;*/
+}
+
+.debugFileName {
+    color: #FF9D00;
+    /*color: #003399;*/
+}
+
+.debugLineNumber {
+    color: #FF628C;
+    /*color: black;*/
+}
+
+.debugFont {
+    font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+}
+
+.debugtd {
+    height: 13px;
+    background-color: #002240;
+    /*background-color: white;*/
+    color: white;
+    /*color: black;*/
+    padding: 1px;
+    font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    border-color: #777777;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.debugtdh {
+    height: 13px;
+    font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    background-color: #002240;
+    /*background-color: white;*/
+    color: #FF9D00;
+    /*color: black;*/
+    /*font-weight: bold;*/
+    padding: 1px;
+    border-color: #777777;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.debugtdIn {
+    height: 13px;
+    background-color: #002240;
+    /*background-color: white;*/
+    color: white;
+    /*color: black;*/
+    padding: 1px;
+    font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.debugtdhIn {
+    height: 13px;
+    background-color: #002240;
+    color: #FF9D00;
+    font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    padding: 1px;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.debugTable {
+    background-color: #002240;
+    width: 100%;
+}
+
+.debugConstant {
+    color: #FF628C;
+}
+
+.debugType {
+    color: #FFEE80;
+}
+
+.debugScope {
+    color: #3AD900;
+}
+
+.debugCollapseBtn {
+    padding: 0 2px;
+    margin: 0;
+    background-color: rgba(144, 144, 0, 0.8);
+    border-style: solid;
+    border-color: rgba(144, 144, 0, 0.8);
+    color: white;
+    border-radius: 0;
+!important;
+}
+
+.debugArrow {
+    color: #3AD900;
+}
+
+.debugHeading {
+    color: white;
+    font: 16px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    padding: 2px;
+}
+
+#contextPanelHeading {
+    padding: 0;
+    background-color: rgba(144, 144, 0, 0.8);
+    cursor: grab;
+}
+
+.debugContextDiv {
+    z-index: 3000;
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: #002240;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(144, 144, 0, 0.8);
+    border-radius: 5px;
+}
+
+.lineContext {
+    z-index: 3000;
+    position: absolute;
+    width: auto;
+    background-color: #002240;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(144, 144, 0, 0.8);
+    border-radius: 5px;
+}
+
+.debugTableContainer {
+    background-color: #002240;
+    padding: 10px;
+    overflow-y: auto;
+    min-width: 300px;
+    width: auto;
+    max-height: 300px;
+    /*noinspection CssUnknownProperty*/
+    scrollbar-width: 5px;
+    /*noinspection CssUnknownProperty*/
+    scrollbar-color: light;
+}
+
+.debugTableContainer::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: #010e23;
+}
+
+.debugTableContainer::-webkit-scrollbar-thumb {
+    background-color: #999999;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.lineContextTablesContainer {
+    background-color: #002240;
+    padding: 10px;
+    overflow: auto;
+    width: auto;
+    height: auto;
+    max-height: 300px;
+    /*noinspection CssUnknownProperty*/
+    scrollbar-width: 5px;
+    /*noinspection CssUnknownProperty*/
+    scrollbar-color: light;
+}
+
+.lineContextTablesContainer::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: #010e23;
+}
+
+.lineContextTablesContainer::-webkit-scrollbar-thumb {
+    background-color: #999999;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.debugClickTd {
+    cursor: pointer;
+}
+
+
+.debugBlink {
+    animation: blinkingText 1.2s;
+}
+
+
+@keyframes blinkingText {
+    0% {
+        background-color: transparent;
+    }
+    49% {
+        background-color: rgba(144, 144, 0, 0.55);
+    }
+    50% {
+        background-color: rgba(144, 144, 0, 0.55);
+    }
+    99% {
+        background-color: rgba(144, 144, 0, 0.55);
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+#glass-pane {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(211, 211, 211, 0.3);
+    display: none;
+}
+
+.debugTransparentPane {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.lineContext > .debugDownArrow {
+    bottom: -11px;
+    left: 50%;
+    margin-left: -11px;
+    border-bottom-width: 0;
+}
+
+.lineContext > .debugUpArrow {
+    top: -11px;
+    left: 50%;
+    margin-left: -11px;
+    border-top-width: 0;
+}
+
+.lineContext > .debugDownArrow,
+.lineContext > .debugDownArrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.lineContext > .debugUpArrow,
+.lineContext > .debugUpArrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.lineContext > .debugDownArrow {
+    border-width: 11px;
+}
+
+.lineContext > .debugUpArrow {
+    border-width: 11px;
+}
+
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.lineContext > .debugDownArrow:after {
+    bottom: -20px;
+    margin-left: -10px;
+    content: " ";
+    border-top-color: rgba(144, 144, 0, .8);
+    border-bottom-width: 0;
+}
+
+.lineContext > .debugUpArrow:after {
+    top: -20px;
+    margin-left: -10px;
+    content: " ";
+    border-bottom-color: rgba(144, 144, 0, .8);
+    border-top-width: 0;
+}
+
+.lineContext > .debugDownArrow:after {
+    content: "";
+    border-width: 10px;
+}
+
+.lineContext > .debugUpArrow:after {
+    content: "";
+    border-width: 10px;
+}
+
+#classicDebugOutput .panel-heading {
+    margin-bottom: -1px;
+    padding: 3px 0;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace;
+}
+
+.debugHide {
+}
+
+.contextArrow {
+    color: white;
+    font-family: monospace;
+}
+
+.pulsing-button {
+    animation: pulsing 1s ease-out infinite;
+    opacity: 1;
+    cursor: pointer;
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+.chameleon-bug {
+    animation: colorshift 1s ease-out infinite;
+    opacity: 1;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+tr:hover .mini-pulsing-button {
+    animation: pulsing 1s ease-out infinite;
+    opacity: 1;
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.mini-pulsing-button-no-hover {
+    animation: pulsing 1s ease-out infinite;
+    opacity: 1;
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.chameleon-mini-bug {
+    color: grey;
+    opacity: 1;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+tr:hover .chameleon-mini-bug {
+    animation: colorshift 1s ease-out infinite;
+}
+
+.chameleon-mini-bug-no-hover {
+    animation: colorshift 1s ease-out infinite;
+}
+
+@-webkit-keyframes pulsing {
+    0% {
+        background-color: transparent;
+        opacity: 1;
+    }
+    50% {
+        background-color: rgba(144, 144, 0, 0.8);
+        opacity: 0.5;
+    }
+    100% {
+        background-color: transparent;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes colorshift {
+    0% {
+        color: #3c763d;
+        opacity: 1;
+    }
+    50% {
+        color: red;
+        opacity: 1;
+    }
+    100% {
+        color: #3c763d;
+        opacity: 1;
+    }
+}
